@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "substratum.theme.template"
+        applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 23
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
@@ -27,7 +27,7 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
+            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
             buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
     }
