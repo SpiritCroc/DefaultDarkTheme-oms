@@ -1,0 +1,22 @@
+# Name:
+
+Default Dark Substratum Theme
+
+
+# Short description:
+
+Dark material theme for the Substratum Theme Engine (OMS)
+
+
+# Description:
+
+Theme for Substratum, using the default AOSP dark material colors.
+
+You need a ROM that supports Substratum (OMS/RRO)!
+
+Themed apps (no google apps):
+//TODO
+
+Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms
+
+Testing every single detail of this theme with every single ROM out there is beyond my capability. So if you find any inconsistencies, please report to spiritcroc@gmail.com (or, if you know something about theming, create a pull-request!)
