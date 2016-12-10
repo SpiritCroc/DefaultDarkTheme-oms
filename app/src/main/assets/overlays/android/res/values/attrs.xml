@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="windowFixedWidthMajor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMinor" format="dimension|fraction" />
+    <attr name="windowFixedWidthMinor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMajor" format="dimension|fraction" />
+    <attr name="windowBackground" format="reference" />
+    <attr name="windowActionBar" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+    <attr name="windowIsTranslucent" format="boolean" />
+    <attr name="windowContentOverlay" format="reference" />
+    <attr name="backgroundDimEnabled" format="boolean" />
+    <attr name="windowTranslucentStatus" format="boolean" />
+    <attr name="windowTranslucentNavigation" format="boolean" />
+    <attr name="windowDrawsSystemBarBackgrounds" format="boolean" />
+    <!--<attr name="textAppearanceMediumInverse" format="reference" />-->
+    <attr name="textColor" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <!--<attr name="colorControlNormal" format="color" />-->
+    <!--<attr name="colorControlActivated" format="color" />-->
+    <attr name="colorBackground" format="color" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="windowCloseOnTouchOutside" format="boolean" />
+    <attr name="windowContentTransitions" format="boolean" />
+    <attr name="windowActivityTransitions" format="boolean" />
+    <attr name="windowFrame" format="reference" />
+    <attr name="windowIsFloating" format="boolean" />
+    <attr name="windowFullscreen" format="boolean" />
+    <attr name="windowSoftInputMode">
+        <flag name="adjustNothing" value="0x00000030" />
+        <flag name="adjustPan" value="0x00000020" />
+        <flag name="adjustResize" value="0x00000010" />
+        <flag name="adjustUnspecified" value="0x00000000" />
+        <flag name="stateAlwaysHidden" value="0x00000003" />
+        <flag name="stateAlwaysVisible" value="0x00000005" />
+        <flag name="stateHidden" value="0x00000002" />
+        <flag name="stateUnchanged" value="0x00000001" />
+        <flag name="stateUnspecified" value="0x00000000" />
+        <flag name="stateVisible" value="0x00000004" />
+    </attr>
+    <attr name="windowAnimationStyle" format="reference" />
+    <attr name="windowActionModeOverlay" format="boolean" />
+    <!--<attr name="textAppearanceLarge" format="reference" />-->
+    <!--<attr name="textAppearance" format="reference" />-->
+    <!--<attr name="singleLine" format="boolean" />-->
+    <!--<attr name="shadowRadius" format="float" />-->
+    <!--<attr name="shadowColor" format="color" />-->
+    <!--<attr name="colorControlHighlight" format="color" />-->
+    <!--<attr name="dropDownWidth" format="dimension">-->
+    <!--<enum name="fill_parent" value="-1" />-->
+    <!--<enum name="match_parent" value="-1" />-->
+    <!--<enum name="wrap_content" value="-2" />-->
+    <!--</attr>-->
+    <attr name="dropDownSelector" format="reference|color" />
+    <attr name="popupBackground" format="reference|color" />
+    <!--<attr name="textAppearanceMedium" format="reference" />-->
+    <attr name="cacheColorHint" format="color" />
+    <!--<attr name="listSelector" format="reference|color" />-->
+    <!--<attr name="divider" format="reference|color" />-->
+</resources>
