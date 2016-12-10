@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="systemui_theme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
+        <item name="android:colorPrimary">#ff303030</item>
+        <item name="android:colorSecondary">#ff424242</item>
+    </style>
+
+    <style name="TextAppearance.NotificationGuts.Header" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">roboto-regular</item>
+        <item name="android:textColor">#b3ffffff</item>
+    </style>
+</resources>
