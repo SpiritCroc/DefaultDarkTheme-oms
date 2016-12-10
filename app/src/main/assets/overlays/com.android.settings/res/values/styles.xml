@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!--style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:textColorTertiary">#b3ffffff</item>
+    </style-->
+    <!--style name="TextAppearance" parent="android:TextAppearance.Material">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:textColorTertiary">#b3ffffff</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:textColorTertiary">#b3ffffff</item>
+    </style>
+    <style name="TextAppearance.TileSubTitle" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:textColorTertiary">#b3ffffff</item>
+    </style-->
+
+    <!-- Themes -->
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <!--item name="android:colorAccent">#ff80cbc4</item-->
+        <!--item name="android:textColor">#ffffffff</item--><!--would override dashboard_category_title_text-->
+        <!--item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:textColorTertiary">#b3ffffff</item>
+
+        <item name="android:colorBackground">#ff303030</item>
+
+        <item name="android:colorControlHighlight">#4dffffff</item-->
+    </style>
+
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <!-- Explicitly override the background color. -->
+        <!--item name="android:backgroundColor">#ff303030</item-->
+
+        <!-- Used by the ActionBar -->
+        <!--item name="android:colorPrimary">#ff212121</item-->
+        <!-- Used by the StatusBar -->
+        <!--item name="android:colorPrimaryDark">#ff000000</item-->
+        <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
+        <!--item name="android:colorAccent">#ff80cbc4</item-->
+
+        <!-- Redefine the ActionBar style for contentInsetStart -->
+        <!--item name="android:actionBarStyle">@style/Theme.ActionBar</item-->
+
+        <!--item name="preferenceBackgroundColor">@drawable/preference_background</item-->
+    </style>
+
+    <style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <!-- Used by the ActionBar -->
+        <!--item name="android:colorPrimary">#ff212121</item-->
+        <!-- Used by the StatusBar -->
+        <!--item name="android:colorPrimaryDark">#ff000000</item-->
+        <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
+        <!--item name="android:colorAccent">#ff80cbc4</item-->
+    </style>
+
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:contentInsetStart">16dp</item>
+        <item name="android:popupTheme">@android:style/Widget.Material.PopupMenu</item>
+    </style>
+
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+
+    <style name="Theme.SettingsAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert" />
+
+</resources>
