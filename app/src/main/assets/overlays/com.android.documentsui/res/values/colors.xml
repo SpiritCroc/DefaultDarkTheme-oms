@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Copyright (C) 2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="material_grey_50">#ff212121</color>
+    <color name="material_grey_300">#ff424242</color>
+
+    <color name="item_doc_grid_background">#ff212121</color>
+    <!--color name="item_doc_grid_protect_background">#88000000</color-->
+
+    <!-- adding new exposed theme components -->
+    <color name="drawer_background_color">#ff303030</color>
+    <!--color name="font_color_doc_grid">#ffffffff</color-->
+
+    <!-- Network traffic monitor single-line text size -->
+    <!--dimen name="net_traffic_single_text_size">12dp</dimen-->
+
+    <!-- Network traffic monitor multi-line text size -->
+    <!--dimen name="net_traffic_multi_text_size">9dp</dimen-->
+
+    <color name="window_background">#ff303030</color>
+    <color name="drawer_background">#ff303030</color>
+    <color name="directory_background">#ff303030</color>
+
+    <color name="primary_dark">#ff000000</color>
+    <color name="primary">#ff212121</color>
+    <color name="accent">#ff80cbc4</color>
+    <color name="accent_dark">#ff80cbc4</color>
+</resources>
