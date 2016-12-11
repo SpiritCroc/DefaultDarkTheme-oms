@@ -44,7 +44,7 @@
             android:value="" /> <!-- Only pick one! -->
         <meta-data
             android:name="Substratum_Wallpapers"
-            android:value="" />
+            android:value="https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/index.txt" />
 
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data

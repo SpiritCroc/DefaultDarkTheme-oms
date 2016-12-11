@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<substratum>
+    <wallpaper id="wallpaper01">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/wallpaper01.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/wallpaper01.png</preview>
+    </wallpaper>
+</substratum>
