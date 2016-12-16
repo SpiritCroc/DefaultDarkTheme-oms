@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Material">
+        <!--
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflowQP</item>
+        <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        -->
+
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorAccent">#0288d1</item>
+    </style>
+
+    <style name="PeopleTheme1" parent="@android:style/Theme.Material" >
+        <item name="android:colorAccent">#0288d1</item>
+    </style>
+
+
+    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Material.Spinner">
+        <!--
+        <item name="android:background">@drawable/ab_dropdown_navigation_item_background</item>
+        -->
+    </style>
+
+
+    <style name="NonPhoneDialogTheme" parent="@android:Theme.Material.Dialog">
+    </style>
+
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:colorAccent">#0288d1</item>
+    </style>
+
+    <style name="SelectableItem" parent="@android:style/Theme.Material">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">#0288d1</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+</resources>

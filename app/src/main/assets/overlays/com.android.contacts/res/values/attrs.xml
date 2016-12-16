@@ -1,0 +1,34 @@
+<resources>
+    <attr name="list_item_height" format="dimension"/>
+    <attr name="list_section_header_height" format="dimension"/>
+    <attr name="activated_background" format="reference"/>
+    <attr name="section_header_background" format="reference"/>
+    <attr name="list_item_padding_top" format="dimension"/>
+    <attr name="list_item_padding_right" format="dimension"/>
+    <attr name="list_item_padding_bottom" format="dimension"/>
+    <attr name="list_item_padding_left" format="dimension"/>
+    <attr name="list_item_gap_between_image_and_text" format="dimension"/>
+    <attr name="list_item_gap_between_label_and_data" format="dimension"/>
+    <attr name="list_item_presence_icon_margin" format="dimension"/>
+    <attr name="list_item_presence_icon_size" format="dimension"/>
+    <attr name="list_item_photo_size" format="dimension"/>
+    <attr name="list_item_profile_photo_size" format="dimension"/>
+    <attr name="list_item_prefix_highlight_color" format="color"/>
+    <attr name="list_item_background_color" format="color"/>
+    <attr name="list_item_header_text_indent" format="dimension"/>
+    <attr name="list_item_header_text_color" format="color"/>
+    <attr name="list_item_header_text_size" format="dimension"/>
+    <attr name="list_item_header_height" format="dimension"/>
+    <attr name="list_item_name_text_color" format="color"/>
+    <attr name="list_item_name_text_size" format="dimension"/>
+    <attr name="list_item_text_indent" format="dimension"/>
+    <attr name="list_item_text_offset_top" format="dimension"/>
+    <attr name="list_item_data_width_weight" format="integer"/>
+    <attr name="list_item_label_width_weight" format="integer"/>
+
+    <attr name="contact_browser_list_padding_left" format="dimension"/>
+    <attr name="contact_browser_list_padding_right" format="dimension"/>
+    <attr name="contact_browser_background" format="reference"/>
+
+    <attr name="favorites_padding_bottom" format="dimension"/>
+</resources>

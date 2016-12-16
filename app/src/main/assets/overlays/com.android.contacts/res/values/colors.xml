@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- relevant repos:
+packages/apps/Contacts
+packages/apps/ContactsCommon
+-->
+
+<resources>
+
+    <color name="quickcontact_name_detail_background">#ff303030</color>
+    <color name="quickcontact_entry_sub_header_text_color">#b3ffffff</color>
+    <color name="quickcontact_entry_header_text_color">#ffffffff</color>
+
+    <!--color name="background_social_updates">#ffeeeeee</color-->
+
+    <color name="action_bar_background">#0288d1</color>
+    <!--color name="action_bar_background_highlight">#cecece</color-->
+    <color name="action_bar_button_text_color">#ffffffff</color>
+
+    <color name="actionbar_background_color">#0288d1</color>
+    <color name="actionbar_background_color_dark">#0288d1</color>
+
+    <color name="contextual_selection_bar_color">#616161</color>
+    <!-- Color of the status bar above the contextual selection bar. -->
+    <color name="contextual_selection_bar_status_bar_color">#424242</color>
+
+    <color name="primary_color_dark">#0277bd</color>
+    <color name="primary_color">#0288d1</color>
+
+    <!-- Color of the selected tab underline -->
+    <color name="contacts_accent_color">#ffffffff</color>
+
+    <color name="floating_action_button_icon_color">#ffffffff</color>
+
+    <!-- Horizontal separator line should be 12% dark in the light theme. -->
+    <color name="divider_line_color_light">#ff424242</color>
+
+    <!-- Color of the text on an ExpandingEntryCard button -->
+    <color name="expanding_entry_card_button_text_color">#ffffffff</color>
+
+    <!-- Background color for an ExpandingEntryCard -->
+    <color name="expanding_entry_card_background_color">#ff303030</color>
+
+    <!-- Color of the margin for cards -->
+    <color name="card_margin_color">#ff000000</color>
+
+    <color name="call_arrow_green">#00e676</color>
+    <color name="call_arrow_red">#f44336</color>
+
+    <color name="contact_all_list_background_color">#ff303030</color>
+    <color name="contact_favorites_list_background_color">#ff303030</color>
+    <color name="group_list_background_color">#ff303030</color>
+
+    <!-- Background color of pinned header items. -->
+    <color name="list_item_pinned_header_color">#ff303030</color>
+
+    <!-- Color of the mime-type icons inside the editor. -->
+    <color name="editor_icon_color">#b3ffffff</color>
+
+    <!-- Color of disabled text and unfocused hint text inside the contact editor -->
+    <color name="editor_disabled_text_color">#80ffffff</color>
+
+    <color name="list_item_name_text_color">#ffffffff</color>
+    <color name="editor_account_header_bg">#ff303030</color>
+
+
+
+    <!-- Contacts common stuff: -->
+
+    <!-- Color of the background of the contact detail and editor pages -->
+    <color name="background_primary">#ff303030</color>
+    <!-- Divider color for header separator -->
+    <color name="primary_text_color">#ffffffff</color>
+    <color name="secondary_text_color">#b3ffffff</color>
+    <!-- Color of the theme of the People app -->
+    <color name="people_app_theme_color">#363636</color>
+
+    <color name="cardview_light_background">#ff303030</color>
+
+    <color name="dialtacts_primary_text_color">#ffffffff</color>
+    <color name="dialtacts_secondary_text_color">#b3ffffff</color>
+    <color name="frequent_contact_text_color">#ffffffff</color>
+
+
+
+    <color name="search_back_button_tint_color">#ff0288d1</color>
+    <color name="contact_tile_text_color">#ffffffff</color>
+    <color name="quick_contact_text_color">#ffffffff</color>
+    <!-- Background colors for LetterTileDrawables definitions. -->
+    <!--
+    <color name="letter_tile_red_color">#DB4437</color>
+    <color name="letter_tile_pink_color">#E91E63</color>
+    <color name="letter_tile_purple_color">#9C27B0</color>
+    <color name="letter_tile_deep_purple_color">#673AB7</color>
+    <color name="letter_tile_indigo_color">#3F51B5</color>
+    <color name="letter_tile_blue_color">#4285F4</color>
+    <color name="letter_tile_light_blue_color">#039BE5</color>
+    <color name="letter_tile_cyan_color">#0097A7</color>
+    <color name="letter_tile_teal_color">#009688</color>
+    <color name="letter_tile_green_color">#0F9D58</color>
+    <color name="letter_tile_light_green_color">#689F38</color>
+    <color name="letter_tile_orange_color">#EF6C00</color>
+    <color name="letter_tile_deep_orange_color">#FF5722</color>
+    <color name="letter_tile_grey_color">#757575</color>
+    <color name="letter_tile_red_color_dark">#C53929</color>
+    <color name="letter_tile_pink_color_dark">#C2185B</color>
+    <color name="letter_tile_purple_color_dark">#7B1FA2</color>
+    <color name="letter_tile_deep_purple_color_dark">#512DA8</color>
+    <color name="letter_tile_indigo_color_dark">#303F9F</color>
+    <color name="letter_tile_blue_color_dark">#3367D6</color>
+    <color name="letter_tile_light_blue_color_dark">#0277BD</color>
+    <color name="letter_tile_cyan_color_dark">#006064</color>
+    <color name="letter_tile_teal_color_dark">#00796B</color>
+    <color name="letter_tile_green_color_dark">#0B8043</color>
+    <color name="letter_tile_light_green_color_dark">#33691E</color>
+    <color name="letter_tile_orange_color_dark">#E65100</color>
+    <color name="letter_tile_deep_orange_color_dark">#E64A19</color>
+    <color name="letter_tile_grey_color_dark">#424242</color>
+    -->
+
+    <!--Block contact dialog-->
+    <color name="block_contact_dialog_primary_text_color">#ffffffff</color>
+    <color name="block_contact_dialog_secondary_text_color">#b3ffffff</color>
+
+    <!-- Color used by the incall plugin user interface -->
+    <!--
+    <color name="plugin_login_button_tint">#0288d1</color>
+
+    <color name="spam_contact_color">#ff402c</color>
+    -->
+
+    <!-- Text color of the search box text as entered by user  -->
+    <color name="searchbox_text_color">#ffffffff</color>
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">#ff616161</color>
+
+    <color name="searchbox_hint_text_color">#80ffffff</color>
+    <color name="searchbox_icon_tint">#80ffffff</color>
+
+    <color name="search_shortcut_icon_color">#0288d1</color>
+</resources>
