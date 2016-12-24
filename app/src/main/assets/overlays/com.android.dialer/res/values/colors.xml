@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- relevant repos:
+packages/apps/Dialer
+packages/apps/PhoneCommon
+packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
+-->
+
+<resources>
+    <color name="dialer_theme_color">#0288d1</color>
+    <color name="dialer_theme_color_dark">#0277bd</color>
+    <color name="dialtacts_theme_color">#ff4fc3f7</color><!-- theme note: accent color; used e.g. for icons to add contact/message/... when dialing -->
+    <color name="actionbar_background_color">#0288d1</color>
+    <color name="actionbar_background_color_dark">#ff000000</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="call_log_extras_text_color">#ff424242</color>
+    <color name="voicemail_playback_seek_bar_already_played">#ff424242</color>
+    <!--color name="item_selected">@android:color/holo_green_light</color-->
+    <color name="dialer_dialpad_touch_tint">#3303a9f4</color>
+    <color name="exposed_call_log_header">#ff424242</color>
+    <color name="exposed_call_log_voicemail_status_action_text">#ff424242</color>
+    <color name="background_dialpad">#ff303030</color>
+    <color name="background_dialpad_pressed">#ff424242</color>
+    <color name="dialpad_primary_text_color">#ffffffff</color>
+    <color name="dialpad_secondary_text_color">#b3ffffff</color>
+    <color name="dialpad_digits_text_color">#ffffffff</color>
+    <color name="dialpad_separator_line_color">#b3ffffff</color>
+    <color name="dialpad_icon_tint">#ffffffff</color>
+    <color name="dialpad_voicemail_tint">#b3ffffff</color>
+    <color name="people_app_theme_color">#ffffffff</color>
+    <color name="phone_settings_background_color">#ff303030</color>
+    <color name="setting_primary_color">#ffffffff</color>
+    <color name="setting_secondary_color">#b3ffffff</color>
+    <color name="back_arrow_icon_tint_color">#0288d1</color>
+    <color name="searchbox_text_color">#ffffffff</color>
+    <color name="searchbox_hint_text_color">#b3ffffff</color>
+    <color name="searchbox_background_color">#ff424242</color>
+    <color name="search_shortcut_background_color">#ff303030</color>
+    <color name="search_shortcut_icon_color">#0288d1</color>
+    <color name="searchbox_icon_tint">#ffffffff</color>
+
+    <color name="dialtacts_primary_text_color">#ffffffff</color>
+    <color name="dialtacts_secondary_text_color">#b3ffffff</color>
+    <color name="setting_background_color">#ff303030</color>
+    <color name="recent_call_log_item_phone_icon_tint">#ffffffff</color>
+    <color name="background_dialer_white">#ff303030</color>
+    <color name="background_dialer_light">#ff303030</color>
+    <color name="background_dialer_results">#ff303030</color>
+    <color name="background_dialer_call_log">#ff303030</color>
+    <color name="background_dialer_call_log_list_item">#ff303030</color>
+    <color name="undo_dialogue_text_color">#b3ffffff</color>
+    <color name="call_log_expanded_background_color">#ff303030</color>
+    <color name="call_log_action_text">#b3ffffff</color>
+    <color name="actionbar_icon_color">#ffffffff</color>
+    <color name="holo_list_background_color">#ff303030</color>
+    <!--color name="focus_color">@android:color/holo_green_light</color-->
+    <!--color name="ripple_material_dark">#63ffffff</color-->
+    <color name="primary_text_color">#ffffffff</color>
+    <color name="secondary_text_color">#b3ffffff</color>
+    <color name="section_header_text_color">#b3ffffff</color>
+    <color name="main_header_separator_color">#b3ffffff</color>
+    <color name="secondary_header_separator_color">#b3ffffff</color>
+    <!-- none used:
+    <color name="image_placeholder">@android:color/holo_red_dark</color>
+    <color name="contact_tile_shadow_box_color">#7f000000</color>
+    <color name="people_contact_tile_status_color">#ffffffff</color>
+    <color name="shortcut_overlay_text_background">#7f000000</color>
+    <color name="textColorIconOverlay">#ffffffff</color>
+    <color name="textColorIconOverlayShadow">#ff303030</color>
+    <color name="quickcontact_default_photo_tint_color">#ff9e9e9e</color>
+    <color name="quickcontact_default_photo_tint_color_dark">#ff616161</color>
+    <color name="letter_tile_default_color">#ff333333</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+    -->
+    <!-- none used:
+    <color name="tab_ripple_color">#ffffffff</color>
+    <color name="tab_accent_color">#ffffffff</color>
+    <color name="tab_selected_underline_color">#ffffffff</color>
+    <color name="frequently_contacted_title_color">#ff303030</color>
+    <color name="actionbar_unselected_text_color">#a6ffffff</color>
+    <color name="background_primary">#ff303030</color>
+    <color name="contact_all_list_background_color">#ff303030</color>
+    <color name="incall_background_color">#ff303030</color>
+    <color name="incall_accent_color">#ffffffff</color>
+    <color name="incall_call_banner_background_color">#ff303030</color>
+    <color name="incall_call_banner_text_color">#ffffffff</color>
+    <color name="incall_call_banner_subtext_color">#ccffffff</color>
+    <color name="incall_banner_secondary_background_color">#fff5f5f5</color>
+    <color name="incall_banner_secondary_text_color">#ff333333</color>
+    <color name="incall_action_bar_background_color">#ff303030</color>
+    <color name="incall_action_bar_text_color">#ffffffff</color>
+    <color name="on_hold_dim_effect">#cc000000</color>
+    <color name="conference_call_manager_background_color">#fff8f8f8</color>
+    <color name="conference_call_manager_caller_name_text_color">#ff4d4d4d</color>
+    <color name="conference_call_manager_icon_color">#ff999999</color>
+    <color name="conference_call_manager_secondary_text_color">#ff999999</color>
+    <color name="secondary_call_info_divider_highlight_color">#ffffffff</color>
+    <color name="end_call_touch_feedback_tint">#ffdddddd</color>
+    <color name="incall_dialpad_background">#ff303030</color>
+    <color name="incall_dialpad_background_pressed">#ccaaaaaa</color>
+    <color name="button_background_color">#ff303030</color>
+    <color name="button_selected_color">#ff303030</color>
+    <color name="button_default_color">#b3ffffff</color>
+    <color name="button_disabled_color">#33ffffff</color>
+    <color name="translucent_shadow">#33999999</color>
+    <color name="glowpad_background_color">#b3000000</color>
+    <color name="glowpad_outer_ring_color">#26ffffff</color>
+    <color name="glowpad_text_widget_ring_color">#ffffffff</color>
+    <color name="glowpad_widget_active_color">#ffffffff</color>
+    <color name="glowpad_text_widget_normal_tint">#ffcccccc</color>
+    <color name="glowpad_call_widget_normal_tint">#ffffffff</color>
+    <color name="glowpad_end_call_widget_normal_tint">#ffff1744</color>
+    -->
+    <color name="incall_dialpad_touch_tint">#3303A9F4</color>
+    <color name="dialer_red_highlight_color">#f44336</color>
+    <color name="dialer_green_highlight_color">#00e676</color>
+    <color name="dialer_blue_highlight_color">#00b0ff</color>
+    <color name="voicemail_playback_seek_bar_yet_to_play">#ffcecece</color>
+    <!-- not used:
+    <color name="background_dialer_list_items">#ff303030</color>
+    <color name="background_dialer_details_list_items">#ff303030</color>
+    -->
+    <color name="favorite_contacts_separator_color">#b3ffffff</color>
+    <color name="contact_tile_name_color">#ffffffff</color>
+    <color name="contact_list_name_text_color">#ffffffff</color>
+    <color name="empty_list_text_color">#b3ffffff</color>
+    <color name="remove_text_color">#b3ffffff</color>
+    <color name="remove_highlighted_text_color">#fff44336</color>
+    <color name="contacts_grid_bottom_border_color">#16ffffff</color>
+    <color name="missed_call">#ffff2e58</color>
+    <!--color name="answered_call">#ff00c853</color-->
+    <color name="floating_action_button_touch_tint">#80ffffff</color>
+    <!--
+    <color name="exposed_bg_dark">#ff303030</color>
+    <color name="exposed_bg_light">#ff303030</color>
+    <color name="exposed_primary_text_light">#ffffffff</color>
+    <color name="exposed_secondary_text_light">#fffafafa</color>
+    <color name="exposed_primary_text_dark">#ffffffff</color>
+    <color name="exposed_secondary_text_dark">#fffafafa</color>
+    <color name="exposed_secondary_bg_color">#ff303030</color>
+    <color name="exposed_call_log_voicemail_status_background">#ff303030</color>
+    <color name="exposed_call_log_voicemail_status_text">#ffffffff</color>
+    <color name="exposed_floating_action_button_solid">#ff424242</color>
+    <color name="exposed_recents_list_footer_bg">#ff303030</color>
+    <color name="exposed_dialpad_fragment">#00000000</color>
+    -->
+    <color name="call_log_action_block_red">#f44336</color>
+    <color name="call_log_action_block_gray">#b3ffffff</color>
+    
+    <color name="call_log_icon_tint">#b3ffffff</color>
+    <color name="call_log_primary_color">#b3ffffff</color>
+    <color name="call_log_detail_color">#b3ffffff</color>
+    <color name="call_log_voicemail_transcript_color">#b3ffffff</color>
+    <color name="call_log_action_color">#b3ffffff</color>
+    <color name="call_log_day_group_heading_color">#b3ffffff</color>
+    <color name="call_log_unread_text_color">#b3ffffff</color>
+    <color name="call_log_list_item_primary_action_icon_tint">#b3ffffff</color>
+    <color name="call_log_missed_call_highlight_color">#fff44336</color>
+    <color name="call_log_voicemail_highlight_color">#ff00b0ff</color>
+    <color name="voicemail_icon_disabled_tint">#80ffffff</color>
+    <color name="blacklisted_call">#ffffffff</color>
+
+    <color name="incall_dialpad_background">#ff303030</color>
+    <color name="incall_dialpad_background_pressed">#cc424242</color>
+
+    <color name="call_detail_footer_text_color">#b3ffffff</color>
+    <color name="no_call_log">#b3ffffff</color>
+    <color name="list_all_call">#b3ffffff</color>
+</resources>
