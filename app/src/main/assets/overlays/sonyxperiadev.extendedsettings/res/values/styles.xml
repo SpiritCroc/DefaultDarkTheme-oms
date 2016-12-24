@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@*sonyxperiadev.extendedsettings:style/Theme.AppCompat">
+        <item name="@*sonyxperiadev.extendedsettings:attr/colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+</resources>
