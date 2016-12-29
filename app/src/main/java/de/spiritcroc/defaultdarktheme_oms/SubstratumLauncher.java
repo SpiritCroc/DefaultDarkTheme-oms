@@ -295,6 +295,7 @@ public class SubstratumLauncher extends Activity {
     }
 
     private void checkConnection() {
+        /*
         ConnectivityManager cm =
                 (ConnectivityManager)
                         SubstratumLauncher.this.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -307,7 +308,7 @@ public class SubstratumLauncher extends Activity {
                     Toast.LENGTH_LONG);
             toast.show();
             finish();
-        } else {
+        } else {*/
             SharedPreferences sharedPref =
                     SubstratumLauncher.this.getPreferences(Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPref.edit();
@@ -319,7 +320,7 @@ public class SubstratumLauncher extends Activity {
             } else {
                 launch();
             }
-        }
+        //}
     }
 
 }
