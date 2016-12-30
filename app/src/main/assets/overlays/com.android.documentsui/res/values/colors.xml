@@ -35,6 +35,11 @@
     <color name="window_background">#ff303030</color>
     <color name="drawer_background">#ff303030</color>
     <color name="directory_background">#ff303030</color>
+    <color name="item_doc_background">#ff424242</color>
+    <color name="item_doc_background_disabled">#ff212121</color>
+    <!--
+    <color name="item_doc_background_selected">@*android:color/accent_device_default_50</color>
+    -->
 
     <color name="primary_dark">#ff000000</color>
     <color name="primary">#ff212121</color>
