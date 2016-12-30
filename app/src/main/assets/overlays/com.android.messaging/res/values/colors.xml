@@ -131,7 +131,7 @@
     <color name="audio_attachment_timer_text_color">#b3ffffff</color>
     <color name="audio_progress_bar_color">#689F38</color>
 
-    <!-- todo? disabled for now because this does not seem to make sense to me right now, but was enabled before
+    <!--
     <color name="notification_sender_text">#ffffffff</color>
     <color name="notification_secondary_text">#b3ffffff</color>
     <color name="notification_tertiary_text">#b3ffffff</color>

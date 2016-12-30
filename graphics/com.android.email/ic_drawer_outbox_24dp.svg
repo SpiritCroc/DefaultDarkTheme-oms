@@ -14,8 +14,8 @@
    width="24"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="ic_indeterminate_check_box_black_24px.svg">
+   inkscape:version="0.92.0 r"
+   sodipodi:docname="ic_drawer_outbox_24dp.svg">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -41,10 +41,10 @@
      id="namedview12"
      showgrid="false"
      inkscape:zoom="25.455844"
-     inkscape:cx="8.6178493"
+     inkscape:cx="-3.2065475"
      inkscape:cy="11.810422"
-     inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-x="38"
+     inkscape:window-y="128"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <defs
@@ -63,5 +63,6 @@
   <path
      clip-path="url(#b)"
      d="M 5 3 C 3.9 3 3 3.9 3 5 L 3 19 C 3 20.1 3.9 21 5 21 L 19 21 C 20.1 21 21 20.1 21 19 L 21 5 C 21 3.9 20.1 3 19 3 L 5 3 z M 6.5058594 6.8574219 L 18.5 12 L 6.5058594 17.142578 L 6.5 13.142578 L 15.072266 12 L 6.5 10.857422 L 6.5058594 6.8574219 z "
-     id="path10" />
+     id="path10"
+     style="fill:#ffffff;fill-opacity:1" />
 </svg>

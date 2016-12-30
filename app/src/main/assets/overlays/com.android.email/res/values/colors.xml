@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- relevant repos:
+packages/apps/Email
+packages/apps/UnifiedEmail
+-->
+
+<resources>
+    <color name="text_color_medium_grey">#ffffffff</color>
+    <color name="text_color_grey">#b3ffffff</color>
+    <color name="text_color_black">#ffffffff</color>
+    <color name="text_color_disabled">#80ffffff</color>
+    <color name="accent_blue">#ff4fc3f7</color>
+    <color name="text_color_blue">#ff4fc3f7</color>
+    <color name="text_color_draft_red">#e7790d</color>
+    <color name="text_color_hint_grey">#80ffffff</color>
+    <!--
+    <color name="gray_text_color">#777777</color>
+    <color name="dark_gray_text_color">#58585b</color>
+    <color name="light_gray">#cccccc</color>
+    <color name="very_light_grey">#f5f5f5</color>
+    -->
+    <!-- if you want to make something blue, please try to use THIS blue -->
+    <color name="mail_app_blue">#ff4fc3f7</color>
+    <color name="divider_color">#ff424242</color>
+
+    <!-- Conversation List Item Colors -->
+    <color name="senders_text_color">#ffffffff</color>
+    <color name="subject_text_color_read">#b3ffffff</color>
+    <color name="subject_text_color_unread">#ffffffff</color>
+    <color name="snippet_text_color">#b3ffffff</color>
+    <color name="date_text_color_unread">#ff4fc3f7</color>
+    <color name="date_text_color_read">#b3ffffff</color>
+    <!--
+    <color name="message_info_text_color">@color/gray_text_color</color>
+    <color name="ap_background_color">#cceeeeee</color>
+    <color name="ap_overflow_badge_color">#ff303030</color>
+    <color name="ap_overflow_text_color">#ff4f4c4c</color>
+    -->
+
+    <!-- default because webview not theme-able -->
+    <color name="attachment_bg_color">#ffdddddd</color>
+    <color name="swiped_bg_color">#ff000000</color>
+    <color name="holo_light_background_color">#ff303030</color>
+    <!-- Keep the following two colors in sync with LabelColorUtils.DEFAULT_COLORS (UnifiedGmail); default because webview not theme-able -->
+    <color name="default_folder_background_color">#dddddd</color>
+    <color name="default_folder_foreground_color">#777777</color>
+
+    <!-- Folder List/Drawer colors -->
+    <color name="account_item_selected_text_color">#ff4fc3f7</color>
+    <color name="folder_list_heading_text_color">#ffffffff</color>
+    <color name="list_background_color">#ff303030</color>
+    <color name="drawer_item_activated_background_color">#12ffffff</color>
+    <color name="mini_drawer_activated_background_color">#12ffffff</color>
+
+    <!-- overridden in sw600dp -->
+    <color name="folder_list_divider_color">#ff424242</color>
+
+    <!-- Compose colors -->
+    <color name="compose_label_text">#b3ffffff</color>
+    <color name="compose_user_text">#ffffffff</color>
+    <color name="compose_label_hint">#80ffffff</color>
+
+    <color name="conv_header_add_label_text">#ffffffff</color>
+    <color name="conv_header_add_label_background">#ff303030</color>
+
+    <!-- Conversation message header colors; some default because webview not theme-able -->
+    <color name="conversation_view_border_color">#e5e5e5</color>
+    <color name="conversation_view_background_color">#f5f5f5</color>
+    <color name="conversation_view_text_color_light">#757575</color>
+    <color name="conversation_view_text_color_dark">#212121</color>
+    <color name="conversation_view_text_color_link_blue">#4285f4</color>
+    <color name="conversation_view_footer_text_color">#a7a7a7</color>
+    <color name="conversation_view_footer_load_more_text_color">#4fc3f7</color><!-- modified because used in overview -->
+
+    <!-- Widget colors -->
+    <!--
+    <color name="widget_header_bg_color">#e7790d</color>
+    <color name="widget_conversation_list_divider_color">#e5e5e5</color>
+    -->
+
+    <color name="attachment_name_color">#ffffffff</color>
+    <!--  Color of the semi-transparent shadow box on attachment tiles -->
+    <color name="attachment_tile_shadow_box_color">#ff424242</color>
+    <!--  Color of the subtitle message in the attachment tile --><!-- default because webview not theme-able -->
+    <color name="attachment_tile_subtitle_color">#949494</color>
+    <color name="attachment_image_background_color">#E5E5E5</color>
+
+    <!-- Color of the parent folders and dividers for hierarchical folder descriptions in the move to folder -->
+    <!--
+    <color name="hierarchical_folder_parent_color">@color/gray_text_color</color>
+    -->
+
+    <!-- Spam warning text and background colors -->
+    <color name="high_spam_color">#ffffffff</color>
+    <color name="high_spam_warning_background_color">#d32f2f</color>
+    <color name="low_spam_color">#ffffffff</color>
+    <color name="low_spam_warning_background_color">#ef6c00</color>
+
+    <color name="notification_icon_color">#e7790d</color>
+
+    <!-- Search colors -->
+    <color name="search_query_hint_text">#757575</color>
+    <color name="search_query_text">#000000</color>
+    <color name="search_suggestion_item_text">#757575</color>
+    <color name="search_banner_bg">#f6f6f6</color>
+    <color name="search_banner_text">#757575</color>
+    <color name="search_status_bar_color">#bdbdbd</color>
+
+    <!--
+    <array name="letter_tile_colors">
+        <item>#90a4ae</item>
+        <item>#7baaf7</item>
+        <item>#4dd0e1</item>
+        <item>#4db6ac</item>
+        <item>#aed581</item>
+        <item>#fdd835</item>
+        <item>#f2a600</item>
+        <item>#ff8a65</item>
+        <item>#f48fb1</item>
+        <item>#7986cb</item>
+    </array>
+    <color name="letter_tile_default_color">#f48fb1</color>
+    <color name="letter_tile_font_color">#ffffff</color>
+    <color name="tile_divider_color">#ffffff</color>
+    -->
+    <!-- Color.GRAY -->
+    <!--
+    <color name="checkmark_tile_background_color">#ff888888</color>
+    -->
+
+    <!-- Teaser colors -->
+
+    <!-- The color of the section name text in the teaser -->
+    <!--
+    <color name="teaser_main_text">@color/dark_gray_text_color</color>
+    -->
+
+    <!-- tip teaser colors -->
+    <color name="tip_teaser_bg">#ff303030</color>
+    <color name="tip_teaser_link">#ff4fc3f7</color>
+    <color name="tip_teaser_text">#ffffffff</color>
+
+    <!-- swipe to refresh text color, this matches the color in
+        progressbar_solid_holo.png -->
+    <!--
+    <color name="swipe_to_refresh_text_color">#0099cc</color>
+    -->
+
+    <!-- The background color of the message header; default because webview not theme-able -->
+    <color name="message_header_background_color">@android:color/white</color>
+
+    <!-- The color of the section name text in the folder teaser -->
+    <color name="folder_teaser_main_text">#ffffffff</color>
+    <color name="folder_teaser_sub_text">#b3ffffff</color>
+    <!-- The color of the icon background in the teaser -->
+    <color name="folder_teaser_icon_background">#ff424242</color>
+
+    <color name="vacation_responder_window_background">#ff303030</color>
+    <color name="vacation_responder_header_text_color">#b3ffffff</color>
+    <color name="vacation_responder_main_text_color">#ffffffff</color>
+
+    <!-- Swipe refresh progress bar colors -->
+    <!--
+    <color name="swipe_refresh_color1">#ff0f9d58</color>
+    <color name="swipe_refresh_color2">#ffdb4437</color>
+    <color name="swipe_refresh_color3">#ff4285f4</color>
+    <color name="swipe_refresh_color4">#fff4b400</color>
+    -->
+
+    <color name="badge_background_color">#edb802</color>
+
+    <color name="loading_messages_background_color">#ff303030</color>
+
+    <color name="folder_item_text_color_normal">#b3ffffff</color>
+
+    <color name="mail_orange">#e7790d</color>
+    <color name="statusbar_orange">#d06d0c</color>
+
+    <color name="primary_color">#e7790d</color>
+    <color name="primary_dark_color">#d06d0c</color>
+    <color name="mail_activity_status_bar_color">@android:color/transparent</color>
+    <color name="action_mode_background">#616161</color>
+    <color name="action_mode_statusbar_color">#424242</color>
+    <!--
+    <color name="edge_effect_color">#263238</color>
+    -->
+
+    <color name="snack_bar_background_color">#ff212121</color>
+    <color name="snack_bar_action_text_color">#f4b400</color>
+
+    <color name="conversation_list_background_color">@android:color/transparent</color>
+    <color name="conversation_item_blue_background_color">#ff0277bd</color>
+    <color name="conversation_item_grey_background_color">#ff626262</color>
+    <color name="conversation_item_grey_pressed_color">#ff424242</color>
+    <color name="conversation_item_grey_ripple_color">#63ffffff</color>
+
+    <color name="compose_button_background_color">#e7790d</color>
+    <color name="compose_button_pressed_background_color">#d06d0c</color>
+    <!--
+    <color name="compose_button_tint">#20444444</color>
+    -->
+
+    <color name="text_color_undo">#feb500</color>
+    <color name="text_color_undo_description">#ffffffff</color>
+
+    <color name="text_color_undo_notification">#feb500</color>
+    <color name="text_color_undo_notification_description">#ffffffff</color>
+
+    <!-- Account setup screens -->
+    <color name="account_setup_headline_color">#ffffff</color>
+    <color name="account_setup_info_text_color">#b3ffffff</color>
+    <color name="account_setup_label_text_color">#b3ffffff</color>
+    <color name="account_setup_label_large_text_color">#ffffffff</color>
+    <color name="account_setup_divider_color">#ffffffff</color>
+    <color name="account_setup_xlarge_background_color">#ff303030</color>
+    <color name="account_setup_button_bar_background">#ff424242</color>
+
+    <!-- Standard text colors -->
+    <color name="text_secondary_color">#b3ffffff</color>
+
+    <!-- Account color chips on combined view -->
+    <!--
+    <color name="combined_view_account_color_1">#ff71aea7</color>
+    <color name="combined_view_account_color_2">#ff621919</color>
+    <color name="combined_view_account_color_3">#ff18462f</color>
+    <color name="combined_view_account_color_4">#ffbf8e52</color>
+    <color name="combined_view_account_color_5">#ff001f79</color>
+    <color name="combined_view_account_color_6">#ffa8afc2</color>
+    <color name="combined_view_account_color_7">#ff6b64c4</color>
+    <color name="combined_view_account_color_8">#ff738359</color>
+    <color name="combined_view_account_color_9">#ff9d50a4</color>
+    -->
+
+    <color name="button_text_disabled_color">#80ffffff</color>
+
+    <color name="password_warning_color">#f44336</color>
+    <color name="email_confirmation_color">#b3ffffff</color>
+
+    <!--
+    <color name="quick_response_text_color">#000000</color>
+    -->
+</resources>
