@@ -22,6 +22,9 @@ Themed parts:
 - DocumentsUI
 - CM Settings
 - AOSP Contacts
+- AOSP Dialer
+- AOSP Messenger
+- Substratum
 
 Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms
 
