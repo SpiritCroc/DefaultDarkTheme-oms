@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <color name="primary_color">#689F38</color>
+    <color name="permission_check_activity_background">#689F38</color>
+
+    <!--  Action bar -->
+    <color name="action_bar_title_text_color">#ffffff</color>
+    <color name="action_bar_background_color">#689F38</color>
+    <color name="action_bar_background_color_dark">#537F2D</color>
+    <color name="contextual_action_bar_background_color">#424242</color>
+    <color name="archived_conversation_action_bar_background_color">#303030</color>
+    <color name="archived_conversation_action_bar_background_color_dark">#212121</color>
+
+    <!-- Conversation list -->
+    <color name="conversation_list_item_read">#b3ffffff</color>
+    <color name="conversation_list_item_unread">#ffffffff</color>
+    <color name="conversation_list_error">#ef6c00</color>
+    <color name="conversation_list_name">#ffffffff</color>
+    <color name="conversation_list_details">#b3ffffff</color>
+
+    <color name="conversation_compose_divider_start">#44ffffff</color>
+
+    <color name="message_text">#ffffffff</color>
+    <color name="timestamp_text_outgoing">#80ffffff</color>
+    <color name="timestamp_text_incoming">#b3ffffff</color>
+    <color name="timestamp_text_failed">#ef6c00</color>
+    <color name="compose_send_text_color">#ffffff</color>
+
+    <color name="message_title_text">#ffffffff</color>
+    <color name="message_download_failed_status_text">#ffffffff</color>
+    <color name="message_info_text">#b3ffffff</color>
+    <color name="message_info_text_incoming_download_failed">#b3ffffff</color>
+    <color name="message_download_failed_timestamp_text">#4fc3f7</color>
+    <color name="message_failed_timestamp_text">#ef6c00</color>
+    <color name="message_action_status_text">#ffffffff</color>
+    <color name="message_action_info_text">#b3ffffff</color>
+    <color name="message_action_timestamp_text">#ffffffff</color>
+
+    <color name="background_item_transparent">@android:color/transparent</color>
+    <!--
+    <color name="background_item_activated">#670099cc</color>
+    <color name="background_item_selected">#cc0099cc</color>
+    <color name="background_item_pressed">#6733b5e5</color>
+    -->
+
+    <color name="subject_editor_bubble">#ff616161</color>
+    <color name="message_text_color_incoming">#ffffffff</color>
+    <color name="message_text_color_incoming_download_failed">#ff424242</color>
+    <color name="message_text_color_outgoing">#ffffffff</color>
+    <color name="conversation_background">#ff303030</color>
+    <!--
+    <color name="conversation_edge_effect">#9d9d9d</color>
+    -->
+    <color name="compose_message_send_color">#689F38</color>
+    <color name="compose_message_send_color_pressed">#999999</color>
+    <color name="message_bubble_color_outgoing">#ff616161</color>
+    <color name="message_error_bubble_color_incoming">#ff424242</color>
+    <color name="message_audio_button_color_incoming">#ff424242</color>
+    <!--
+    <color name="message_bubble_color_selected">#8BC34A</color>
+    <color name="message_image_selected_tint">#80689F38</color>
+    <color name="generic_video_icon">#ff808080</color>
+    -->
+
+    <!-- Base color used for color filtering. -->
+    <color name="color_filter_base_color">#ff0000</color>
+
+    <!-- Activity background color -->
+    <!--
+    <drawable name="class_zero_background">#7f040000</drawable>
+    -->
+
+    <!--
+    <color name="contact_avatar_default_background">#d2d2d2</color>
+    <color name="contact_avatar_pressed_color">#40000000</color>
+    -->
+    <color name="contact_list_text_primary">#ffffffff</color>
+    <color name="contact_list_text_secondary">#b3ffffff</color>
+
+    <color name="compose_contact_text">@android:color/white</color>
+    <color name="compose_contact_faint_text">#a0ffffff</color>
+    <color name="compose_contact_divider">#44ffffff</color>
+    <color name="contact_picker_tab_pressed">#ddffffff</color>
+    <color name="contact_picker_tab_underline">@android:color/white</color>
+    <!--
+    <color name="contact_list_alphabet_header">#689F38</color>
+    -->
+    <color name="contact_picker_background">#ff303030</color>
+    <!--
+    <color name="chips_dropdown_background_activated">#4285f4</color>
+    <color name="chips_dropdown_background_pressed">#ededed</color>
+    <color name="chips_background_color">#33000000</color>
+    <color name="chips_text_color">@android:color/white</color>
+    -->
+
+    <!--
+    <color name="camera_button_container_background">#80000000</color>
+    -->
+
+    <!-- tab
+    <color name="translucent_white">#80ffffff</color>
+    -->
+
+    <color name="gallery_image_default_background">#ff303030</color>
+    <!--
+    <color name="gallery_image_pressed">#6733b5e5</color>
+    <color name="attachment_preview_more_items_text_background">#44000000</color>
+    -->
+
+    <color name="letter_tile_font_color">#ffffff</color>
+
+    <color name="audio_picker_level_primary_color">#29ffffff</color>
+    <color name="audio_record_control_button_stroke">#30ffffff</color>
+    <color name="audio_picker_hint_text_color">#40ffffff</color>
+    <color name="audio_picker_timer_text_color">#b3ffffff</color>
+    <color name="audio_attachment_timer_text_color">#b3ffffff</color>
+    <color name="audio_progress_bar_color">#689F38</color>
+
+    <!-- todo? disabled for now because this does not seem to make sense to me right now, but was enabled before
+    <color name="notification_sender_text">#ffffffff</color>
+    <color name="notification_secondary_text">#b3ffffff</color>
+    <color name="notification_tertiary_text">#b3ffffff</color>
+    -->
+    <!--
+    <color name="wearable_notification_participants_count">#a2a2a2</color>
+    <color name="notification_accent_color">#689F38</color>
+    <color name="notification_warning_color">#ff0000</color>
+    <color name="notification_subject_color">#DE000000</color>
+    -->
+
+    <color name="participant_list_text_primary">#ffffffff</color>
+    <color name="participant_list_text_secondary">#b3ffffff</color>
+    <color name="people_and_options_header_text">#b3ffffff</color>
+    <color name="people_and_options_list_divider">#ff424242</color>
+
+    <!--
+    <color name="fab_color">#689F38</color>
+    <color name="fab_pressed_color">#3ea4dc</color>
+    <color name="fab_ripple">#40ffffff</color>
+    -->
+
+    <color name="message_text_counter_color">#80ffffff</color>
+    <color name="mms_indicator_color">#7e57c2</color>
+    <color name="list_empty_text">#b3ffffff</color>
+    <color name="low_storage_action_item_color">#ffffffff</color>
+    <!--
+    <color name="unblock_item_text_color">#689F38</color>
+    <color name="open_conversation_animation_background_shadow">#40000000</color>
+    <color name="compose_notification_bar_background">#689F38</color>
+    -->
+
+    <color name="sim_selector_text_primary">#ffffffff</color>
+    <color name="sim_selector_text_secondary">#b3ffffff</color>
+    <color name="sim_selector_background_end">#ff303030</color>
+    <color name="sim_selector_background_start">#ff303030</color>
+    <color name="sim_indicator_color_light">#ffffff</color>
+    <color name="sim_indicator_color_dark">#ffffff</color>
+
+    <!--
+    <color name="text_highlight_color">#80689F38</color>
+    <color name="search_view_text_cursor">#b0dddddd</color>
+    -->
+
+    <color name="button_bar_action_button_text_color">#ffffffff</color>
+    <color name="button_bar_cancel_button_text_color">#b3ffffff</color>
+
+    <color name="settings_list_text_primary">#ffffffff</color>
+    <color name="settings_list_text_secondary">#b3ffffff</color>
+    <color name="group_mms_setting_text_color">#b3ffffff</color>
+    <color name="settings_item_title_text_primary">#ffffffff</color>
+
+    <!--
+    <color name="contact_picker_button_text_color">#689F38</color>
+
+    <color name="widget_text_color">#424242</color>
+    <color name="widget_incoming_text_color">@android:color/white</color>
+    <color name="widget_outgoing_text_color">#424242</color>
+    <color name="widget_background_color">#ffffff</color>
+    <color name="ripple_material_light">#40000000</color>
+    <color name="widget_conversation_title_color">#FFFFFF</color>
+    -->
+
+    <color name="attachment_chooser_audio_background">#ff303030</color>
+    <color name="attachment_chooser_vcard_background">#ff303030</color>
+
+    <color name="fastscroll_track_color">#1effffff</color>
+    <color name="fastscroll_thumb_color">#42ffffff</color>
+    <color name="fastscroll_preview_text_color">#ffffff</color>
+
+    <!--
+    <color name="google_gray">#F1F1F1</color>
+    -->
+
+    <!-- New text colors from layouts to make theme chooser apk easier to theme -->
+    <color name="compose_message_edit_text">#ffffffff</color>
+    <color name="compose_message_text_counter">#80ffffff</color>
+    <color name="compose_message_text_color">#ffffffff</color>
+    <color name="compose_message_sent_bubble_color">#ff424242</color>
+    <color name="actionbar_text">#ffffffff</color>
+    <color name="delete_thread_dialog">#ffffffff</color>
+    <color name="delivery_report_header">#ffffff</color>
+    <color name="delivery_report_recipient">#ffffffff</color>
+    <color name="delivery_report_status">#ffffffff</color>
+    <color name="delivery_report_date">#ffffffff</color>
+    <color name="button_text">#ffffffff</color>
+    <color name="message_recieved">#ffffffff</color>
+    <color name="message_sent">#ffffffff</color>
+    <!--
+    <color name="widget_unread_text">#777777</color>
+    <color name="widget_loading">#000000</color>
+    -->
+
+    <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
+    <color name="background">#ff303030</color>
+    <color name="darkgray_backgrounds">#ff212121</color>
+    <!--
+    <color name="transparent">#00000000</color>
+
+    <color name="banner_item_transparent">#00000000</color>
+    <color name="banner_item_activated">#670099cc</color>
+    <color name="banner_item_selected">#cc0099cc</color>
+    <color name="banner_item_pressed">#6733b5e5</color>
+    -->
+
+    <!--
+    <color name="action_mode_background_color">#424F53</color>
+    -->
+
+    <color name="qm_background">#303030</color>
+    <color name="qm_fading_edge_color">#ff424242</color>
+    <color name="qm_from_text_color">#ffffffff</color>
+    <color name="qm_recv_timestamp_text_color">#80ffffff</color>
+    <color name="qm_dialog_text_color">#ff80cbc4</color>
+    <color name="qm_count_color">#b3ffffff</color>
+    <color name="qm_compose_send_text_color">#ffffff</color>
+    <color name="outgoing_message_bg">#ff424242</color>
+    <color name="qm_reply">#b3ffffff</color>
+
+    <color name="pending_item_view_background_color">#ff616161</color>
+    <color name="mediapicker_audio_chooser_background_color">#ff212121</color>
+    <color name="missing_permission_view_background_color">#ff303030</color>
+    <color name="audio_list_view_background_color">#ff212121</color>
+    <color name="camera_shutter_visual_background_color">#ff000000</color>
+    <color name="gallery_grid_view_background_color">#ff212121</color>
+    <color name="permission_check_activity_divider">#ffffffff</color>
+    <color name="debug_mmsconfig_item_view_background_color">#ff303030</color>
+    <color name="mediapicker_camera_chooser_background_color">#ff000000</color>
+    <color name="camera_video_counter_text_color">@android:color/white</color>
+    <color name="sms_storage_low_warning_dialog_background_color">#ff303030</color>
+    <!--
+    <color name="widget_loading_text_color">@android:color/black</color>
+    -->
+    <color name="snack_bar_background_color">#ff212121</color>
+    <color name="snack_bar_action_text_color">#EEFF41</color>
+    <color name="mic_recording_color">#ff303030</color>
+    <color name="mic_background_color">#ff212121</color>
+</resources>
