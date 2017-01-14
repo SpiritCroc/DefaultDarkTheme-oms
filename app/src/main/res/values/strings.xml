@@ -1,5 +1,5 @@
 <resources>
     <string name="theme_name">Default Dark Theme</string>
     <string name="theme_author" translatable="false">SpiritCroc</string>
-    <string name="theme_author_email" translatable="false">spiritcroc@gmail.com</string>
+    <string name="theme_author_email" translatable="false"></string>
 </resources>
