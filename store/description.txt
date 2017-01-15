@@ -10,6 +10,8 @@ Dark material theme for the Substratum Theme Engine (OMS/Layers)
 
 # Description:
 
+IMPORTANT: Make sure you have the latest Substratum app and cleared theme cache before reporting any errors!
+
 Theme for Substratum, using the default AOSP dark material colors.
 
 You need a ROM that supports Substratum (OMS/RRO)!
