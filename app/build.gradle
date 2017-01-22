@@ -8,8 +8,8 @@ android {
         applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 23
         targetSdkVersion 25
-        versionCode 6
-        versionName "2.1a"
+        versionCode 9
+        versionName "2.2b"
     }
     buildTypes {
         def BOOLEAN = "boolean"
