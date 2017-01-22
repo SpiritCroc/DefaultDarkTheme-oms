@@ -144,4 +144,8 @@
 
     <color name="gestures_switchbar_color">#ff424242</color>
     <color name="gestures_setting_background_color">#ff303030</color>
+
+    <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_dark</color>
+    <color name="bluetooth_pairing_code_message">@*android:color/secondary_text_material_dark</color>
+    <color name="bluetooth_phonebook_sharing_message_confirm_pin">@*android:color/secondary_text_material_dark</color>
 </resources>
