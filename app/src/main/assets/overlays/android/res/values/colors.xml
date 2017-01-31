@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <!-- BG: open with... -->
-    <color name="resolver_list_bg">#ff424242</color>
-    <!-- BG: share with -->
-    <color name="chooser_service_row_background_color">#ff303030</color>
+
+    <color name="accent_material_light">#ff009688</color>
+    <color name="accent_material_dark">#ff80cbc4</color>
 
     <color name="app_permission_icon_tint">#ffffffff</color>
 

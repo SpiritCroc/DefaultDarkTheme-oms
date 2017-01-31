@@ -163,18 +163,6 @@
         <item name="textColor">#ffffffff</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorControlActivated">#33ffffff</item><!-- ?attr/colorControlHighlight -> ripple_material_dark -->
-        <item name="android:listPreferredItemPaddingStart">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
-        <item name="android:listPreferredItemPaddingEnd">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
-    </style>
-
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material" />
 
     <style name="ThemeOverlay.Material.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
@@ -213,36 +201,66 @@
         <item name="windowDrawsSystemBarBackgrounds">false</item>
         <item name="textColor">#ffffffff</item>
         <item name="textColorHint">#ffffffff</item>
-        <item name="android:colorAccent">#ff80cbc4</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Settings" />
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.DeviceDefault.Settings.Dialog" parent="@*android:style/Theme.Material.Settings.Dialog" />
+    <style name="Theme.DeviceDefault.Settings.Dialog" parent="@*android:style/Theme.Material.Settings.Dialog">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.DeviceDefault.Settings.DialogWhenLarge" parent="@*android:style/Theme.Material.Settings.DialogWhenLarge" />
+    <style name="Theme.DeviceDefault.Settings.DialogWhenLarge" parent="@*android:style/Theme.Material.Settings.DialogWhenLarge">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.DeviceDefault.Settings.Dialog.Alert" parent="@*android:style/Theme.Material.Settings.Dialog.Alert" />
+    <style name="Theme.DeviceDefault.Settings.Dialog.Alert" parent="@*android:style/Theme.Material.Settings.Dialog.Alert">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material" />
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.NoActionBar" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Theme.Material.Settings.NoActionBar" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert" />
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.Dialog.Alert" parent="@*android:style/Theme.Material.Settings.Dialog.BaseAlert" />
+    <style name="Theme.Material.Settings.Dialog.Alert" parent="@*android:style/Theme.Material.Settings.Dialog.BaseAlert">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.Material.Settings.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.SearchBar" parent="@*android:style/Theme.Material.SearchBar" />
+    <style name="Theme.Material.Settings.SearchBar" parent="@*android:style/Theme.Material.SearchBar">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
-    <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu" />
+    <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 </resources>

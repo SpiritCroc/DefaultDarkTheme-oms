@@ -43,6 +43,6 @@
 
     <color name="primary_dark">#ff000000</color>
     <color name="primary">#ff212121</color>
-    <color name="accent">#ff80cbc4</color>
-    <color name="accent_dark">#ff80cbc4</color>
+    <color name="accent">@*android:color/accent_material_dark</color>
+    <color name="accent_dark">@*android:color/accent_material_dark</color>
 </resources>

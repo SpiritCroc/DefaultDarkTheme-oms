@@ -15,7 +15,7 @@
 	limitations under the License.
 -->
 <resources>
-    <color name="theme_accent">#ff80cbc4</color>
+    <color name="theme_accent">@android:color/holo_blue_bright</color>
     <color name="navbar_edit_icon_color">#b3ffffff</color>
     <!--
     <color name="divider">#ffe0e0e0</color>
@@ -26,13 +26,13 @@
 
     <color name="switchbar_background_color">#ff424242</color>
     <color name="switchbar_text_color">#ffffffff</color>
-    <color name="switch_accent_color">#ff80cbc4</color>
+    <color name="switch_accent_color">@android:color/holo_blue_bright</color>
 
     <color name="fab_ripple">#51ffffff</color><!-- ripple_material_dark = highlight_alpha_material_dark (0.2) + foreground_material_dark (ffffff) -->
     <color name="fab_shape">#ff424242</color>
 
     <!-- Contributors -->
-    <color name="contributors_cloud_fg_color">#ff80cbc4</color>
+    <color name="contributors_cloud_fg_color">@android:color/holo_blue_bright</color>
     <color name="contributors_cloud_selected_color">#ff5252</color>
 
     <color name="weather_settings_icon_tint">#b3ffffff</color>

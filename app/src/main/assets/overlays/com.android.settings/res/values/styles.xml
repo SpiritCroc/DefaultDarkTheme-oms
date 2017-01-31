@@ -39,6 +39,7 @@
 
     <!-- Themes -->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <!--item name="android:colorAccent">#ff80cbc4</item-->
         <!--item name="android:textColor">#ffffffff</item--><!--would override dashboard_category_title_text-->
         <!--item name="android:textColorPrimary">@android:color/white</item>
@@ -51,6 +52,7 @@
     </style>
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <!-- Explicitly override the background color. -->
         <!--item name="android:backgroundColor">#ff303030</item-->
 
@@ -69,6 +71,7 @@
 
     <style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
 
         <!-- Used by the ActionBar -->
         <!--item name="android:colorPrimary">#ff212121</item-->
@@ -81,10 +84,30 @@
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
         <item name="android:contentInsetStart">16dp</item>
         <item name="android:popupTheme">@android:style/Widget.Material.PopupMenu</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
 
-    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item></style>
 
-    <style name="Theme.SettingsAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert" />
+    <style name="Theme.SettingsAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 
+
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.DeviceDefault.Dark.ActionBar.Accent">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
 </resources>
