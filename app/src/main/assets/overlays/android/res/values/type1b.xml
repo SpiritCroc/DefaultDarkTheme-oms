@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <bool name="config_allowNotificationIconTextTinting">true</bool>
+    -->
+    <bool name="config_useDarkBgNotificationIconTextTinting">false</bool>
+
+    <color name="system_notification_accent_color">#ff607D8B</color>
+
+    <!--
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="notification_template_divider">#29000000</drawable>
+    <drawable name="notification_template_divider_media">#29ffffff</drawable>
+    -->
+
+    <color name="notification_material_background_color">#ffffffff</color>
+
+    <color name="notification_default_color">#757575</color> <!-- Gray 600 -->
+    <!--
+    <color name="notification_icon_default_color">@color/notification_default_color</color>
+    -->
+
+    <color name="notification_progress_background_color">@*android:color/secondary_text_material_light</color>
+
+    <color name="notification_action_list">#ffeeeeee</color>
+    <color name="notification_action_list_dark">#ffe0e0e0</color>
+
+    <color name="notification_text_default_color">@*android:color/notification_default_color</color>
+
+    <color name="sender_text_color">@android:color/black</color>
+
+    <style name="TextAppearance.Material.Notification" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textColor">@*android:color/secondary_text_material_light</item>
+        <item name="android:textSize">@*android:dimen/notification_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.Notification.Title">
+        <item name="android:textColor">@*android:color/primary_text_default_material_light</item>
+        <item name="android:textSize">@*android:dimen/notification_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.Notification.Info">
+        <item name="android:textColor">@*android:color/secondary_text_default_material_light</item>
+        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+    </style>
+</resources>
