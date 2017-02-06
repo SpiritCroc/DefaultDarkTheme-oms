@@ -13,6 +13,11 @@ Dark material theme for the Substratum Theme Engine (OMS/Layers)
 IMPORTANT: Make sure you have the latest Substratum app and cleared theme cache before reporting any errors!
 
 Theme for Substratum, using the default AOSP dark material colors.
+Alternative color accent options for SystemUI or Settings apart from default teal:
+- Amber (like AICP)
+- Red
+- Green
+- Blue
 
 You need a ROM that supports Substratum (OMS/RRO)!
 
@@ -23,10 +28,49 @@ Themed parts:
 - PackageInstaller
 - DocumentsUI
 - CM Settings
+- AICP Extras
+- AOSP Calculator
 - AOSP Contacts
 - AOSP Dialer
+- AOSP Email
 - AOSP Messenger
 - Substratum
+
+
+Variants explained:
+
+Android System:
+- Overlay type:
+    Default: Use with OMS-supporting ROMs
+    RRO: Use when running Substratum in legacy mode
+- Notifications:
+    Default: Light notifications (ensure readability for all applications)
+    Dark: Dark notifications
+    Dark_legacy: Use if your ROM doesn't have the latest OMS commits or if you don't like dynamic notification title/icon colors
+- Settings accent: Accent color for Settings
+- System accent: Accent color for System/SystemUI
+
+Phone:
+- App version:
+    Default: Select if you don't have speed dial settings (e.g. AOSP)
+    speed_dial: Select if you have speed dial settings (e.g. LaOS-based)
+
+SystemUI:
+- Notifications:
+    Default: Select if you selected default for Android System notifications variant
+    Dark: Select if you selected dark or dark_legacy for Android System notifications variant
+- QS Tile title size:
+    Default: Keep stock title size
+    Small: Reduce QS title size a little bit
+- QS/Volume style
+    Solid: Solid background for QS and volume slider
+    Transparent: Semi-transparent background for QS and volume slider
+
+Substratum:
+- Style:
+    Default: Keep default accent colors
+    match_settings: Use colors that integrate with system settings
+
 
 Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms
 
