@@ -101,6 +101,7 @@
         <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
         <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorSecondary">#ff424242</item><!--Used as bg in drawable/switchbar_background-->
     </style>
 
     <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
@@ -109,5 +110,6 @@
         <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
         <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorSecondary">#ff424242</item><!--Used as bg in drawable/switchbar_background-->
     </style>
 </resources>
