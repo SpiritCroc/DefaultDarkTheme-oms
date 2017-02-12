@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
     <bool name="config_allowNotificationIconTextTinting">true</bool>
-    -->
+
     <bool name="config_useDarkBgNotificationIconTextTinting">false</bool>
 
     <color name="system_notification_accent_color">#ff607D8B</color>
