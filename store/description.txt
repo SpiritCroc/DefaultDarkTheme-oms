@@ -13,11 +13,6 @@ Dark material theme for the Substratum Theme Engine (OMS/Layers)
 IMPORTANT: Make sure you have the latest Substratum app and cleared theme cache before reporting any errors!
 
 Theme for Substratum, using the default AOSP dark material colors.
-Alternative color accent options for SystemUI or Settings apart from default teal:
-- Amber (like AICP)
-- Red
-- Green
-- Blue
 
 You need a ROM that supports Substratum (OMS/RRO)!
 
@@ -35,6 +30,12 @@ Themed parts:
 - AOSP Email
 - AOSP Messenger
 - Substratum
+
+Alternative color accent options for SystemUI or Settings apart from default teal:
+- Amber (like AICP)
+- Red
+- Green
+- Blue
 
 
 Variants explained:
