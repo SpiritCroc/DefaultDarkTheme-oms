@@ -4,7 +4,10 @@
     <!--
     <color name="primary">#009688</color>
     <color name="primary_dark">#00796B</color>
-    <color name="accent">#FFC107</color>
+    -->
+    <color name="accent">@android:color/holo_blue_bright</color>
+    <!--
+    <color name="accentFallback">@android:color/holo_blue_bright</color>
     -->
     <color name="icon_grey">#b3ffffff</color>
     <!--
@@ -16,14 +19,19 @@
     <color name="yellow500">#FFC107</color>
     -->
 
-    <color name="dh_primary">#ff212121</color>
-    <color name="dh_primary_dark">#ff000000</color>
-    <color name="dh_accent">@android:color/holo_blue_bright</color>
+    <color name="dark_primary">#ff212121</color>
+    <color name="dark_primary_dark">#ff000000</color>
 
-    <color name="dh_primary_text">#ffffffff</color>
-    <color name="dh_icons">#b3ffffff</color>
-    <color name="dh_divider">#ff303030</color>
+    <color name="dark_secondary_text">#b3ffffff</color>
 
     <color name="su_request_background">#ff303030</color>
 
+
+    <!-- Deprecated -->
+    <color name="dh_primary">#ff212121</color>
+    <color name="dh_primary_dark">#ff000000</color>
+    <color name="dh_accent">@android:color/holo_blue_bright</color>
+    <color name="dh_primary_text">#ffffffff</color>
+    <color name="dh_icons">#b3ffffff</color>
+    <color name="dh_divider">#ff303030</color>
 </resources>
