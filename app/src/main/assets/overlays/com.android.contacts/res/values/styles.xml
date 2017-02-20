@@ -15,10 +15,6 @@
         <item name="android:colorAccent">#0288d1</item>
     </style>
 
-    <style name="PeopleTheme1" parent="@android:style/Theme.Material" >
-        <item name="android:colorAccent">#0288d1</item>
-    </style>
-
 
     <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Material.Spinner">
         <!--
