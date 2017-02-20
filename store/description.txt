@@ -35,10 +35,18 @@ For a fitting telegram theme using the telegram inbuilt theme engine, look here:
 https://github.com/SpiritCroc/DefaultDarkTheme-telegram
 
 Alternative color accent options for SystemUI or Settings apart from default teal:
-- Amber (like AICP)
+- Amber (AICP)
+- Blue (Pixel)
+- Blue light
+- Cyan
+- Green (3 variants)
+- Lime
+- Orange
+- Pink
+- Purple
 - Red
-- Green
-- Blue
+- White
+- Yellow
 
 
 Variants explained:
@@ -53,6 +61,11 @@ Android System:
     Dark_legacy: Use if your ROM doesn't have the latest OMS commits or if you don't like dynamic notification title/icon colors
 - Settings accent: Accent color for Settings
 - System accent: Accent color for System/SystemUI
+
+Contacts:
+- Overlay type:
+    Default: Use with OMS-supporting ROMs
+    RRO: Use when running Substratum in legacy mode
 
 Phone:
 - App version:
