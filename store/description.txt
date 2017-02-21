@@ -31,6 +31,9 @@ Themed parts:
 - AOSP Messenger
 - Substratum
 
+For a fitting telegram theme using the telegram inbuilt theme engine, look here:
+https://github.com/SpiritCroc/DefaultDarkTheme-telegram
+
 Alternative color accent options for SystemUI or Settings apart from default teal:
 - Amber (like AICP)
 - Red
