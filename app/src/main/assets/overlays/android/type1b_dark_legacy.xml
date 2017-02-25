@@ -16,7 +16,7 @@
 
     <color name="notification_material_background_color">#ff212121</color>
 
-    <color name="notification_default_color">#b3ffffff</color>
+    <color name="notification_default_color">#ffffffff</color>
     <!--
     <color name="notification_icon_default_color">@color/notification_default_color</color>
     -->
