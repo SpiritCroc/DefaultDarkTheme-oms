@@ -12,4 +12,8 @@
         <item name="android:fontFamily">roboto-regular</item>
         <item name="android:textColor">#b3ffffff</item>
     </style>
+
+    <style name="TextAppearance.SwitchBar" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
 </resources>
