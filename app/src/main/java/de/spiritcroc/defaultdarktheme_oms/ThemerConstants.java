@@ -10,7 +10,7 @@ class ThemerConstants {
 
     // AntiPiracy Library Configurations (Relies on PIRACY_CHECK)
     static final Boolean ENFORCE_INTERNET_CHECK = false;
-    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = true;
+    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = false;
     static final Boolean ENFORCE_AMAZON_APP_STORE_INSTALL = false;
 
     // Blacklisted APKs to prevent theme launching
