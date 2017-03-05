@@ -67,10 +67,23 @@ Contacts:
     Default: Use with OMS-supporting ROMs
     RRO: Use when running Substratum in legacy mode
 
+Files (DocumetsUI):
+- Android version:
+    Default: Use when running Android 7.* or later
+    marshmallow_or_before: Use when running older Android versions
+
 Phone:
+- Android version:
+    Default: Use when running Android 7.* or later
+    marshmallow_or_before: Use when running older Android versions
 - App version:
     Default: Select if you don't have speed dial settings (e.g. AOSP)
     speed_dial: Select if you have speed dial settings (e.g. LaOS-based)
+
+Settings:
+- Android version:
+    Default: Use when running Android 7.* or later
+    marshmallow_or_before: Use when running older Android versions
 
 SystemUI:
 - Notifications:
