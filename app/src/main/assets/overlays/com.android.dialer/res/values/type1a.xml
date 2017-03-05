@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="DialtactsTheme" parent="@*com.android.dialer:Theme.AppCompat">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="@*com.android.dialer:attr/windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="@*com.android.dialer:attr/windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="@*com.android.dialer:attr/actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="@*com.android.dialer:attr/actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="@*com.android.dialer:attr/activated_background">@*com.android.dialer:drawable/list_item_activated_background</item>
+        <item name="@*com.android.dialer:attr/section_header_background">@*com.android.dialer:drawable/list_title_holo</item>
+        <item name="@*com.android.dialer:attr/list_section_header_height">32dip</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_top">12dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_right">32dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_bottom">12dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_left">16dp</item>
+        <item name="@*com.android.dialer:attr/list_item_gap_between_image_and_text">15dp</item>
+        <item name="@*com.android.dialer:attr/list_item_gap_between_label_and_data">5dip</item>
+        <item name="@*com.android.dialer:attr/list_item_presence_icon_margin">4dip</item>
+        <item name="@*com.android.dialer:attr/list_item_presence_icon_size">16dip</item>
+        <item name="@*com.android.dialer:attr/list_item_photo_size">40dp</item>
+        <item name="@*com.android.dialer:attr/list_item_profile_photo_size">70dip</item>
+        <item name="@*com.android.dialer:attr/list_item_prefix_highlight_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_background_color">#ff303030</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_indent">8dip</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_color">#b3ffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_size">14sp</item>
+        <item name="@*com.android.dialer:attr/list_item_header_height">30dip</item>
+        <item name="@*com.android.dialer:attr/list_item_data_width_weight">5</item>
+        <item name="@*com.android.dialer:attr/list_item_label_width_weight">3</item>
+        <item name="@*com.android.dialer:attr/contact_browser_list_padding_left">0dp</item>
+        <item name="@*com.android.dialer:attr/contact_browser_list_padding_right">0dp</item>
+        <item name="@*com.android.dialer:attr/contact_browser_background">@*android:color/background_material_dark</item>
+        <item name="@*com.android.dialer:attr/list_item_name_text_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_name_text_size">16sp</item>
+        <item name="@*com.android.dialer:attr/list_item_text_indent">8dip</item>
+        <item name="@*com.android.dialer:attr/list_item_text_offset_top">-2dp</item>
+        <!-- CallLog -->
+        <item name="@*com.android.dialer:attr/call_log_primary_text_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/call_log_primary_background_color">#000000</item>
+        <item name="@*com.android.dialer:attr/call_log_secondary_text_color">#b3ffffff</item>
+        <item name="@*com.android.dialer:attr/call_log_secondary_background_color">#333333</item>
+        <item name="@*com.android.dialer:attr/call_log_header_color">#33b5e5</item>
+        <!-- VoicemailStatus -->
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_height">48dip</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_background_color">#262626</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_text_color">#888888</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_action_text_color">#33b5e5</item>
+        <!-- Favorites -->
+        <item name="@*com.android.dialer:attr/favorites_padding_bottom">?android:attr/actionBarSize</item>
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <item name="android:colorAccent">#ff4fc3f7</item>
+        <item name="@*com.android.dialer:attr/dialpad_key_button_touch_tint">#3303a9f4</item>
+        <item name="android:colorControlActivated">#0288d1</item>
+    </style>
+
+
+    <style name="SettingsStyle" parent="@*com.android.dialer:style/Theme.AppCompat">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@*com.android.dialer:style/DialtactsActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="@*com.android.dialer:attr/windowActionBarOverlay">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
+        <item name="@*com.android.dialer:attr/actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <item name="android:colorAccent">#ff4fc3f7</item>
+        <item name="@*com.android.dialer:attr/colorPrimary">#0288d1</item>
+        <item name="@*com.android.dialer:attr/colorPrimaryDark">#0277bd</item>
+        <item name="@*com.android.dialer:attr/colorAccent">#ff4fc3f7</item>
+    </style>
+
+    <style name="DialtactsActionBarStyle" parent="@*com.android.dialer:Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">#0288d1</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:height">56dp</item>
+        <item name="android:elevation">2dp</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+        <!-- Shift the title text to the right -->
+        <item name="android:contentInsetStart">72dp</item>
+    </style>
+
+    <style name="CallDetailActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#b3ffffff</item>
+        <!--
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="@*com.android.dialer:attr/windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="@*com.android.dialer:attr/actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="@*com.android.dialer:attr/actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="@*com.android.dialer:attr/activated_background">@*com.android.dialer:drawable/list_item_activated_background</item>
+        <item name="@*com.android.dialer:attr/section_header_background">@*com.android.dialer:drawable/list_title_holo</item>
+        <item name="@*com.android.dialer:attr/list_section_header_height">32dip</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_top">12dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_right">32dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_bottom">12dp</item>
+        <item name="@*com.android.dialer:attr/list_item_padding_left">16dp</item>
+        <item name="@*com.android.dialer:attr/list_item_gap_between_image_and_text">15dp</item>
+        <item name="@*com.android.dialer:attr/list_item_gap_between_label_and_data">5dip</item>
+        <item name="@*com.android.dialer:attr/list_item_presence_icon_margin">4dip</item>
+        <item name="@*com.android.dialer:attr/list_item_presence_icon_size">16dip</item>
+        <item name="@*com.android.dialer:attr/list_item_photo_size">40dp</item>
+        <item name="@*com.android.dialer:attr/list_item_profile_photo_size">70dip</item>
+        <item name="@*com.android.dialer:attr/list_item_prefix_highlight_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_background_color">#ff303030</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_indent">8dip</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_color">#b3ffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_header_text_size">14sp</item>
+        <item name="@*com.android.dialer:attr/list_item_header_height">30dip</item>
+        <item name="@*com.android.dialer:attr/list_item_data_width_weight">5</item>
+        <item name="@*com.android.dialer:attr/list_item_label_width_weight">3</item>
+        <item name="@*com.android.dialer:attr/contact_browser_list_padding_left">0dp</item>
+        <item name="@*com.android.dialer:attr/contact_browser_list_padding_right">0dp</item>
+        <item name="@*com.android.dialer:attr/contact_browser_background">@*android:color/background_material_dark</item>
+        <item name="@*com.android.dialer:attr/list_item_name_text_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/list_item_name_text_size">16sp</item>
+        <item name="@*com.android.dialer:attr/list_item_text_indent">8dip</item>
+        <item name="@*com.android.dialer:attr/list_item_text_offset_top">-2dp</item>
+        <!-- CallLog -->
+        <item name="@*com.android.dialer:attr/call_log_primary_text_color">#ffffffff</item>
+        <item name="@*com.android.dialer:attr/call_log_secondary_text_color">#b3ffffff</item>>
+        <!-- Favorites -->
+        <item name="@*com.android.dialer:attr/favorites_padding_bottom">?android:attr/actionBarSize</item>
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <item name="@*com.android.dialer:attr/colorPrimary">#0288d1</item>
+        <item name="@*com.android.dialer:attr/colorPrimaryDark">#0277bd</item>
+        <item name="android:colorAccent">#ff4fc3f7</item>
+        <item name="@*com.android.dialer:attr/dialpad_key_button_touch_tint">#3303a9f4</item>
+        <item name="android:colorControlActivated">#0288d1</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <!-- CallLog -->
+        <item name="@*com.android.dialer:attr/call_log_primary_background_color">#ff303030</item>
+        <item name="@*com.android.dialer:attr/call_log_secondary_background_color">#ff212121</item>
+        <item name="@*com.android.dialer:attr/call_log_header_color">#ff424242</item>
+        <!-- VoicemailStatus -->
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_height">48dip</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_background_color">#ff212121</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_text_color">#80ffffff</item>
+        <item name="@*com.android.dialer:attr/call_log_voicemail_status_action_text_color">#33b5e5</item>
+    </style>
+
+    <!-- Theme for the InCallActivity activity. Should have a transparent background for the
+         circular reveal animation for a new outgoing call to work correctly. We don't just use
+         Theme.Black.NoTitleBar directly, since we want any popups or dialogs from the
+         InCallActivity to have the correct Material style. -->
+    <style name="Theme.InCallScreen" parent="@*com.android.dialer:style/Theme.AppCompat">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="@*com.android.dialer:attr/dialpad_key_button_touch_tint">#3303A9F4</item>
+        <item name="android:popupMenuStyle">@style/InCallPopupMenuStyle</item>
+        <item name="android:actionBarStyle">@style/InCallActionBarStyle</item>
+        <item name="android:buttonStyleToggle">@style/InCallCompoundButton</item>
+        <item name="android:alertDialogTheme">@android:style/Theme.Material.Dialog.Alert</item>
+    </style>
+</resources>
