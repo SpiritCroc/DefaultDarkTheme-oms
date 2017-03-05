@@ -4,7 +4,7 @@
     <color name="notification_legacy_background_color">#ff1a1a1a</color>
 
     <!-- The color of the material notification background -->
-    <color name="notification_material_background_color">@*android:color/notification_material_background_color</color>
+    <color name="notification_material_background_color">#ffffffff</color>
 
     <!-- The color of the material notification background when dimmed -->
     <color name="notification_material_background_dimmed_color">#ccffffff</color>
