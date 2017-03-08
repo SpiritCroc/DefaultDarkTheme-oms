@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="notification_material_background_color">#ff212121</color>
+
     <bool name="config_allowNotificationIconTextTinting">false</bool>
 
     <bool name="config_useDarkBgNotificationIconTextTinting">true</bool>
@@ -13,8 +15,6 @@
     <drawable name="notification_template_divider">#29000000</drawable>
     <drawable name="notification_template_divider_media">#29ffffff</drawable>
     -->
-
-    <color name="notification_material_background_color">#ff212121</color>
 
     <color name="notification_default_color">#ffffffff</color>
     <!--
