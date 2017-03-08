@@ -108,6 +108,7 @@
     <color name="material_drawer_selected">#ff424242</color>
     <color name="material_drawer_selected_text">#ffffffff</color>
     <color name="material_drawer_hint_text">#42ffffff</color><!-- disabled item -->
+    <color name="material_drawer_primary_icon">#ffffffff</color>
     <!--
     <color name="material_drawer_header_background">@color/colorPrimary</color>
 
