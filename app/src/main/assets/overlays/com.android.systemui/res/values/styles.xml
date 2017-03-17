@@ -16,4 +16,10 @@
     <style name="TextAppearance.SwitchBar" parent="@android:style/TextAppearance.Material.Title">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
+
+    <style name="ThemeOverlay.SwitchBar.Secondary" parent="@android:style/ThemeOverlay">
+        <!-- Disable this, doesn't look good (black on dark notification guts
+        <item name="android:colorAccent">?android:attr/colorSecondary</item>
+        -->
+    </style>
 </resources>
