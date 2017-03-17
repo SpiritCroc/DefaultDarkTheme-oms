@@ -160,7 +160,7 @@
 
     <style name="Widget.DeviceDefault.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu">
         <item name="android:popupBackground">@android:color/background_dark</item>
-        <item name="textColor">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material" />
@@ -170,37 +170,37 @@
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material" />
 
     <style name="Theme.Dialog.AppError" parent="@android:style/Theme.Material.Dialog.Alert">
-        <item name="windowCloseOnTouchOutside">false</item>
-        <item name="windowContentTransitions">false</item>
-        <item name="windowActivityTransitions">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">false</item>
     </style>
 
     <style name="Theme.DeviceDefault.Dialog.FixedSize" parent="@android:style/Theme.Material.Dialog">
-        <item name="windowFixedWidthMajor">320.0dip</item>
-        <item name="windowFixedHeightMinor">100.0%</item>
-        <item name="windowFixedWidthMinor">320.0dip</item>
-        <item name="windowFixedHeightMajor">79.99999%</item>
+        <item name="@*android:attr/windowFixedWidthMajor">320.0dip</item>
+        <item name="@*android:attr/windowFixedHeightMinor">100.0%</item>
+        <item name="@*android:attr/windowFixedWidthMinor">320.0dip</item>
+        <item name="@*android:attr/windowFixedHeightMajor">79.99999%</item>
     </style>
 
     <style name="Theme.DeviceDefault.Dialog.NoActionBar.FixedSize" parent="@android:style/Theme.Material.Dialog.NoActionBar">
-        <item name="windowFixedWidthMajor">320.0dip</item>
-        <item name="windowFixedHeightMinor">100.0%</item>
-        <item name="windowFixedWidthMinor">320.0dip</item>
-        <item name="windowFixedHeightMajor">79.99999%</item>
+        <item name="@*android:attr/windowFixedWidthMajor">320.0dip</item>
+        <item name="@*android:attr/windowFixedHeightMinor">100.0%</item>
+        <item name="@*android:attr/windowFixedWidthMinor">320.0dip</item>
+        <item name="@*android:attr/windowFixedHeightMajor">79.99999%</item>
     </style>
 
     <style name="Theme.DeviceDefault.FloatingWindowLight" parent="@android:style/Theme.Material.Dialog">
-        <item name="windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:backgroundTint">@android:color/background_dark</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-        <item name="backgroundDimEnabled">true</item>
-        <item name="windowTranslucentStatus">false</item>
-        <item name="windowTranslucentNavigation">false</item>
-        <item name="windowDrawsSystemBarBackgrounds">false</item>
-        <item name="textColor">#ffffffff</item>
-        <item name="textColorHint">#ffffffff</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffffffff</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
     </style>
 
