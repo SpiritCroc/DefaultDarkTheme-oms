@@ -8,4 +8,11 @@
 
     <style name="ThemeOverlay.AppCompat.Light" parent="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark" />
 
+    <style name="ShowcaseDialog" parent="@*projekt.substratum:style/Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="@*projekt.substratum:attr/windowActionBar">false</item>
+        <item name="@*projekt.substratum:attr/windowNoTitle">true</item>
+    </style>
+
 </resources>
