@@ -13,9 +13,9 @@
 
 <resources>
 
-    <!-- does not exist on M -->
+    <!-- does not exist on LP -->
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/Theme.Material" />
 
-    <!-- does not exist on M -->
+    <!-- does not exist on LP -->
     <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/Theme.Material" />
 </resources>
