@@ -12,7 +12,7 @@ Dark material theme for the Substratum Theme Engine (OMS/Layers)
 
 IMPORTANT: Make sure you have the latest Substratum app and cleared theme cache before reporting any errors!
 
-Theme for Substratum, using the default AOSP dark material colors.
+Theme for Substratum, based on the default AOSP dark material colors.
 
 You need a ROM that supports Substratum (OMS/RRO)!
 
@@ -30,6 +30,7 @@ Themed parts:
 - AOSP Email
 - AOSP Messenger
 - Substratum
+- Rview
 
 For a fitting telegram theme using the telegram inbuilt theme engine, look here:
 https://github.com/SpiritCroc/DefaultDarkTheme-telegram
@@ -56,6 +57,7 @@ Android System:
     Default: Use with OMS-supporting ROMs
     RRO: Use when running Substratum in legacy mode
 - Notifications:
+   Make sure you are using a dark variant in SystemUI as well when switching to a dark variant here!
     Default: Light notifications (ensure readability for all applications)
     Dark: Dark notifications
     Dark_legacy: Use if your ROM doesn't have the latest OMS commits or if you don't like dynamic notification title/icon colors
@@ -83,12 +85,15 @@ Phone:
 Settings:
 - Android version:
     Default: Use when running Android 7.* or later
-    marshmallow_or_before: Use when running older Android versions
+    lollipop: Use with older Android versions than marshmallow
+    marshmallow: Use when running Android 6.*
 
 SystemUI:
 - Notifications:
-    Default: Select if you selected default for Android System notifications variant
-    Dark: Select if you selected dark or dark_legacy for Android System notifications variant
+   Make sure you are using a dark variant in Android System as well when switching to a dark variant here!
+    Default: Light notifications (ensure readability for all applications)
+    Dark: Dark notifications
+    Dark transparent: Semi-transparent dark notifications
 - QS Tile title size:
     Default: Keep stock title size
     Small: Reduce QS title size a little bit
