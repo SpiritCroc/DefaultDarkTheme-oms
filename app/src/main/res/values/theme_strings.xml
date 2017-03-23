@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Default Dark Theme</string>
     <string name="theme_name">Default Dark</string>
     <string name="theme_author" translatable="false">SpiritCroc</string>
     <string name="theme_author_email" translatable="false"></string>
