@@ -26,6 +26,8 @@
         -->
         <!-- Diff options title -->
         <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <!-- Pre-exposure tabs text -->
+        <item name="android:textColorSecondaryInverse">#b3ffffff</item>
         <!-- Account name in nav drawer -->
         <item name="android:textColorTertiaryInverse">#b3ffffff</item>
     </style>
