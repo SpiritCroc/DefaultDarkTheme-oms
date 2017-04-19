@@ -94,4 +94,15 @@
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
 
+    <style name="Theme.SubSettingsDialogWhenLarge" parent="@android:style/Theme.Material">
+        <item name="@*com.android.settings:attr/preferenceTheme">@*com.android.settings:style/PreferenceTheme</item>
+        <!--
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+
+        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
+        -->
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
 </resources>
