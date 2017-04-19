@@ -148,7 +148,7 @@
 
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
 
-    <style name="Theme.DeviceDefault.Light.SearchBar" parent="@style/Theme.Material.SearchBar" />
+    <style name="Theme.DeviceDefault.Light.SearchBar" parent="@android:style/Theme.Material.Panel" />
 
     <style name="Theme.Material.SearchBar" parent="@android:style/Theme.Material.Panel" />
 
