@@ -165,8 +165,6 @@
 
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material" />
 
-    <style name="ThemeOverlay.Material.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
-
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material" />
 
     <style name="Theme.Dialog.AppError" parent="@android:style/Theme.Material.Dialog.Alert">
