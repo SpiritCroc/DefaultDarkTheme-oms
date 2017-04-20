@@ -23,7 +23,7 @@
 
         <item name="android:colorPrimaryDark">@*android:color/material_blue_grey_900</item>
         <item name="android:colorPrimary">@*android:color/material_blue_grey_800</item>
-        <item name="android:colorAccent">@*android:color/material_deep_teal_200</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
 
         <item name="android:listDivider">@*android:drawable/list_divider_material</item>
 
