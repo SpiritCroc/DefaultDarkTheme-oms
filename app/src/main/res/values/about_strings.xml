@@ -139,10 +139,12 @@
         </ul>
         </p>
 
+        <p><b><font color="?attr/colorWarning">Be nice! You don&#39;t pay me anything, and I don&#39;t feel the need to fix everything you tell me to; especially if you&#39;re not being friendly! Also, don&#39;t expect any response if you haven&#39;t provided the above listed relevant information!</font></b></p>
+
         <p>There are two ways to report bugs:
         <ol type="a">
-            <li>Send me an <a href="mailto:spiritcroc@gmail.com>email</a> (please put some text in the title so I know what the mail is about; I do more in my life than this theme)</li>
-            <li>Create an issue on the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues">github page</a></li>
+            <li>Send me an <a href="mailto:spiritcroc@gmail.com><font color="?android:attr/textColorPrimary">email</font></a> (please put some text in the title so I know what the mail is about; I do more in my life than this theme)</li>
+            <li>Create an issue on the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues"><font color="?android:attr/textColorPrimary">github page</font></a>, or update an existing one</li>
         </ol>
 
         <b><font color="?attr/colorWarning">Don&#39;t report bugs by writing it in a review on google play, it&#39;s unlikely that I will look into it this way! REVIEWS ARE NOT FOR BUG REPORTS!</font></b>
