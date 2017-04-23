@@ -32,9 +32,6 @@ Themed parts:
 - Substratum
 - Rview
 
-For a fitting telegram theme using the telegram inbuilt theme engine, look here:
-https://github.com/SpiritCroc/DefaultDarkTheme-telegram
-
 Alternative color accent options for SystemUI or Settings apart from default teal:
 - Amber (AICP)
 - Blue (Pixel)
@@ -51,5 +48,3 @@ Alternative color accent options for SystemUI or Settings apart from default tea
 
 
 Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms
-
-Testing every single detail of this theme with every single ROM out there is beyond my capability. So if you find any inconsistencies, please report to spiritcroc@gmail.com (or, if you know something about theming, create a pull-request!)
