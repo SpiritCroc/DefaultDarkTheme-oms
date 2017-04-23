@@ -20,6 +20,7 @@
         </style>
 
         <p><a href="#variants">Variants</a><p>
+        <p><a href="#telegram">Telegram</a><p>
         <p><a href="#bugs">Reporting bugs</a><p>
         <p><a href="#source">Source</a><p>
 
@@ -110,6 +111,12 @@
             <li><b>Default:</b> Keep default accent colors</li>
             <li><b>match settings:</b> Use colors that integrate with system settings</li>
         </ul>
+
+
+        <a name="telegram" />
+        <h1><b><u>Telegram</u></b></h1>
+        Telegram has its own inbuilt theme engine.
+        You can get themes for that <a href="https://github.com/SpiritCroc/DefaultDarkTheme-telegram">here</a>.
 
 
         <a name="bugs" />
