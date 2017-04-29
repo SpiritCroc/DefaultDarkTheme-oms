@@ -10,8 +10,10 @@
 
 package de.spiritcroc.defaultdarktheme_oms.about;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -21,6 +23,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.StringRes;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
@@ -29,6 +34,13 @@ import de.spiritcroc.defaultdarktheme_oms.R;
 import de.spiritcroc.defaultdarktheme_oms.SubstratumLauncher;
 
 public class AboutFragment extends Fragment {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,7 +61,27 @@ public class AboutFragment extends Fragment {
             }
         });
 
+        // Remember which version of this screen the user has seen;
+        AboutActivity.markAboutSeen(getActivity());
+
         return v;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.about, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_hide_launcher:
+                promptHideLauncher();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     public static String styleHtml(Context context, @StringRes int resourceId) {
@@ -87,5 +119,24 @@ public class AboutFragment extends Fragment {
             e.printStackTrace();
             return context.getString(R.string.unknown_version);
         }
+    }
+
+    private void promptHideLauncher() {
+        new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.hide_launcher_title)
+                .setMessage(R.string.hide_launcher_message)
+                .setPositiveButton(R.string.hide_launcher_yes, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        AboutActivity.disableLauncher(getActivity());
+                    }
+                })
+                .setNegativeButton(R.string.hide_launcher_no, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        // Only dismiss
+                    }
+                })
+                .show();
     }
 }

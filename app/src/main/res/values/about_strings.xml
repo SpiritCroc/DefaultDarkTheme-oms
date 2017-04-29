@@ -177,4 +177,17 @@
         <b>For this theme to work, you need <a href="https://play.google.com/store/apps/details?id=projekt.substratum">Substratum</a>. If you don&#39;t know what Substratum is, this theme is not an app for you! Giving it a bad review because you don&#39;t know how to use it is not fair! YOU WON&#39;T GET SUPPORT IF YOU ASK FOR IT IN A REVIEW!</b>
     ]]></string>
 
+
+    <string name="action_hide_launcher">Hide from launcher</string>
+    <string name="hide_launcher_title">Hide from launcher?</string>
+    <string name="hide_launcher_message">If you hide this theme from your launcher, you won\'t be able to access this about screen anymore. Continue?</string>
+    <string name="hide_launcher_yes">@string/real_yes</string>
+    <string name="hide_launcher_no">@string/real_no</string>
+    <string name="prompt_view_current_about_title">Show explanations?</string>
+    <string name="prompt_view_current_about_message">You haven\'t seen the latest about screen for this theme yet. If you don\'t have much experience, it\'s recommended to read some information about the available variants there. You\'ll also be able to show it later from your launcher. Show now?</string>
+    <string name="prompt_view_current_about_yes">@string/real_yes</string>
+    <string name="prompt_view_current_aboutr_no">@string/real_no</string>
+
+    <string name="real_yes">Yes</string>
+    <string name="real_no">No</string>
 </resources>

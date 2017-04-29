@@ -27,6 +27,7 @@ import com.github.javiersantos.piracychecker.enums.PirateApp;
 import java.io.File;
 import java.util.ArrayList;
 
+import de.spiritcroc.defaultdarktheme_oms.about.AboutActivity;
 import projekt.substrate.SubstratumLoader;
 
 import static de.spiritcroc.defaultdarktheme_oms.ThemerConstants.APK_SIGNATURE_PRODUCTION;
@@ -173,6 +174,10 @@ public class SubstratumLauncher extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        if (AboutActivity.checkAboutUpdate(this)) {
+            return;
+        }
 
         Intent intent = getIntent();
         mVerified = intent.getBooleanExtra("certified", false);
