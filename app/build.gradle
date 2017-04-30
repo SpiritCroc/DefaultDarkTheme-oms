@@ -8,8 +8,8 @@ android {
         applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 23
         targetSdkVersion 25
-        versionCode 28
-        versionName "3.5"
+        versionCode 29
+        versionName "3.5.1"
     }
     buildTypes {
         debug {
