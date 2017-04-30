@@ -27,6 +27,8 @@ import de.spiritcroc.defaultdarktheme_oms.SubstratumLauncher;
 
 public class AboutActivity extends Activity {
 
+    static final String EXTRA_FORCE_ABOUT = "de.spiritcroc.defaultdarktheme_oms.force_about";
+
     static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
     static final String THEME_PACKAGE_NAME = "de.spiritcroc.defaultdarktheme_oms";
 
@@ -39,9 +41,12 @@ public class AboutActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Fragment fragment = isPackageInstalled(SUBSTRATUM_PACKAGE_NAME)
-                ? new AboutFragment()
-                : new DeppFragment();
+        boolean forceAbout = getIntent().getBooleanExtra(EXTRA_FORCE_ABOUT, false);
+
+        Fragment fragment = forceAbout ? new ForcedAboutFragment()
+                : isPackageInstalled(SUBSTRATUM_PACKAGE_NAME)
+                    ? new AboutFragment()
+                    : new DeppFragment();
 
         getFragmentManager().beginTransaction().replace(android.R.id.content, fragment).commit();
     }

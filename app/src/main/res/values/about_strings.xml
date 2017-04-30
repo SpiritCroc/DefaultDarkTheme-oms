@@ -188,6 +188,8 @@
     <string name="prompt_view_current_about_yes">@string/real_yes</string>
     <string name="prompt_view_current_aboutr_no">@string/real_no</string>
 
+    <string name="action_force_about">I know what I\'m doing!</string>
+
     <string name="real_yes">Yes</string>
     <string name="real_no">No</string>
 </resources>
