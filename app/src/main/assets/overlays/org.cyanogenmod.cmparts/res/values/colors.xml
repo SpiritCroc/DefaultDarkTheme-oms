@@ -35,7 +35,7 @@
     <color name="contributors_cloud_fg_color">@android:color/holo_blue_bright</color>
     <color name="contributors_cloud_selected_color">#ff5252</color>
 
-    <color name="weather_settings_icon_tint">#b3ffffff</color>
+    <color name="weather_settings_icon_tint">#ffffff</color>
 
     <!--
     <color name="perf_hot">#ffd10015</color>
