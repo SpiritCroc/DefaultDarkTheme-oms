@@ -57,6 +57,17 @@
             <li><b>RRO:</b> Use when running Substratum in legacy mode</li>
         </ul>
 
+        <h2><font color="?android:attr/colorAccent">Email (AOSP)</font></h2>
+        <ul>
+            <li><b>Default:</b> Readable on most devices.</li>
+            <li><b>theme ready:</b> Use this if you have theme-ready AOSP Email(*).</li>
+            <li><b>theme ready dark mail:</b> Use this if you have theme-ready AOSP Email(*) and want to have the mails you received dark as well (might not look well if the mail sets its own text colors)</li>
+        </ul>
+        (*) Known ROMs that include theme-ready AOSP Email:
+        <ul>
+            <li><b>AICP</b> 12.1 builds starting from 2017-05-29</li>
+        </ul>
+
         <h2><font color="?android:attr/colorAccent">Files (DocumetsUI)</font></h2>
         <h3>Android version</h3>
         <ul>

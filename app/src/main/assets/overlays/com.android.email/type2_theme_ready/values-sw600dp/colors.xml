@@ -1,0 +1,9 @@
+<resources>
+    <!-- same as without sw600dp. We have to add it again because of how type2 variants work -->
+    <color name="text_color_black">#ffffffff</color>
+    <color name="folder_list_heading_text_color">#ffffffff</color>
+    <color name="text_color_grey">#b3ffffff</color>
+    <color name="folder_list_divider_color">#ff424242</color>
+    <color name="loading_messages_background_color">#ff303030</color>
+    <color name="conversation_list_background_color">#ff303030</color>
+</resources>
