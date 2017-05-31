@@ -36,7 +36,7 @@
     -->
 
     <style name="UnifiedEmailTheme.Appcompat" parent="@*com.android.email:style/Theme.AppCompat">
-        <item name="@*com.android.email:attr/actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="@*com.android.email:attr/actionModeBackground">@*android:color/material_grey_600</item>
         <item name="@*com.android.email:attr/colorPrimary">#e7790d</item>
         <item name="@*com.android.email:attr/colorPrimaryDark">#d06d0c</item>
         <item name="@*com.android.email:attr/colorAccent">#ff4fc3f7</item>
@@ -51,7 +51,7 @@
 
     <style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@*com.android.email:style/Theme.AppCompat.NoActionBar">
         <item name="@*com.android.email:attr/actionBarPopupTheme">@*com.android.email:style/ThemeOverlay.AppCompat</item>
-        <item name="@*com.android.email:attr/actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="@*com.android.email:attr/actionModeBackground">@*android:color/material_grey_600</item>
         <item name="@*com.android.email:attr/colorPrimary">#e7790d</item>
         <item name="@*com.android.email:attr/colorPrimaryDark">#d06d0c</item>
         <item name="@*com.android.email:attr/colorAccent">#ff4fc3f7</item>
@@ -71,7 +71,7 @@
     -->
 
     <style name="ComposeTheme" parent="@*com.android.email:style/Theme.AppCompat">
-        <item name="@*com.android.email:attr/actionModeBackground">@*com.android.email:color/action_mode_background</item>
+        <item name="@*com.android.email:attr/actionModeBackground">@*android:color/material_grey_600</item>
         <item name="@*com.android.email:attr/colorPrimary">#e7790d</item>
         <item name="@*com.android.email:attr/colorPrimaryDark">#d06d0c</item>
         <item name="@*com.android.email:attr/colorAccent">#ff4fc3f7</item>
