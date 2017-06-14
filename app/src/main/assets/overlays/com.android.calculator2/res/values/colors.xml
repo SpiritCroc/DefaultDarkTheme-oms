@@ -18,7 +18,7 @@
 <resources>
 
     <!-- Default background color for the status bar. -->
-    <!--color name="calculator_accent_color">#0097A7</color-->
+    <color name="calculator_accent_color">#0097A7</color>
 
     <!-- Color to indicate an error has occured. -->
     <!--color name="calculator_error_color">#C2185B</color-->
