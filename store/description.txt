@@ -1,6 +1,6 @@
 # Name:
 
-Default Dark Substratum Theme
+Default Dark Theme for Substratum
 
 
 # Short description:
