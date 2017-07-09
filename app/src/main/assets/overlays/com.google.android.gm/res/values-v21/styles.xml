@@ -1,0 +1,11 @@
+<resources>
+    <style name="SuwThemeGlif.Light" parent="@*com.google.android.gm:style/SuwThemeGlif" />
+    <style name="SuwThemeMaterial.Light" parent="@*com.google.android.gm:style/SuwThemeMaterial" />
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">@*android:color/notification_default_color</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">@*android:color/notification_default_color</item>
+    </style>
+</resources>
