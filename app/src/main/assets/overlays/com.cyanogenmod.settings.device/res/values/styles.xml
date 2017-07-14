@@ -13,10 +13,10 @@
 -->
 <resources>
     <style name="Theme.Main" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <!--
         <item name="android:colorPrimary">@color/theme_primary</item>
         <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="android:colorAccent">@color/theme_accent</item>
         -->
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <!--
