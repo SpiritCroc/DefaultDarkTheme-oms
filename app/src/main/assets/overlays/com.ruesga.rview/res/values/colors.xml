@@ -41,7 +41,7 @@
     <color name="diffDeletedForegroundColor">#4cff0000</color>
     <color name="diffSkipBackgroundColor">#000000</color>
     <color name="diffNoDiffBackgroundColor">#303030</color>
-    <color name="diffCommentBackgroundColor">#fffecc</color>
+    <color name="diffCommentBackgroundColor">#827717</color>
     <color name="diffHighlightColor">#d32f2f</color>
 
     <color name="stats_open">#05668d</color>
