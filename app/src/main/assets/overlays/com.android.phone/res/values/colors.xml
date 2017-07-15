@@ -3,7 +3,7 @@
     <color name="dialer_theme_color">#0288d1</color>
     <color name="dialer_theme_color_dark">#0277bd</color>
 
-    <color name="phone_settings_background_color">#ff303030</color>
+    <color name="phone_settings_background_color">@*android:color/background_material_dark</color>
     <color name="phone_settings_actionbar_text_color">#FFFFFF</color>
     <!-- Background color of action bars.  Ensure this stays in sync with Dialer
          actionbar_background_color. -->

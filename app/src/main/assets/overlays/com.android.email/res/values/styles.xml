@@ -78,8 +78,8 @@
         <item name="android:colorPrimary">#e7790d</item>
         <item name="android:colorPrimaryDark">#d06d0c</item>
         <item name="android:colorAccent">#ff4fc3f7</item>
-        <item name="android:colorBackground">#ff303030</item>
-        <item name="android:colorBackgroundCacheHint">#ff303030</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/background_material_dark</item>
         <item name="android:dropDownListViewStyle">@*com.android.email:style/ComposeDropdownListViewStyle</item>
         <item name="android:windowBackground">@android:color/black</item>
     </style>
@@ -119,7 +119,7 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:animateLayoutChanges">true</item>
-        <item name="android:background">#ff303030</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
     </style>
 
     <style name="AccountSetupDialogActivityTheme"

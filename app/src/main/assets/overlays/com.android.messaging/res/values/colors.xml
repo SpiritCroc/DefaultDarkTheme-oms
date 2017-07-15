@@ -62,7 +62,7 @@
     <color name="message_text_color_incoming">#ffffffff</color>
     <color name="message_text_color_incoming_download_failed">#ff424242</color>
     <color name="message_text_color_outgoing">#ffffffff</color>
-    <color name="conversation_background">#ff303030</color>
+    <color name="conversation_background">@*android:color/background_material_dark</color>
     <!--
     <color name="conversation_edge_effect">#9d9d9d</color>
     -->
@@ -100,7 +100,7 @@
     <!--
     <color name="contact_list_alphabet_header">#689F38</color>
     -->
-    <color name="contact_picker_background">#ff303030</color>
+    <color name="contact_picker_background">@*android:color/background_material_dark</color>
     <!--
     <color name="chips_dropdown_background_activated">#4285f4</color>
     <color name="chips_dropdown_background_pressed">#ededed</color>
@@ -116,7 +116,7 @@
     <color name="translucent_white">#80ffffff</color>
     -->
 
-    <color name="gallery_image_default_background">#ff303030</color>
+    <color name="gallery_image_default_background">@*android:color/background_material_dark</color>
     <!--
     <color name="gallery_image_pressed">#6733b5e5</color>
     <color name="attachment_preview_more_items_text_background">#44000000</color>
@@ -166,8 +166,8 @@
 
     <color name="sim_selector_text_primary">#ffffffff</color>
     <color name="sim_selector_text_secondary">#b3ffffff</color>
-    <color name="sim_selector_background_end">#ff303030</color>
-    <color name="sim_selector_background_start">#ff303030</color>
+    <color name="sim_selector_background_end">@*android:color/background_material_dark</color>
+    <color name="sim_selector_background_start">@*android:color/background_material_dark</color>
     <color name="sim_indicator_color_light">#ffffff</color>
     <color name="sim_indicator_color_dark">#ffffff</color>
 
@@ -195,8 +195,8 @@
     <color name="widget_conversation_title_color">#FFFFFF</color>
     -->
 
-    <color name="attachment_chooser_audio_background">#ff303030</color>
-    <color name="attachment_chooser_vcard_background">#ff303030</color>
+    <color name="attachment_chooser_audio_background">@*android:color/background_material_dark</color>
+    <color name="attachment_chooser_vcard_background">@*android:color/background_material_dark</color>
 
     <color name="fastscroll_track_color">#1effffff</color>
     <color name="fastscroll_thumb_color">#42ffffff</color>
@@ -226,7 +226,7 @@
     -->
 
     <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
-    <color name="background">#ff303030</color>
+    <color name="background">@*android:color/background_material_dark</color>
     <color name="darkgray_backgrounds">#ff212121</color>
     <!--
     <color name="transparent">#00000000</color>
@@ -241,7 +241,7 @@
     <color name="action_mode_background_color">#424F53</color>
     -->
 
-    <color name="qm_background">#303030</color>
+    <color name="qm_background">@*android:color/background_material_dark</color>
     <color name="qm_fading_edge_color">#ff424242</color>
     <color name="qm_from_text_color">#ffffffff</color>
     <color name="qm_recv_timestamp_text_color">#80ffffff</color>
@@ -253,20 +253,20 @@
 
     <color name="pending_item_view_background_color">#ff616161</color>
     <color name="mediapicker_audio_chooser_background_color">#ff212121</color>
-    <color name="missing_permission_view_background_color">#ff303030</color>
+    <color name="missing_permission_view_background_color">@*android:color/background_material_dark</color>
     <color name="audio_list_view_background_color">#ff212121</color>
     <color name="camera_shutter_visual_background_color">#ff000000</color>
     <color name="gallery_grid_view_background_color">#ff212121</color>
     <color name="permission_check_activity_divider">#ffffffff</color>
-    <color name="debug_mmsconfig_item_view_background_color">#ff303030</color>
+    <color name="debug_mmsconfig_item_view_background_color">@*android:color/background_material_dark</color>
     <color name="mediapicker_camera_chooser_background_color">#ff000000</color>
     <color name="camera_video_counter_text_color">@android:color/white</color>
-    <color name="sms_storage_low_warning_dialog_background_color">#ff303030</color>
+    <color name="sms_storage_low_warning_dialog_background_color">@*android:color/background_material_dark</color>
     <!--
     <color name="widget_loading_text_color">@android:color/black</color>
     -->
     <color name="snack_bar_background_color">#ff212121</color>
     <color name="snack_bar_action_text_color">#EEFF41</color>
-    <color name="mic_recording_color">#ff303030</color>
+    <color name="mic_recording_color">@*android:color/background_material_dark</color>
     <color name="mic_background_color">#ff212121</color>
 </resources>

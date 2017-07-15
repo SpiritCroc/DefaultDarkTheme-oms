@@ -88,8 +88,8 @@
     <color name="wallpaper_bg_background">@android:color/black</color>
     -->
 
-    <color name="theme_information_background">#ff303030</color>
-    <color name="theme_information_card_background">#ff303030</color>
+    <color name="theme_information_background">@*android:color/background_material_dark</color>
+    <color name="theme_information_card_background">@*android:color/background_material_dark</color>
     <color name="theme_information_card_title">@color/colorAccent</color>
     <color name="theme_information_card_text">@android:color/white</color>
     <color name="theme_information_card_divider">#33777777</color>
@@ -100,7 +100,7 @@
     -->
 
     <color name="material_drawer_icon_color">#ffffffff</color>
-    <color name="material_drawer_background">#ff303030</color>
+    <color name="material_drawer_background">@*android:color/background_material_dark</color>
     <!-- More drawer cusomization from https://github.com/mikepenz/MaterialDrawer -->
     <color name="material_drawer_primary_text">#ffffffff</color>
     <color name="material_drawer_secondary_text">#b3ffffff</color>

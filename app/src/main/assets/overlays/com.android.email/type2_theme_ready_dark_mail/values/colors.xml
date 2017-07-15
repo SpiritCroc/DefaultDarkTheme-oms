@@ -28,7 +28,7 @@ packages/apps/UnifiedEmail
 
     <!-- Conversation message header colors -->
     <color name="conversation_view_border_color">#80ffffff</color>
-    <color name="conversation_view_background_color">#303030</color>
+    <color name="conversation_view_background_color">@*android:color/background_material_dark</color>
     <color name="conversation_view_text_color_light">#b3ffffff</color>
     <color name="conversation_view_text_color_dark">#ffffffff</color>
     <color name="conversation_view_text_color_link_blue">#ff4fc3f7</color>
@@ -48,7 +48,7 @@ packages/apps/UnifiedEmail
     <color name="search_status_bar_color">#ff000000</color>
 
     <!-- The background color of the message header -->
-    <color name="message_header_background_color">#ff303030</color>
+    <color name="message_header_background_color">@*android:color/background_material_dark</color>
 
 
 
@@ -58,17 +58,17 @@ packages/apps/UnifiedEmail
 
     <color name="drawer_icon_active">#ffffffff</color>
 
-    <color name="wait_for_manual_sync_bg">#ff303030</color>
-    <color name="wait_default_bg">#ff303030</color>
-    <color name="mail_actionbar_searchview_bg">#ff303030</color>
-    <color name="conversation_footer_bg">#ff303030</color>
-    <color name="conversation_message_header_bg">#ff303030</color>
-    <color name="conversation_message_footer_bg">#ff303030</color>
-    <color name="conversation_view_header_bg">#ff303030</color>
-    <color name="account_feedback_bg">#ff303030</color>
-    <color name="search_suggestion_list_bg">#ff303030</color>
+    <color name="wait_for_manual_sync_bg">@*android:color/background_material_dark</color>
+    <color name="wait_default_bg">@*android:color/background_material_dark</color>
+    <color name="mail_actionbar_searchview_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_footer_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_message_header_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_message_footer_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_view_header_bg">@*android:color/background_material_dark</color>
+    <color name="account_feedback_bg">@*android:color/background_material_dark</color>
+    <color name="search_suggestion_list_bg">@*android:color/background_material_dark</color>
     <color name="search_suggestion_list_fade_bg">#33ffffff</color>
-    <color name="two_pane_bg">#ff303030</color>
+    <color name="two_pane_bg">@*android:color/background_material_dark</color>
 
     <color name="conversation_message_attachment_title">#b3ffffff</color>
     <color name="conversation_message_attachment_subtitle">#80ffffff</color>
@@ -91,7 +91,7 @@ packages/apps/UnifiedEmail
     <color name="material_search_action_view_dark_bg_text">@android:color/white</color>
 
     <bool name="theme_webview">true</bool>
-    <color name="webview_bg">#303030</color>
+    <color name="webview_bg">@*android:color/background_material_dark</color>
     <color name="webview_body">#ffffff</color>
     <color name="webview_a_link">#4fc3f7</color>
     <color name="webview_a_active">#e7790d</color>
@@ -106,7 +106,7 @@ packages/apps/UnifiedEmail
     <color name="autocomplete_bottom_shadow_start">#40000000</color>
     -->
 
-    <color name="chip_background">#ff303030</color>
+    <color name="chip_background">@*android:color/background_material_dark</color>
     <color name="chip_background_invalid">#db4437</color>
 
     <color name="chips_dropdown_text_default">#80ffffff</color>

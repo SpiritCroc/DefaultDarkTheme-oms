@@ -24,7 +24,7 @@
                 android:drawable="@*android:color/material_grey_600" />
             <item android:state_activated="true"
                 android:drawable="@*android:color/material_grey_800" />
-            <item android:drawable="@*android:color/material_grey_850" />
+            <item android:drawable="@*android:color/background_material_dark" />
         </selector>
     </item>
 </ripple>

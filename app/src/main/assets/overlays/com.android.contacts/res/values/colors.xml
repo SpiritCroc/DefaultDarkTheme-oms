@@ -21,7 +21,7 @@ packages/apps/ContactsCommon
 
 <resources>
 
-    <color name="quickcontact_name_detail_background">#ff303030</color>
+    <color name="quickcontact_name_detail_background">@*android:color/background_material_dark</color>
     <color name="quickcontact_entry_sub_header_text_color">#b3ffffff</color>
     <color name="quickcontact_entry_header_text_color">#ffffffff</color>
 
@@ -53,7 +53,7 @@ packages/apps/ContactsCommon
     <color name="expanding_entry_card_button_text_color">#ffffffff</color>
 
     <!-- Background color for an ExpandingEntryCard -->
-    <color name="expanding_entry_card_background_color">#ff303030</color>
+    <color name="expanding_entry_card_background_color">@*android:color/background_material_dark</color>
 
     <!-- Color of the margin for cards -->
     <color name="card_margin_color">#ff000000</color>
@@ -61,12 +61,12 @@ packages/apps/ContactsCommon
     <color name="call_arrow_green">#00e676</color>
     <color name="call_arrow_red">#f44336</color>
 
-    <color name="contact_all_list_background_color">#ff303030</color>
-    <color name="contact_favorites_list_background_color">#ff303030</color>
-    <color name="group_list_background_color">#ff303030</color>
+    <color name="contact_all_list_background_color">@*android:color/background_material_dark</color>
+    <color name="contact_favorites_list_background_color">@*android:color/background_material_dark</color>
+    <color name="group_list_background_color">@*android:color/background_material_dark</color>
 
     <!-- Background color of pinned header items. -->
-    <color name="list_item_pinned_header_color">#ff303030</color>
+    <color name="list_item_pinned_header_color">@*android:color/background_material_dark</color>
 
     <!-- Color of the mime-type icons inside the editor. -->
     <color name="editor_icon_color">#b3ffffff</color>
@@ -75,21 +75,21 @@ packages/apps/ContactsCommon
     <color name="editor_disabled_text_color">#80ffffff</color>
 
     <color name="list_item_name_text_color">#ffffffff</color>
-    <color name="editor_account_header_bg">#ff303030</color>
+    <color name="editor_account_header_bg">@*android:color/background_material_dark</color>
 
 
 
     <!-- Contacts common stuff: -->
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">#ff303030</color>
+    <color name="background_primary">@*android:color/background_material_dark</color>
     <!-- Divider color for header separator -->
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">#b3ffffff</color>
     <!-- Color of the theme of the People app -->
     <color name="people_app_theme_color">#363636</color>
 
-    <color name="cardview_light_background">#ff303030</color>
+    <color name="cardview_light_background">@*android:color/background_material_dark</color>
 
     <color name="dialtacts_primary_text_color">#ffffffff</color>
     <color name="dialtacts_secondary_text_color">#b3ffffff</color>

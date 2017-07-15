@@ -2,4 +2,6 @@
 
 <resources>
     <color name="accent_color">@android:color/holo_blue_bright</color>
+    <color name="app_background">@*android:color/background_material_dark</color>
+    <color name="drawer_list_item_background">@*android:color/background_material_dark</color>
 </resources>

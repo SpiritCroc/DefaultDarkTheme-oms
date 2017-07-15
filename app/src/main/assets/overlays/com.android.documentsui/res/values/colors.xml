@@ -23,7 +23,7 @@
     <!--color name="item_doc_grid_protect_background">#88000000</color-->
 
     <!-- adding new exposed theme components -->
-    <color name="drawer_background_color">#ff303030</color>
+    <color name="drawer_background_color">@*android:color/background_material_dark</color>
     <!--color name="font_color_doc_grid">#ffffffff</color-->
 
     <!-- Network traffic monitor single-line text size -->
@@ -32,9 +32,9 @@
     <!-- Network traffic monitor multi-line text size -->
     <!--dimen name="net_traffic_multi_text_size">9dp</dimen-->
 
-    <color name="window_background">#ff303030</color>
-    <color name="drawer_background">#ff303030</color>
-    <color name="directory_background">#ff303030</color>
+    <color name="window_background">@*android:color/background_material_dark</color>
+    <color name="drawer_background">@*android:color/background_material_dark</color>
+    <color name="directory_background">@*android:color/background_material_dark</color>
     <color name="item_doc_background">#ff424242</color>
     <color name="item_doc_background_disabled">#ff212121</color>
     <color name="item_doc_background_selected">#616161</color>

@@ -4,4 +4,5 @@
     <color name="colorHeaderBack">#ff424242</color>
     <color name="changelog_bg">#ff212121</color>
     <color name="commit_bg">#ff303030</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
 </resources>

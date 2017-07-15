@@ -18,7 +18,7 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
     <color name="dialer_dialpad_touch_tint">#3303a9f4</color>
     <color name="exposed_call_log_header">#ff424242</color>
     <color name="exposed_call_log_voicemail_status_action_text">#ff424242</color>
-    <color name="background_dialpad">#ff303030</color>
+    <color name="background_dialpad">@*android:color/background_material_dark</color>
     <color name="background_dialpad_pressed">#ff424242</color>
     <color name="dialpad_primary_text_color">#ffffffff</color>
     <color name="dialpad_secondary_text_color">#b3ffffff</color>
@@ -27,31 +27,31 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
     <color name="dialpad_icon_tint">#ffffffff</color>
     <color name="dialpad_voicemail_tint">#b3ffffff</color>
     <color name="people_app_theme_color">#ffffffff</color>
-    <color name="phone_settings_background_color">#ff303030</color>
+    <color name="phone_settings_background_color">@*android:color/background_material_dark</color>
     <color name="setting_primary_color">#ffffffff</color>
     <color name="setting_secondary_color">#b3ffffff</color>
     <color name="back_arrow_icon_tint_color">#0288d1</color>
     <color name="searchbox_text_color">#ffffffff</color>
     <color name="searchbox_hint_text_color">#b3ffffff</color>
     <color name="searchbox_background_color">#ff424242</color>
-    <color name="search_shortcut_background_color">#ff303030</color>
+    <color name="search_shortcut_background_color">@*android:color/background_material_dark</color>
     <color name="search_shortcut_icon_color">#0288d1</color>
     <color name="searchbox_icon_tint">#ffffffff</color>
 
     <color name="dialtacts_primary_text_color">#ffffffff</color>
     <color name="dialtacts_secondary_text_color">#b3ffffff</color>
-    <color name="setting_background_color">#ff303030</color>
+    <color name="setting_background_color">@*android:color/background_material_dark</color>
     <color name="recent_call_log_item_phone_icon_tint">#ffffffff</color>
-    <color name="background_dialer_white">#ff303030</color>
-    <color name="background_dialer_light">#ff303030</color>
-    <color name="background_dialer_results">#ff303030</color>
-    <color name="background_dialer_call_log">#ff303030</color>
-    <color name="background_dialer_call_log_list_item">#ff303030</color>
+    <color name="background_dialer_white">@*android:color/background_material_dark</color>
+    <color name="background_dialer_light">@*android:color/background_material_dark</color>
+    <color name="background_dialer_results">@*android:color/background_material_dark</color>
+    <color name="background_dialer_call_log">@*android:color/background_material_dark</color>
+    <color name="background_dialer_call_log_list_item">@*android:color/background_material_dark</color>
     <color name="undo_dialogue_text_color">#b3ffffff</color>
-    <color name="call_log_expanded_background_color">#ff303030</color>
+    <color name="call_log_expanded_background_color">@*android:color/background_material_dark</color>
     <color name="call_log_action_text">#b3ffffff</color>
     <color name="actionbar_icon_color">#ffffffff</color>
-    <color name="holo_list_background_color">#ff303030</color>
+    <color name="holo_list_background_color">@*android:color/background_material_dark</color>
     <!--color name="focus_color">@android:color/holo_green_light</color-->
     <!--color name="ripple_material_dark">#63ffffff</color-->
     <color name="primary_text_color">#ffffffff</color>
@@ -159,7 +159,7 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
     <color name="voicemail_icon_disabled_tint">#80ffffff</color>
     <color name="blacklisted_call">#ffffffff</color>
 
-    <color name="incall_dialpad_background">#ff303030</color>
+    <color name="incall_dialpad_background">@*android:color/background_material_dark</color>
     <color name="incall_dialpad_background_pressed">#cc424242</color>
 
     <color name="call_detail_footer_text_color">#b3ffffff</color>

@@ -56,7 +56,7 @@ packages/apps/UnifiedEmail
     <!-- default because webview not theme-able -->
     <color name="attachment_bg_color">#ffdddddd</color>
     <color name="swiped_bg_color">#ff000000</color>
-    <color name="holo_light_background_color">#ff303030</color>
+    <color name="holo_light_background_color">@*android:color/background_material_dark</color>
     <!-- Keep the following two colors in sync with LabelColorUtils.DEFAULT_COLORS (UnifiedGmail); default because webview not theme-able -->
     <color name="default_folder_background_color">#dddddd</color>
     <color name="default_folder_foreground_color">#777777</color>
@@ -64,7 +64,7 @@ packages/apps/UnifiedEmail
     <!-- Folder List/Drawer colors -->
     <color name="account_item_selected_text_color">#ff4fc3f7</color>
     <color name="folder_list_heading_text_color">#ffffffff</color>
-    <color name="list_background_color">#ff303030</color>
+    <color name="list_background_color">@*android:color/background_material_dark</color>
     <color name="drawer_item_activated_background_color">#12ffffff</color>
     <color name="mini_drawer_activated_background_color">#12ffffff</color>
 
@@ -77,7 +77,7 @@ packages/apps/UnifiedEmail
     <color name="compose_label_hint">#80ffffff</color>
 
     <color name="conv_header_add_label_text">#ffffffff</color>
-    <color name="conv_header_add_label_background">#ff303030</color>
+    <color name="conv_header_add_label_background">@*android:color/background_material_dark</color>
 
     <!-- Conversation message header colors; some default because webview not theme-able -->
     <color name="conversation_view_border_color">#e5e5e5</color>
@@ -152,7 +152,7 @@ packages/apps/UnifiedEmail
     -->
 
     <!-- tip teaser colors -->
-    <color name="tip_teaser_bg">#ff303030</color>
+    <color name="tip_teaser_bg">@*android:color/background_material_dark</color>
     <color name="tip_teaser_link">#ff4fc3f7</color>
     <color name="tip_teaser_text">#ffffffff</color>
 
@@ -171,7 +171,7 @@ packages/apps/UnifiedEmail
     <!-- The color of the icon background in the teaser -->
     <color name="folder_teaser_icon_background">#ff424242</color>
 
-    <color name="vacation_responder_window_background">#ff303030</color>
+    <color name="vacation_responder_window_background">@*android:color/background_material_dark</color>
     <color name="vacation_responder_header_text_color">#b3ffffff</color>
     <color name="vacation_responder_main_text_color">#ffffffff</color>
 
@@ -185,7 +185,7 @@ packages/apps/UnifiedEmail
 
     <color name="badge_background_color">#edb802</color>
 
-    <color name="loading_messages_background_color">#ff303030</color>
+    <color name="loading_messages_background_color">@*android:color/background_material_dark</color>
 
     <color name="folder_item_text_color_normal">#b3ffffff</color>
 
@@ -228,7 +228,7 @@ packages/apps/UnifiedEmail
     <color name="account_setup_label_text_color">#b3ffffff</color>
     <color name="account_setup_label_large_text_color">#ffffffff</color>
     <color name="account_setup_divider_color">#ffffffff</color>
-    <color name="account_setup_xlarge_background_color">#ff303030</color>
+    <color name="account_setup_xlarge_background_color">@*android:color/background_material_dark</color>
     <color name="account_setup_button_bar_background">#ff424242</color>
 
     <!-- Standard text colors -->
