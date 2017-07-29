@@ -15,4 +15,4 @@
 -->
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@*com.android.deskclock:drawable/ic_pause_white_24dp"
-    android:tint="#8a000000" />
+    android:tint="#80ffffff" />
