@@ -28,3 +28,18 @@ dependencies {
     compile 'com.github.javiersantos:PiracyChecker:1.1'
     compile project(':substrate')
 }
+
+task generateType3 {
+    doFirst {
+        def script = "generate_type3/gen.sh".execute()
+        script.in.eachLine {line -> println line}
+        script.err.eachLine {line -> println "ERROR: " + line}
+        script.waitFor()
+    }
+}
+
+afterEvaluate {
+    android.applicationVariants.all { variant ->
+        variant.javaCompiler.dependsOn(generateType3)
+    }
+}
