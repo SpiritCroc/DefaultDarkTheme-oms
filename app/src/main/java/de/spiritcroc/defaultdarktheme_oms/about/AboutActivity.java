@@ -33,7 +33,7 @@ public class AboutActivity extends Activity {
     static final String THEME_PACKAGE_NAME = "de.spiritcroc.defaultdarktheme_oms";
 
     private static final String SP_KEY_ABOUT_VIEWED = "sc.about_viewed";
-    private static final int ABOUT_VERSION = 2;
+    private static final int ABOUT_VERSION = 3;
 
     private static final boolean TEST_DEPP = false;
 
