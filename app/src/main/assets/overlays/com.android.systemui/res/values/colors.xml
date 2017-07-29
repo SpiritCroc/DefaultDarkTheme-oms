@@ -16,4 +16,9 @@
     <color name="notification_guts_icon_tint">#8a000000</color>
     <color name="notification_guts_disabled_icon_tint">#4d000000</color>
     -->
+
+    <!-- Screen pinning layout -->
+    <color name="screen_pinning_background_color">#ff424242</color>
+    <color name="screen_pinning_button_text">@android:color/white</color>
+    <color name="screen_pinning_primary_text">@android:color/white</color>
 </resources>
