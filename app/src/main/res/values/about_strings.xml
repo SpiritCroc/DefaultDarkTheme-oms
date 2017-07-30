@@ -104,10 +104,7 @@
             <li><b>Small:</b> Reduce QS title size a little bit</li>
         </ul>
         <h3>QS/Volume style</h3>
-        <ul>
-            <li><b>Solid:</b> Solid background for QS and volume slider</li>
-            <li><b>Transparent:</b> Semi-transparent background for QS and volume slider</li>
-        </ul>
+        Choose between a dark, darker, or black background, either solid or semi-transparent
 
         <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
         <h3>Style</h3>
