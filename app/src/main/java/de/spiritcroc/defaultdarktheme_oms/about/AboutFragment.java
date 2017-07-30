@@ -113,7 +113,7 @@ public class AboutFragment extends Fragment {
         }
         try {
             PackageInfo packageInfo = context.getPackageManager().getPackageInfo(packageName, 0);
-            return context.getString(R.string.versoin_name_and_code, packageInfo.versionName,
+            return context.getString(R.string.version_name_and_code, packageInfo.versionName,
                     String.valueOf(packageInfo.versionCode));
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();

@@ -33,7 +33,6 @@ public class AboutActivity extends Activity {
     static final String THEME_PACKAGE_NAME = "de.spiritcroc.defaultdarktheme_oms";
 
     private static final String SP_KEY_ABOUT_VIEWED = "sc.about_viewed";
-    private static final int ABOUT_VERSION = 4;
 
     private static final boolean TEST_DEPP = false;
 
@@ -77,14 +76,16 @@ public class AboutActivity extends Activity {
 
     static void markAboutSeen(Context context) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putInt(SP_KEY_ABOUT_VIEWED, ABOUT_VERSION).apply();
+        sp.edit().putInt(SP_KEY_ABOUT_VIEWED, context.getResources()
+                .getInteger(R.integer.about_version)).apply();
     }
 
     public static boolean checkAboutUpdate(Activity activity) {
         // If the user hasn't seen the current version of the about screen, show the theme in
         // launcher so they can access it in case they have hidden it before
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(activity);
-        if (sp.getInt(SP_KEY_ABOUT_VIEWED, -1) != ABOUT_VERSION) {
+        if (sp.getInt(SP_KEY_ABOUT_VIEWED, -1) != activity.getResources()
+                .getInteger(R.integer.about_version)) {
             enableLauncher(activity);
             promptViewAbout(activity);
             return true;

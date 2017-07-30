@@ -4,7 +4,9 @@
     <string name="button_uninstall">Uninstall</string>
 
     <string name="unknown_version">Unknown</string>
-    <string name="versoin_name_and_code">%1$s (%2$s)</string>
+    <string name="version_name_and_code">%1$s (%2$s)</string>
+
+    <integer name="about_version">4</integer>
 
     <string name="about_html"><![CDATA[
         <style media=\"screen\" type=\"text/css\">
