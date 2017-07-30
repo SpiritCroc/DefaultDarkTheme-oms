@@ -29,11 +29,8 @@
 
         <h2><font color="?android:attr/colorAccent">Base variant</font></h2>
         <h3>Notifications</h3>
-        <ul>
-            <li><b>Light:</b> Ensure readability on all applications. Recommended especially when running Substratum in legacy mode</li>
-            <li><b>Dark:</b> Dark notifications. Might not work well with apps that set their own notifiaction colors</li>
-            <li><b>Dark transparent:</b> Semi-transparent dark notifications. Might not work well with apps that set their own notification colors</li>
-        </ul>
+        Choose light notifications (default) to ensure readability for all applications (recommended especially when running Substratum in legacy mode).
+        When using one of the dark/black solid/semi-transparent variants, issues might occur with apps that set their own notification colors.
 
         <a name="variantsAndroidSystem" />
         <h2><font color="?android:attr/colorAccent">Android System</font></h2>
@@ -101,10 +98,10 @@
         <h3>QS Tile title size</h3>
         <ul>
             <li><b>Default:</b> Keep stock title size</li>
-            <li><b>Small:</b> Reduce QS title size a little bit</li>
+            <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
         </ul>
         <h3>QS/Volume style</h3>
-        Choose between a dark, darker, or black background, either solid or semi-transparent
+        Choose between a dark, darker, or black background for volume slider and quicksettings, either solid or semi-transparent.
 
         <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
         <h3>Style</h3>
