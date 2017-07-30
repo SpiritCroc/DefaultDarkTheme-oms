@@ -52,6 +52,15 @@
             <li><b>legacy:</b> Use when using a ROM without Substratum exposure commits</li>
         </ul>
 
+        <h3>Backgrounds</h3>
+        <ul>
+            <li><b>Default:</b> Default Material dark</li>
+            <li><b>Darker:</b> Slightly darker but not black</li>
+            <li><b>Black:</b> Completely black background</li>
+            <li><b>More black:</b> Black background also for dialogs (e.g. the power menu on Android 7)</li>
+            <li><b>Transparent:</b> Semi-transparent dialogs (e.g. the power menu on Android 7)
+        </ul>
+
         <h3>Settings accent</h3>
         Accent color for Settings (default: teal)
 
