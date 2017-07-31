@@ -5,16 +5,28 @@ Default Dark Theme for Substratum
 
 # Short description:
 
-Dark material theme for the Substratum Theme Engine (OMS/Layers)
+Dark material theme for the Substratum Theme Engine
 
 
 # Description:
 
-IMPORTANT: Make sure you have the latest Substratum app and cleared theme cache before reporting any errors!
+IMPORTANT: You need the Substratum app working on your device! Read the inbuilt information before reporting any issues!
 
-Theme for Substratum, based on the default AOSP dark material colors.
+Theme for Substratum, originally based on the default AOSP dark material colors; then extended to provide more variants to allow configuration according to the users taste.
 
-You need a ROM that supports Substratum (OMS/RRO)!
+Available accent colors (separately selectable for settings and system):
+Default teal; amber, blue, blue light, cyan, green (3 variants), lime, orange, pink, purple, red, white, yellow.
+(If you want another one, contact me with the color code)
+
+Available background colors:
+Dark, darker, black.
+
+Available notification colors:
+Light, dark, black.
+Semi-transparent variants also available for dark and black.
+
+Available quicksettings + volume slider colors:
+Dark, darker, black; each either solid or transparent.
 
 Themed parts:
 - Framework
@@ -31,20 +43,5 @@ Themed parts:
 - AOSP Messenger
 - Substratum
 - Rview
-
-Alternative color accent options for SystemUI or Settings apart from default teal:
-- Amber (AICP)
-- Blue (Pixel)
-- Blue light
-- Cyan
-- Green (3 variants)
-- Lime
-- Orange
-- Pink
-- Purple
-- Red
-- White
-- Yellow
-
 
 Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms
