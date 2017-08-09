@@ -2,4 +2,10 @@
 <resources>
     <color name="accent_material_light">#ff0000</color>
     <color name="accent_material_dark">#ff0000</color>
+
+    <color name="accent_device_default_light">#ff0000</color>
+    <color name="accent_device_default_dark">#ff0000</color>
+
+    <color name="accent_device_default_700">#d32f2f</color>
+    <color name="accent_device_default_50">#ffebee</color>
 </resources>

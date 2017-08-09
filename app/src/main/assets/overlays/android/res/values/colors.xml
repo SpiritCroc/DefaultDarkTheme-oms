@@ -5,6 +5,12 @@
     <color name="accent_material_light">#ff009688</color>
     <color name="accent_material_dark">#ff80cbc4</color>
 
+    <color name="accent_device_default_light">#ff009688</color>
+    <color name="accent_device_default_dark">#ff80cbc4</color>
+
+    <color name="accent_device_default_700">#ff00796b</color>
+    <color name="accent_device_default_50">#ffe0f2f1</color>
+
     <color name="app_permission_icon_tint">#ffffffff</color>
 
     <!-- AOSPA global actions icon color -->
