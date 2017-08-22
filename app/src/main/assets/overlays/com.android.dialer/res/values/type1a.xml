@@ -8,14 +8,14 @@
         <item name="@*com.android.dialer:attr/windowActionBarOverlay">true</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="@*com.android.dialer:attr/windowActionModeOverlay">true</item>
-        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
-        <item name="@*com.android.dialer:attr/actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionBarStyle">@*com.android.dialer:style/DialtactsActionBarStyle</item>
+        <item name="@*com.android.dialer:attr/actionBarStyle">@*com.android.dialer:style/DialtactsActionBarStyle</item>
         <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
         <item name="@*com.android.dialer:attr/actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
-        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
         <item name="@*com.android.dialer:attr/activated_background">@*com.android.dialer:drawable/list_item_activated_background</item>
         <item name="@*com.android.dialer:attr/section_header_background">@*com.android.dialer:drawable/list_title_holo</item>
         <item name="@*com.android.dialer:attr/list_section_header_height">32dip</item>
@@ -73,7 +73,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
-        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
         <item name="android:windowActionBarOverlay">false</item>
         <item name="@*com.android.dialer:attr/windowActionBarOverlay">false</item>
         <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
@@ -87,14 +87,20 @@
     </style>
 
     <style name="DialtactsActionBarStyle" parent="@*com.android.dialer:Widget.AppCompat.ActionBar.Solid">
-        <item name="android:background">#0288d1</item>
-        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:background">@*com.android.dialer:color/actionbar_background_color</item>
+        <item name="@*com.android.dialer:attr/background">@*com.android.dialer:color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@*com.android.dialer:style/DialtactsActionBarTitleText</item>
+        <item name="@*com.android.dialer:attr/titleTextStyle">@*com.android.dialer:style/DialtactsActionBarTitleText</item>
         <item name="android:height">56dp</item>
+        <item name="@*com.android.dialer:attr/height">56dp</item>
         <item name="android:elevation">2dp</item>
+        <item name="@*com.android.dialer:attr/elevation">2dp</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
+        <item name="@*com.android.dialer:attr/icon">@android:color/transparent</item>
         <!-- Shift the title text to the right -->
         <item name="android:contentInsetStart">72dp</item>
+        <item name="@*com.android.dialer:attr/contentInsetStart">72dp</item>
     </style>
 
     <style name="CallDetailActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat">
@@ -111,7 +117,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
-        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
         <item name="@*com.android.dialer:attr/activated_background">@*com.android.dialer:drawable/list_item_activated_background</item>
         <item name="@*com.android.dialer:attr/section_header_background">@*com.android.dialer:drawable/list_title_holo</item>
         <item name="@*com.android.dialer:attr/list_section_header_height">32dip</item>
