@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+    <!--style name="DialtactsTheme1" parent="@android:style/Theme.Material" /-->
+    <style name="TextAppearanceMedium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#b3ffffff</item>
+    </style>
+    <!-- Causes orange background when clicking on list items for unknown reasons, so just reference the original one (colors are fine, even though it's a light theme by default)
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    -->
+    <style name="DialtactsActionBarOverflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="DialtactsActionBarTabTextStyle" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <!--
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+    -->
+
+    <style name="InCallPopupMenuStyle" parent="@android:style/Theme.Material" />
+    <style name="InCallActionBarStyle" parent="@android:style/Widget.Material.ActionBar" />
+    <!-- Buttons in the main "button row" of the in-call onscreen touch UI. -->
+    <style name="InCallButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+    <!-- "Compound button" variation of InCallButton.
+         These buttons have the concept of two states: checked and unchecked. This style is just
+         like "InCallButton" except that we also clear out android:background, android:textOn,
+         android:textOff, to avoid the default behavior of the ToggleButton class. -->
+    <style name="InCallCompoundButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@android:style/Theme.Material">
+        <item name="android:listViewStyle">@*com.android.dialer:style/ListViewStyle</item>
+    </style>
+    <!--
+    <style name="Theme.CircularRevealAnimation" parent="@android:style/Theme.Material" />
+    -->
+    <style name="DialtactsActionBarTitleText"
+        parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Theme.Material.Light.Dialog.NoTitle" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CallLogSpinnerStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

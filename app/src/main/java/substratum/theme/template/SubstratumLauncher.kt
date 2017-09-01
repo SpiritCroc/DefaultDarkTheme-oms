@@ -15,6 +15,9 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
+import de.spiritcroc.defaultdarktheme_oms.BuildConfig
+import de.spiritcroc.defaultdarktheme_oms.R
+import de.spiritcroc.defaultdarktheme_oms.about.AboutActivity
 import substratum.theme.template.ThemerConstants.APK_SIGNATURE_PRODUCTION
 import substratum.theme.template.ThemerConstants.BASE_64_LICENSE_KEY
 import substratum.theme.template.ThemerConstants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
@@ -76,7 +79,7 @@ class SubstratumLauncher : Activity() {
                 override fun dontAllow(error: PiracyCheckerError, pirateApp: PirateApp?) {
                     val parse = String.format(
                             getString(R.string.toast_unlicensed),
-                            getString(R.string.ThemeName))
+                            getString(R.string.theme_name))
                     Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
                     finish()
                 }
@@ -112,7 +115,7 @@ class SubstratumLauncher : Activity() {
                     && !getSubstratumUpdatedResponse(applicationContext)) {
                 val parse = String.format(
                         getString(R.string.outdated_substratum),
-                        getString(R.string.ThemeName),
+                        getString(R.string.theme_name),
                         MINIMUM_SUBSTRATUM_VERSION.toString())
                 Toast.makeText(this, parse, Toast.LENGTH_SHORT).show()
                 return false
@@ -128,8 +131,8 @@ class SubstratumLauncher : Activity() {
             returnIntent = Intent("projekt.substratum.RECEIVE_KEYS")
         }
 
-        val theme_name = getString(R.string.ThemeName)
-        val theme_author = getString(R.string.ThemeAuthor)
+        val theme_name = getString(R.string.theme_name)
+        val theme_author = getString(R.string.theme_author)
         val theme_pid = packageName
         val theme_mode = mModeLaunch
         returnIntent.putExtra("theme_name", theme_name)
@@ -170,6 +173,10 @@ class SubstratumLauncher : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        if (AboutActivity.checkAboutUpdate(this)) {
+            return
+        }
 
         val intent = intent
         mVerified = intent.getBooleanExtra("certified", false)
@@ -254,7 +261,7 @@ class SubstratumLauncher : Activity() {
 
                 AlertDialog.Builder(this, R.style.DialogStyle)
                         .setIcon(R.mipmap.ic_launcher)
-                        .setTitle(getString(R.string.ThemeName))
+                        .setTitle(getString(R.string.theme_name))
                         .setMessage(parse)
                         .setPositiveButton(R.string.yes) { _, _ -> calibrateSystem() }
                         .setNegativeButton(R.string.no) { _, _ -> finish() }
@@ -264,7 +271,7 @@ class SubstratumLauncher : Activity() {
         } else {
             AlertDialog.Builder(this, R.style.DialogStyle)
                     .setIcon(R.mipmap.ic_launcher)
-                    .setTitle(getString(R.string.ThemeName))
+                    .setTitle(getString(R.string.theme_name))
                     .setMessage(getString(R.string.theme_ready_not_detected))
                     .setPositiveButton(R.string.yes) { _, _ -> calibrateSystem() }
                     .setNegativeButton(R.string.no) { _, _ -> finish() }

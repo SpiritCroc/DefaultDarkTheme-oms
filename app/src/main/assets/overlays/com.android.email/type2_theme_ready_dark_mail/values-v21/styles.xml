@@ -1,0 +1,84 @@
+<!--
+     Copyright (C) 2014 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!--
+    <style name="WaitFragmentTitleBase" parent="android:Widget.Material.TextView" />
+
+    <style name="ActionBarOverflowButtonStyle" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+
+    <style name="ActionBarShadow">
+        <item name="android:visibility">gone</item>
+    </style>
+    -->
+
+    <!-- Use elevation with FAB to produce a shadow instead of working with an asset -->
+    <!--
+    <style name="FloatingActionButtonBackgroundStyle" parent="AbstractFloatingActionButtonStyle">
+        <item name="android:background">@drawable/compose_button</item>
+        <item name="android:src">@drawable/ic_pencil_wht_24dp</item>
+        <item name="android:elevation">@dimen/compose_button_elevation</item>
+    </style>
+    -->
+
+    <style name="ConversationListFadeBase" parent="android:Widget.Material.ListView" />
+
+    <style name="MinTimeProgressViewStyle" parent="android:Widget.Material.ProgressBar" />
+
+    <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
+
+    <!--
+    <style name="MessageButtonStyleBase" parent="android:Widget.Material.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="RecipientEditTextViewStyle" parent="@style/RecipientEditTextViewStyleBase">
+        <item name="android:popupElevation">0dp</item>
+    </style>
+    -->
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">@*android:color/notification_default_color</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">@*android:color/notification_default_color</item>
+    </style>
+
+    <!--
+    <style name="DrawerFontStyle">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FolderListItemStyle" parent="@style/FolderListItemStyleBase">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DrawerUnreadCount" parent="@style/UnreadCount">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    -->
+
+    <style name="RecipientEditTextViewStyle" parent="@*com.android.email:style/RecipientEditTextViewStyleBase">
+        <item name="android:popupElevation">0dp</item>
+        <!--
+        <item name="@*com.android.email:attr/chipBackground">@*android:color/material_grey_700</item>
+        -->
+        <item name="@*com.android.email:attr/unselectedChipBackgroundColor">#ff424242</item>
+        <item name="@*com.android.email:attr/unselectedChipTextColor">#ffffffff</item>
+        <item name="android:popupBackground">@*android:color/material_grey_900</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <!-- Adapt colors to white background drawer, required because layout/two_pane_activity.xml references android:color/white as background color -->
+    <color name="text_color_black">#212121</color>
+    <color name="folder_list_heading_text_color">#9e9e9e</color>
+    <color name="text_color_grey">#757575</color>
+</resources>

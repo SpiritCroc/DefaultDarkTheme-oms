@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Default Dark Theme</string>
+    <string name="theme_name">Default Dark</string>
+    <string name="theme_author">SpiritCroc</string>
+    <string name="theme_author_email"></string>
+    <string name="theme_ready_requirement"></string>
+    <string name="theme_wallpaper_source">https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/index.txt</string>
+    <bool name="theme_support_legacy">true</bool>
+    <bool name="theme_support_samsung">false</bool>
+    <string-array name="theme_changelog">
+    </string-array>
+</resources>

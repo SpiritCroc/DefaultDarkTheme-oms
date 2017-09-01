@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="substratum.theme.template"
+          package="de.spiritcroc.defaultdarktheme_oms"
           android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
@@ -14,7 +14,7 @@
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/ThemeName"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
         tools:node="replace"
@@ -34,27 +34,36 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".about.AboutActivity"
+            android:theme="@style/AboutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <meta-data
             android:name="Substratum_Legacy"
-            android:value="@bool/ThemeSupportLegacy"/>
+            android:value="@bool/theme_support_legacy"/>
         <meta-data
             android:name="Substratum_Name"
-            android:value="@string/ThemeName"/>
+            android:value="@string/theme_name"/>
         <meta-data
             android:name="Substratum_Author"
-            android:value="@string/ThemeAuthor"/>
+            android:value="@string/theme_author"/>
         <meta-data
             android:name="Substratum_Email"
-            android:value="@string/ThemeAuthorEmail"/>
+            android:value="@string/theme_author_email"/>
         <meta-data
             android:name="Substratum_Samsung"
-            android:value="@bool/ThemeSupportSamsung"/>
+            android:value="@bool/theme_support_samsung"/>
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="@string/ThemeReadyRequirement"/>
+            android:value="@string/theme_ready_requirement"/>
         <meta-data
             android:name="Substratum_Wallpapers"
-            android:value="@string/ThemeWallpaperSource"/>
+            android:value="@string/theme_wallpaper_source"/>
 
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data

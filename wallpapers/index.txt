@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<substratum>
+    <wallpaper id="00">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/00.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/00.png</preview>
+    </wallpaper>
+    <wallpaper id="01_default">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/01_default.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/01_default.png</preview>
+    </wallpaper>
+    <wallpaper id="02_amber">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/02_amber.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/02_amber.png</preview>
+    </wallpaper>
+    <wallpaper id="03_blue">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/03_blue.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/03_blue.png</preview>
+    </wallpaper>
+    <wallpaper id="04_green">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/04_green.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/04_green.png</preview>
+    </wallpaper>
+    <wallpaper id="05_red">
+        <link>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/05_red.png</link>
+        <preview>https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/05_red.png</preview>
+    </wallpaper>
+</substratum>

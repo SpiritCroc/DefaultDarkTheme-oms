@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navigationBarColor">@android:color/black</color>
+
+    <!--
+    <color name="priorities_drag_handle">@color/main_screen_card_theme_title</color>
+    <color name="priorities_switchbar">@color/colorPrimary</color>
+
+    <color name="quick_apply_icon_tint">@color/main_screen_card_theme_title</color>
+    <color name="notification_dismiss_icon_tint">@color/main_screen_card_theme_title</color>
+
+    <color name="wallpaper_tab_text">@color/main_screen_card_theme_title</color>
+    <color name="wallpaper_card_text">@android:color/white</color>
+    <color name="wallpaper_card_text_shadow">@android:color/black</color>
+
+    <color name="tab_defaults_icon_tint">@android:color/white</color>
+
+    <color name="bootanimation_placeholder_tint">@android:color/white</color>
+    <color name="bootanimation_vm_text">@android:color/white</color>
+    <color name="bootanimation_checked">@color/colorAccent</color>
+    <color name="bootanimation_unchecked">#ff777777</color>
+    <color name="bootanimation_spinner_background">@color/theme_information_background</color>
+    <color name="bootanimation_window_background">@android:color/black</color>
+
+    <color name="easteregg_best_score">#fff6e803</color>
+    <color name="easteregg_best_score_shadow">@android:color/black</color>
+    <color name="easteregg_score">#ffaaaaaa</color>
+    <color name="easteregg_score_shadow">#b3000000</color>
+    <color name="easteregg_welcome">#ffaaaaaa</color>
+    <color name="easter_egg_new_highscore_1">#fff6e803</color>
+    <color name="easter_egg_new_highscore_1_shadow">@android:color/black</color>
+    <color name="easter_egg_new_highscore_2">#fff6e803</color>
+    <color name="easter_egg_new_highscore_2_shadow">@android:color/black</color>
+    <color name="easter_egg_new_highscore_3">#fff6e803</color>
+    <color name="easter_egg_new_highscore_3_shadow">@android:color/black</color>
+
+    <color name="studio_placeholder_icon">@android:color/black</color>
+    <color name="studio_placeholder_title">@android:color/black</color>
+
+    <color name="font_text">@android:color/white</color>
+    <color name="font_checked">@color/colorAccent</color>
+    <color name="font_unchecked">#ff777777</color>
+    <color name="font_spinner_background">@color/theme_information_background</color>
+    <color name="font_window_background">@android:color/black</color>
+
+    <color name="sounds_text">@android:color/white</color>
+    <color name="sounds_placeholder_tint">@android:color/white</color>
+    <color name="sounds_checked">@color/colorAccent</color>
+    <color name="sounds_unchecked">#ff777777</color>
+    <color name="sounds_play_pause_button_tint">@android:color/white</color>
+    <color name="sounds_spinner_background">@color/theme_information_background</color>
+    <color name="sounds_window_background">@android:color/black</color>
+
+    <color name="backup_button">@color/colorPrimary</color>
+    <color name="backup_button_text_color">@android:color/white</color>
+    <color name="restore_button">@color/colorPrimary</color>
+    <color name="restore_button_text_color">@android:color/white</color>
+    -->
+
+    <color name="splashscreen_background">#ff000000</color>
+    <bool name="SplashscreenWindowLightStatusBar">false</bool>
+    <!--
+    <color name="dialog_icon_color">#ffffffff</color>
+    <color name="dialog_text_color">#ffffffff</color>
+    <color name="fab_speed_dial_icon">#ff000000</color>
+
+    <color name="information_activity_dark_icon_mode">@android:color/black</color>
+    <color name="information_activity_dark_text_mode">@android:color/black</color>
+    <color name="information_activity_light_icon_mode">@android:color/white</color>
+    <color name="information_activity_light_text_mode">@android:color/white</color>
+
+    <color name="showcase_activity_text">@android:color/white</color>
+    -->
+
+    <color name="main_screen_card_background">#ff424242</color>
+    <color name="main_screen_card_theme_title">#ffffffff</color>
+    <color name="main_screen_card_theme_author">#b3ffffff</color>
+
+    <!--
+    <color name="logcat_dialog_background">@android:color/black</color>
+    <color name="logcat_dialog_buttons">@android:color/black</color>
+    <color name="logcat_dialog_icons">@android:color/white</color>
+    <color name="logcat_dialog_text">#ff0000</color>
+
+    <color name="showcase_support_default">@color/main_screen_card_theme_title</color>
+    <color name="showcase_support_disabled">#64777777</color>
+
+    <color name="wallpaper_bg_background">@android:color/black</color>
+    -->
+
+    <color name="theme_information_background">@*android:color/background_material_dark</color>
+    <color name="theme_information_card_background">@*android:color/background_material_dark</color>
+    <color name="theme_information_card_title">@color/colorAccent</color>
+    <color name="theme_information_card_text">@android:color/white</color>
+    <color name="theme_information_card_divider">#33777777</color>
+    <color name="theme_information_card_subtext">#b3ffffff</color>
+
+    <!--
+    <color name="settings_title_color">@color/colorAccent</color>
+    -->
+
+    <color name="material_drawer_icon_color">#ffffffff</color>
+    <color name="material_drawer_background">@*android:color/background_material_dark</color>
+    <!-- More drawer cusomization from https://github.com/mikepenz/MaterialDrawer -->
+    <color name="material_drawer_primary_text">#ffffffff</color>
+    <color name="material_drawer_secondary_text">#b3ffffff</color>
+    <color name="material_drawer_divider">#1FFFFFFF</color>
+    <color name="material_drawer_selected">#ff424242</color>
+    <color name="material_drawer_selected_text">#ffffffff</color>
+    <color name="material_drawer_hint_text">#42ffffff</color><!-- disabled item -->
+    <color name="material_drawer_primary_icon">#ffffffff</color>
+    <!--
+    <color name="material_drawer_header_background">@color/colorPrimary</color>
+
+    <color name="compile_dialog_wave_color">#c0ffffff</color>
+
+    <color name="overlay_installed_list_entry">#00c853</color>
+    <color name="overlay_not_approved_list_entry">#ff0000</color>
+    <color name="overlay_not_enabled_list_entry">#ef6c00</color>
+    -->
+    <color name="overlay_not_installed_list_entry">#ffffffff</color>
+    <!--
+    <color name="overlay_update_available">#d4b400</color>
+    <color name="overlay_update_not_needed">#008c3a</color>
+
+    <color name="purge_button">#d50000</color>
+    <color name="purge2_button">#ef6c00</color>
+    <color name="purge_button_text_color">#ffffffff</color>
+    <color name="window_bg_glass">#99000000</color>
+    <color name="cropper_bg_glass">#c8000000</color>
+
+    <color name="slide_1">#5e98ce</color>
+    <color name="slide_2">#fcb257</color>
+    <color name="slide_3">#ff8da1</color>
+    <color name="slide_4">#a9d67b</color>
+    <color name="slide_5">#c187ff</color>
+    <color name="slide_6">#f9da7c</color>
+
+    <color name="tutorial_slide_divider">#00000000</color>
+    <color name="tutorial_page_indicator_fill_color">#70ffffff</color>
+    <color name="tutorial_page_indicator_page_color">#56ffffff</color>
+
+    -->
+    <color name="fab_menu_background_card">#ff424242</color>
+    <color name="fab_menu_icon_color">#ffffffff</color>
+    <color name="fab_menu_text_color">#ffffffff</color>
+    <color name="fab_menu_divider">#4affffff</color>
+</resources>

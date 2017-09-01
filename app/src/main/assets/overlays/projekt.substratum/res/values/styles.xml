@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme.DialogAlert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+
+    <style name="AppTheme.PopupOverlay" parent="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark" />
+
+    <style name="RestoreDialog" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+
+    <style name="ThemeOverlay.AppCompat.Light" parent="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="ShowcaseDialog" parent="@*projekt.substratum:style/Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="@*projekt.substratum:attr/windowActionBar">false</item>
+        <item name="@*projekt.substratum:attr/windowNoTitle">true</item>
+    </style>
+
+</resources>

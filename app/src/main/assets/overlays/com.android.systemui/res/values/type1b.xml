@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_tile_text_size">12sp</dimen>
+
+    <!-- Slim recents -->
+    <dimen name="recent_text_size">20dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.OpenDelta" parent="@android:style/Theme.Material">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+    </style>
+
+    <style name="Theme.OpenDelta.Settings" parent="@android:style/Theme.Material" />
+
+</resources>

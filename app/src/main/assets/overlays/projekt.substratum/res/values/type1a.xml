@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <style name="AppTheme" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+        <item name="*projekt.substratum:attr/colorPrimary">#3F51B5</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#303F9F</item>
+        <item name="*projekt.substratum:attr/colorAccent">#FF4081</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*projekt.substratum:attr/preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="@*projekt.substratum:style/Theme.AppCompat.Dialog" >
+        <item name="*projekt.substratum:attr/colorPrimary">#3F51B5</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#303F9F</item>
+        <item name="*projekt.substratum:attr/colorAccent">#FF4081</item>
+    </style>
+
+</resources>

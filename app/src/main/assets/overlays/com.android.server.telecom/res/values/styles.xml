@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <style name="Theme.Telecom.DialerSettings" parent="@android:style/Theme.Material">
+        <!--
+        <item name="android:actionBarStyle">@style/TelecomDialerSettingsActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/TelecomDialerSettingsActionOverflowButtonStyle</item>
+        -->
+        <item name="android:colorPrimary">#0288d1</item>
+        <item name="android:colorPrimaryDark">#0277bd</item>
+        <!--item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:colorAccent">#ff4fc3f7</item>
+    </style>
+<!--
+    <style name="TelecomDialerSettingsActionBarStyle" parent="android:Widget.Material.ActionBar">
+        <item name="android:background">#0288d1</item>
+        <item name="android:titleTextStyle">@style/TelecomDialerSettingsActionBarTitleText</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="TelecomDialerSettingsActionBarTitleText"
+        parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="TelecomDialerSettingsActionOverflowButtonStyle"
+        parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_24dp</item>
+    </style>
+-->
+</resources>

@@ -29,11 +29,11 @@ android {
     buildToolsVersion "26.0.1"
 
     defaultConfig {
-        applicationId "substratum.theme.template"
+        applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 24
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 35
+        versionName "4.2-rebase"
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
@@ -123,7 +123,19 @@ task encryptAssets {
     }
 }
 
+task generateType3 {
+    doFirst {
+        def script = "generate_type3/gen.sh".execute()
+        script.in.eachLine {line -> println line}
+        script.err.eachLine {line -> println "ERROR: " + line}
+        script.waitFor()
+    }
+}
+
 project.afterEvaluate {
+    android.applicationVariants.all { variant ->
+        variant.javaCompiler.dependsOn(generateType3)
+    }
     preBuild.dependsOn encryptAssets
 }
 

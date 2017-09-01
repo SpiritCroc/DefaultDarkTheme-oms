@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The CyanogenMod Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <style name="Theme.Main" parent="@android:style/Theme.Material">
+        <!-- Redefine the ActionBar style for contentInsetStart -->
+        <!--
+        <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        -->
+    </style>
+
+    <!--
+    <style name="Theme.Tv" parent="style/Theme.Leanback">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="UpdatesPreferenceStyle">
+        <item name="android:layout">@layout/preference_updates</item>
+    </style>
+    -->
+
+    <!--
+    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
+    </style>
+    -->
+
+</resources>

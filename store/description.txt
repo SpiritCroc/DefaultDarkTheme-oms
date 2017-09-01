@@ -1,0 +1,47 @@
+# Name:
+
+Default Dark Theme for Substratum
+
+
+# Short description:
+
+Dark material theme for the Substratum Theme Engine
+
+
+# Description:
+
+IMPORTANT: You need the Substratum app working on your device! Read the inbuilt information before reporting any issues!
+
+Theme for Substratum, originally based on the default AOSP dark material colors; then extended to provide more variants to allow configuration according to the users taste.
+
+Available accent colors (separately selectable for settings and system):
+Default teal; amber, blue, blue light, cyan, green (3 variants), lime, orange, pink, purple, red, white, yellow.
+(If you want another one, contact me with the color code)
+
+Available background colors:
+Dark, darker, black.
+
+Available notification colors:
+Light, dark, black.
+Semi-transparent variants also available for dark and black.
+
+Available quicksettings + volume slider colors:
+Dark, darker, black; each either solid or transparent.
+
+Themed parts:
+- Framework
+- SystemUI
+- Settings
+- PackageInstaller
+- DocumentsUI
+- CM Settings
+- AICP Extras
+- AOSP Calculator
+- AOSP Contacts
+- AOSP Dialer
+- AOSP Email
+- AOSP Messenger
+- Substratum
+- Rview
+
+Source code: https://github.com/SpiritCroc/DefaultDarkTheme-oms

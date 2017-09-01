@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- relevant repos:
+packages/apps/Email
+packages/apps/UnifiedEmail
+-->
+
+<resources>
+    <!-- Not theming webview -->
+    <color name="attachment_bg_color">#ffdddddd</color>
+
+    <color name="default_folder_background_color">#ff616161</color>
+    <color name="default_folder_foreground_color">#b3ffffff</color>
+
+    <!-- Conversation message header colors -->
+    <color name="conversation_view_border_color">#80ffffff</color>
+    <color name="conversation_view_background_color">@*android:color/background_material_dark</color>
+    <color name="conversation_view_text_color_light">#b3ffffff</color>
+    <color name="conversation_view_text_color_dark">#ffffffff</color>
+    <color name="conversation_view_text_color_link_blue">#ff4fc3f7</color>
+    <color name="conversation_view_footer_text_color">#ffffff</color>
+    <color name="conversation_view_footer_load_more_text_color">#4fc3f7</color>
+
+    <!--  Color of the subtitle message in the attachment tile (not theming webview) -->
+    <color name="attachment_tile_subtitle_color">#949494</color>
+    <color name="attachment_image_background_color">#E5E5E5</color>
+
+    <!-- Search colors -->
+    <color name="search_query_hint_text">#80ffffff</color>
+    <color name="search_query_text">#ffffffff</color>
+    <color name="search_suggestion_item_text">#b3ffffff</color>
+    <color name="search_banner_bg">#ff212121</color>
+    <color name="search_banner_text">#ffffffff</color>
+    <color name="search_status_bar_color">#ff000000</color>
+
+    <!-- The background color of the message header -->
+    <color name="message_header_background_color">@*android:color/background_material_dark</color>
+
+
+
+
+    <!-- theme ready email -->
+
+
+    <color name="drawer_icon_active">#ffffffff</color>
+
+    <color name="wait_for_manual_sync_bg">@*android:color/background_material_dark</color>
+    <color name="wait_default_bg">@*android:color/background_material_dark</color>
+    <color name="mail_actionbar_searchview_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_footer_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_message_header_bg">@*android:color/background_material_dark</color>
+    <color name="conversation_message_footer_bg">@android:color/white</color><!--not theming webview-->
+    <color name="conversation_view_header_bg">@*android:color/background_material_dark</color>
+    <color name="account_feedback_bg">@*android:color/background_material_dark</color>
+    <color name="search_suggestion_list_bg">@*android:color/background_material_dark</color>
+    <color name="search_suggestion_list_fade_bg">#33ffffff</color>
+    <color name="two_pane_bg">@*android:color/background_material_dark</color>
+
+    <!-- not theming webview -->
+    <color name="conversation_message_attachment_title">#333333</color>
+    <color name="conversation_message_attachment_subtitle">#aaaaaa</color>
+
+    <color name="swipe_leavebehind_body_text">@android:color/white</color>
+    <color name="floating_actions_description_text">@android:color/white</color>
+    <color name="conversation_topmost_overlay_items_description_text">@android:color/white</color>
+    <color name="conversation_message_attachment_title">@android:color/black</color><!-- not theming webview -->
+    <color name="compose_attachment_title">@android:color/white</color>
+    <color name="compose_attachment_subtitle">@android:color/white</color>
+
+    <!--
+    <color name="widget_text_black">@android:color/black</color>
+    <color name="widget_loading_text">@android:color/black</color>
+    <color name="widget_tap_to_configure_folder_sync_bg">@android:color/darker_gray</color>
+    -->
+
+    <color name="buttery_progress_bar">#ff4fc3f7</color>
+    <color name="material_search_action_view_light_bg">#ff424242</color>
+    <color name="material_search_action_view_dark_bg_text">@android:color/white</color>
+
+    <bool name="theme_webview">true</bool>
+    <color name="webview_bg">#ffffff</color>
+    <color name="webview_body">#000000</color>
+    <color name="webview_a_link">#4285f4</color>
+    <color name="webview_a_active">#e7790d</color>
+    <color name="webview_a_visited">#d06d0c</color>
+
+    <!-- android/frameworks/opt/chips -->
+    <color name="chips_dropdown_background_activated">#4285f4</color>
+    <color name="chips_dropdown_background_pressed">#ff424242</color>
+
+    <color name="autocomplete_divider_color">#40ffffff</color>
+    <!--
+    <color name="autocomplete_bottom_shadow_start">#40000000</color>
+    -->
+
+    <color name="chip_background">@*android:color/background_material_dark</color>
+    <color name="chip_background_invalid">#db4437</color>
+
+    <color name="chips_dropdown_text_default">#80ffffff</color>
+    <color name="chips_dropdown_text_activated">@android:color/white</color>
+    <color name="chips_dropdown_text_highlighted">#ffffff</color>
+    <color name="chips_dropdown_permission_text">#4285f4</color>
+
+    <!--
+    <color name="chip_suggestion_action">#c3c3c3</color>
+    -->
+</resources>

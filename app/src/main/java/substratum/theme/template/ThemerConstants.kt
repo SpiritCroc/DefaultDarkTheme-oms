@@ -1,5 +1,7 @@
 package substratum.theme.template
 
+import de.spiritcroc.defaultdarktheme_oms.BuildConfig
+
 object ThemerConstants {
     // Simple AntiPiracy Configuration
     val PIRACY_CHECK = false

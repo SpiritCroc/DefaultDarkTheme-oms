@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
 <resources>
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
-        <item name="android:colorBackground">@android:color/background_dark</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
+
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.DeviceDefault.Dark.ActionBar.Accent">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorSecondary">#ff424242</item><!--Used as bg in drawable/switchbar_background-->
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorSecondary">#ff424242</item><!--Used as bg in drawable/switchbar_background-->
     </style>
 </resources>

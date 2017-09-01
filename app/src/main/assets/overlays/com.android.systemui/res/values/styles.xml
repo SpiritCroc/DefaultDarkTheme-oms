@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="systemui_theme" parent="@android:style/Theme.Material"/>
-    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog"/>
-    <style name="TextAppearance.Material.Notification.Parenthetical"
-           parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textStyle">italic</item>
-        <item name="android:textColor">#60ffffff</item>
+    <style name="systemui_theme" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff303030</item>
+        <!-- Causes errors during compilation on some devices
+        <item name="android:colorSecondary">#ff424242</item>
+        -->
+    </style>
+
+    <style name="TextAppearance.NotificationGuts.Header" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">roboto-regular</item>
+        <item name="android:textColor">#b3ffffff</item>
+    </style>
+
+    <style name="TextAppearance.SwitchBar" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.Secondary" parent="@android:style/ThemeOverlay">
+        <!-- Disable this, doesn't look good (black on dark notification guts
+        <item name="android:colorAccent">?android:attr/colorSecondary</item>
+        -->
     </style>
 </resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_open_substratum">Show theme in Substratum</string>
+    <string name="button_uninstall">Uninstall</string>
+
+    <string name="unknown_version">Unknown</string>
+    <string name="version_name_and_code">%1$s (%2$s)</string>
+
+    <integer name="about_version">4</integer>
+
+    <string name="about_html"><![CDATA[
+        <style media=\"screen\" type=\"text/css\">
+            body {
+                color: ?android:attr/textColorPrimary ;
+            }
+            a:link {
+                color: ?android:attr/colorAccent ;
+            }
+            a:visited {
+                color: ?android:attr/colorAccent ;
+            }
+        </style>
+
+        <p><a href="#variants">Variants</a><p>
+        <p><a href="#telegram">Telegram</a><p>
+        <p><a href="#bugs">Reporting bugs</a><p>
+        <p><a href="#source">Source</a><p>
+
+        <a name="variants" />
+        <h1><b><u>Variants explained</u></b></h1>
+
+        <h2><font color="?android:attr/colorAccent">Base variant</font></h2>
+        <h3>Notifications</h3>
+        Choose light notifications (default) to ensure readability for all applications (recommended especially when running Substratum in legacy mode).
+        When using one of the dark/black solid/semi-transparent variants, issues might occur with apps that set their own notification colors.
+
+        <a name="variantsAndroidSystem" />
+        <h2><font color="?android:attr/colorAccent">Android System</font></h2>
+
+        <h3>Overlay type</h3>
+        <ul>
+            <li><b>Default:</b> Use with Substratum-supported ROMs</li>
+            <li><b>legacy:</b> Use when running Substratum in legacy mode (e.g. when using RRO)</li>
+        </ul>
+
+        <h3>Settings accent</h3>
+        Accent color for Settings
+
+        <h3>System accent</h3>
+        Accent color for System/SystemUI
+
+        <h2><font color="?android:attr/colorAccent">Contacts</font></h2>
+        <h3>Overlay type</h3>
+        <ul>
+            <li><b>Default:</b> Use with Substratum-supported ROMs</li>
+            <li><b>legacy:</b> Use when running Substratum in legacy mode (e.g. when using RRO)</li>
+        </ul>
+
+        <h2><font color="?android:attr/colorAccent">Email (AOSP)</font></h2>
+        <ul>
+            <li><b>Default:</b> Readable on most devices.</li>
+            <li><b>theme ready:</b> Use this if you have theme-ready AOSP Email(*).</li>
+            <li><b>theme ready dark mail:</b> Use this if you have theme-ready AOSP Email(*) and want to have the mails you received dark as well (might not look well if the mail sets its own text colors)</li>
+        </ul>
+        (*) Known ROMs that include theme-ready AOSP Email:
+        <ul>
+            <li><b>AICP</b> 12.1 builds starting from 2017-05-29</li>
+        </ul>
+
+        <h2><font color="?android:attr/colorAccent">Files (DocumetsUI)</font></h2>
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 7.* or later</li>
+            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+        </ul>
+
+        <h2><font color="?android:attr/colorAccent">Phone</font></h2>
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 7.* or later</li>
+            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+        </ul>
+        <h3>App version</h3>
+        <ul>
+            <li><b>Default:</b> Select if you don&#39;t have speed dial settings (e.g. AOSP)</li>
+            <li><b>speed dial:</b> Select if you have speed dial settings (e.g. LaOS-based)</li>
+        </ul>
+
+        <h2><font color="?android:attr/colorAccent">Settings</font></h2>
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 7.* or later</li>
+            <li><b>lollipop:</b> Use with older Android versions than marshmallow</li>
+            <li><b>marshmallow:</b> Use when running Android 6.*</li>
+        </ul>
+
+        <a name="variantsSystemUI" />
+        <h2><font color="?android:attr/colorAccent">SystemUI</font></h2>
+
+        <h3>QS Tile title size</h3>
+        <ul>
+            <li><b>Default:</b> Keep stock title size</li>
+            <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
+        </ul>
+        <h3>QS/Volume style</h3>
+        Choose between a dark, darker, or black background for volume slider and quicksettings, either solid or semi-transparent.
+
+        <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
+        <h3>Style</h3>
+        <ul>
+            <li><b>Default:</b> Keep default accent colors</li>
+            <li><b>match settings:</b> Use colors that integrate with system settings</li>
+        </ul>
+
+
+        <a name="telegram" />
+        <h1><b><u>Telegram</u></b></h1>
+        Telegram has its own inbuilt theme engine.
+        You can get themes for that <a href="https://github.com/SpiritCroc/DefaultDarkTheme-telegram">here</a>.
+
+
+        <a name="bugs" />
+        <h1><b><u>Reporting bugs</u></b></h1>
+        <p><b><font color="?attr/colorWarning">Before reporting any bugs, make sure you are using the latest version of Substratum! Also try uninstalling and re-installing the theme, and rebooting your device, as this might resolve some issues. Additionally, make sure you are using the right <a href="#variants"><font color="?attr/colorWarning">variants</font></a>!</font></b></p>
+
+        <p>When reporting bugs, please provide the following information:
+        <ul>
+            <li>ROM Version (stock ROM/custom ROM (which one)), Android version (?attr/androidVersion), release date for custom ROMs</li>
+            <li>Do you have full Substratum/OMS support or are you running Substratum in legacy mode?</li>
+            <li>Substratum version: ?attr/substratumVersion</li>
+            <li>Version of this theme: ?attr/themeVersion</li>
+            <li>The variants you selected</li>
+            <li>Information about your issue:
+                <ol type="a">
+                    <li>If some colors are odd/texts are unreadable, please provide a screenshot and describe where it was taken!</li>
+                    <li>If an app crashes, please provide a <a href="https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Proper_Bug_Reporting.txt">logcat</a></li>
+                </ol>
+            </li>
+        </ul>
+        </p>
+
+        <p><b><font color="?attr/colorWarning">Be nice! You don&#39;t pay me anything, and I don&#39;t feel the need to fix everything you tell me to; especially if you&#39;re not being friendly! Also, don&#39;t expect any response if you haven&#39;t provided the above listed relevant information!</font></b></p>
+
+        <p>Keep in mind that if you\'re not using a Substratum supported ROM, my means of providing support and fixing bugs are rather limited.</p>
+
+        <p>There are two ways to report bugs:
+        <ol type="a">
+            <li>Send me an <a href="mailto:spiritcroc@gmail.com><font color="?android:attr/textColorPrimary">email</font></a> (please put some text in the title so I know what the mail is about; I do more in my life than this theme)</li>
+            <li>Create an issue on the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues"><font color="?android:attr/textColorPrimary">github page</font></a>, or update an existing one</li>
+        </ol>
+
+        <b><font color="?attr/colorWarning">Don&#39;t report bugs by writing it in a review on google play, it&#39;s unlikely that I will look into it this way! REVIEWS ARE NOT FOR BUG REPORTS!</font></b>
+        </p>
+
+
+        <a name="source" />
+        <h1><b><u>Source code</u></b></h1>
+
+        <p>This theme was made open source, so anybody has the possibility to improve it to their likings! Good contributions are welcome! Code can be found on <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms">github</a>.</p>
+
+    ]]></string>
+
+
+    <string name="depp_html"><![CDATA[
+        <style media=\"screen\" type=\"text/css\">
+            body {
+                color: ?android:attr/textColorPrimary ;
+            }
+            a:link {
+                color: ?android:attr/colorAccent ;
+            }
+            a:visited {
+                color: ?android:attr/colorAccent ;
+            }
+        </style>
+
+        <h1><b><u><font color="?attr/colorWarning">Substratum not found!</font></u></b></h1>
+
+        <b>For this theme to work, you need <a href="https://play.google.com/store/apps/details?id=projekt.substratum">Substratum</a>. If you don&#39;t know what Substratum is, this theme is not an app for you! Giving it a bad review because you don&#39;t know how to use it is not fair! YOU WON&#39;T GET SUPPORT IF YOU ASK FOR IT IN A REVIEW!</b>
+    ]]></string>
+
+
+    <string name="action_hide_launcher">Hide from launcher</string>
+    <string name="hide_launcher_title">Hide from launcher?</string>
+    <string name="hide_launcher_message">If you hide this theme from your launcher, you won\'t be able to access this about screen anymore. Continue?</string>
+    <string name="hide_launcher_yes">@string/real_yes</string>
+    <string name="hide_launcher_no">@string/real_no</string>
+    <string name="prompt_view_current_about_title">Show explanations?</string>
+    <string name="prompt_view_current_about_message">You haven\'t seen the latest about screen for this theme yet. If you don\'t have much experience, it\'s recommended to read some information about the available variants there. You\'ll also be able to show it later from your launcher. Show now?</string>
+    <string name="prompt_view_current_about_yes">@string/real_yes</string>
+    <string name="prompt_view_current_aboutr_no">@string/real_no</string>
+
+    <string name="action_force_about">I know what I\'m doing!</string>
+
+    <string name="real_yes">Yes</string>
+    <string name="real_no">No</string>
+</resources>

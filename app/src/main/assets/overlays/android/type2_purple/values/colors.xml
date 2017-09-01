@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_light">#673ab7</color>
+    <color name="accent_material_dark">#b39ddb</color>
+
+    <color name="accent_device_default_light">#673ab7</color>
+    <color name="accent_device_default_dark">#b39ddb</color>
+
+    <color name="accent_device_default_700">#7b1fa2</color>
+    <color name="accent_device_default_50">#f3e5f5</color>
+</resources>
