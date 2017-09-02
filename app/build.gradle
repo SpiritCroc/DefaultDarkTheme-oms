@@ -125,10 +125,15 @@ task encryptAssets {
 
 task generateType3 {
     doFirst {
-        def script = "generate_type3/gen.sh".execute()
-        script.in.eachLine {line -> println line}
-        script.err.eachLine {line -> println "ERROR: " + line}
-        script.waitFor()
+        if (org.gradle.internal.os.OperatingSystem.current().isLinux()) {
+            println("Running type3 generation script on Linux")
+            def script = "generate_type3/gen.sh".execute()
+            script.in.eachLine {line -> println "type3-gen: " + line}
+            script.err.eachLine {line -> println "type3-gen: ERROR: " + line}
+            script.waitFor()
+        } else {
+            println("Skipping type3 generation: not using a supported operating system")
+        }
     }
 }
 
