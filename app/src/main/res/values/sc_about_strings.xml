@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="button_open_substratum">Show theme in Substratum</string>
+    <string name="button_open_substratum">Open Substratum</string>
     <string name="button_uninstall">Uninstall</string>
 
     <string name="unknown_version">Unknown</string>

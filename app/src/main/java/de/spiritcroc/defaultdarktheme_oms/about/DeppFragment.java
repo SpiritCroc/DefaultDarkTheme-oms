@@ -50,7 +50,7 @@ public class DeppFragment extends Fragment {
         uninstallButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String packageString = "package:" + AboutActivity.THEME_PACKAGE_NAME;
+                String packageString = "package:" + Util.THEME_PACKAGE_NAME;
                 startActivity(new Intent(Intent.ACTION_UNINSTALL_PACKAGE,
                         Uri.parse(packageString)));
             }
@@ -70,7 +70,7 @@ public class DeppFragment extends Fragment {
         switch (item.getItemId()) {
             case R.id.action_force_about:
                 startActivity(new Intent(getActivity(), AboutActivity.class)
-                        .putExtra(AboutActivity.EXTRA_FORCE_ABOUT, true));
+                        .putExtra(Util.EXTRA_FORCE_ABOUT, true));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
