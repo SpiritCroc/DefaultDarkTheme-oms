@@ -97,6 +97,12 @@
         <a name="variantsSystemUI" />
         <h2><font color="?android:attr/colorAccent">SystemUI</font></h2>
 
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
+            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+        </ul>
+
         <h3>QS Tile title size</h3>
         <ul>
             <li><b>Default:</b> Keep stock title size</li>
