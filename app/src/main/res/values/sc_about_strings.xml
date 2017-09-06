@@ -70,15 +70,15 @@
         <h2><font color="?android:attr/colorAccent">Files (DocumetsUI)</font></h2>
         <h3>Android version</h3>
         <ul>
-            <li><b>Default:</b> Use when running Android 7.* or later</li>
-            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
+            <li><b>6.* or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h2><font color="?android:attr/colorAccent">Phone</font></h2>
         <h3>Android version</h3>
         <ul>
-            <li><b>Default:</b> Use when running Android 7.* or later</li>
-            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
+            <li><b>6.* or before:</b> Use when running older Android versions</li>
         </ul>
         <h3>App version</h3>
         <ul>
@@ -89,9 +89,9 @@
         <h2><font color="?android:attr/colorAccent">Settings</font></h2>
         <h3>Android version</h3>
         <ul>
-            <li><b>Default:</b> Use when running Android 7.* or later</li>
-            <li><b>lollipop:</b> Use with older Android versions than marshmallow</li>
-            <li><b>marshmallow:</b> Use when running Android 6.*</li>
+            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
+            <li><b>5.*:</b> Use with older Android versions than 6.0</li>
+            <li><b>6.*:</b> Use when running Android 6.* (Marshmallow)</li>
         </ul>
 
         <a name="variantsSystemUI" />
@@ -100,7 +100,7 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>marshmallow or before:</b> Use when running older Android versions</li>
+            <li><b>7.* or before or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h3>QS Tile title size</h3>
