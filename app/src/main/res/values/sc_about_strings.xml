@@ -119,6 +119,13 @@
             <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
         </ul>
 
+        <h2><font color="?android:attr/colorAccent">Trebuchet</font></h2>
+        <h3>Style</h3>
+        <ul>
+            <li><b>Default (light):</b> Ensure readability</li>
+            <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
+        </ul>
+
         <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
         <h3>Style</h3>
         <ul>

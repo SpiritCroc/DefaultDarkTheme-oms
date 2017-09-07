@@ -1,0 +1,6 @@
+<resources>
+    <color name="popup_header_background_color">#ff424242</color>
+    <color name="popup_background_color">#ff303030</color>
+    <color name="notification_icon_default_color">#808080</color>
+    <color name="notification_color_beneath">#ff212121</color>
+</resources>
