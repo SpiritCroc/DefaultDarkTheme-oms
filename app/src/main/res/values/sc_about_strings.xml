@@ -40,7 +40,8 @@
         <h3>Overlay type</h3>
         <ul>
             <li><b>Default:</b> Use with Substratum-supported ROMs</li>
-            <li><b>legacy:</b> Use when running Substratum in legacy mode (e.g. when using RRO)</li>
+            <li><b>legacy 5.*:</b> Use with Android 5.* (Lollipop)</li>
+            <li><b>legacy 6.0 or later:</b> Use when running Substratum in legacy mode (e.g. when using RRO) on Android 6.0 (marshmallow) or later</li>
         </ul>
 
         <h3>Settings accent</h3>

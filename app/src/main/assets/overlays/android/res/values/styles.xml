@@ -261,4 +261,5 @@
     <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu">
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
+
 </resources>

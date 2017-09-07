@@ -19,4 +19,18 @@
     <item name="android:listPreferredItemPaddingStart">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
     <item name="android:listPreferredItemPaddingEnd">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
     </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorSecondary">#ff424242</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorSecondary">#ff424242</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
 </resources>
