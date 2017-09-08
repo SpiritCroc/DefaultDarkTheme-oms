@@ -68,7 +68,7 @@
             <li><b>AICP</b> 12.1 builds starting from 2017-05-29</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Files (DocumetsUI)</font></h2>
+        <h2><font color="?android:attr/colorAccent">Files (DocumentsUI)</font></h2>
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>

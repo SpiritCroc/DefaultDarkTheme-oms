@@ -43,4 +43,22 @@
     <color name="primary">#ff212121</color>
     <color name="accent">@*android:color/accent_material_dark</color>
     <color name="accent_dark">@*android:color/accent_material_dark</color>
+
+    <color name="drawer_border">#ff212121</color>
+    <color name="menu_search_background">@android:color/transparent</color>
+
+    <color name="root_title_color">#b3ffffff</color>
+    <color name="root_details_color">#80ffffff</color>
+    <color name="sort_widget_text_color">#b3ffffff</color>
+    <color name="item_doc_title">#ffffffff</color>
+    <color name="item_doc_title_disabled">#80ffffff</color>
+    <color name="item_doc_details">#b3ffffff</color>
+    <color name="item_doc_droppable_background">#ff303030</color>
+    <color name="item_doc_not_droppable_background">#ff212121</color>
+
+    <color name="item_drag_shadow_background">#ff424242</color>
+
+    <color name="scroll_thumb_pressed">#ff616161</color>
+    <color name="scroll_thumb">#ff424242</color>
+    <color name="scroll_track">#ff303030</color>
 </resources>
