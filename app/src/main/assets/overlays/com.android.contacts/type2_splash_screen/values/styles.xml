@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchScreenTheme" parent="@*com.android.contacts:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*com.android.contacts:drawable/quantum_launchscreen_contacts</item>
+        <!-- Ensure the status bar color matches the background -->
+        <item name="android:colorPrimaryDark">@android:color/black</item>
+    </style>
+</resources>

@@ -152,4 +152,21 @@ packages/apps/ContactsCommon
     <color name="searchbox_icon_tint">#80ffffff</color>
 
     <color name="search_shortcut_icon_color">#0288d1</color>
+
+    <color name="dialtacts_theme_color">#0288d1</color>
+    <color name="contacts_text_color">#ffffffff</color>
+    <color name="empty_state_background">@*android:color/background_material_dark</color>
+
+    <color name="drawer_divider_color">#80ffffff</color>
+    <color name="navigation_drawer_background_color">@*android:color/background_material_dark</color>
+    <color name="drawer_selected_color">#ff424242</color>
+    <color name="control_highlight_color">#1affffff</color>
+
+    <color name="account_filter_text_color">#ffffffff</color>
+    <color name="custom_filter_divider">#80ffffff</color>
+
+    <color name="disabled_button_text">#40ffffff</color>
+    <color name="disabled_button_background">#26ffffff</color>
+    <color name="disabled_contact_list_name_text">#40ffffff</color>
+
 </resources>

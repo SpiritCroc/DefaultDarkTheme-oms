@@ -135,7 +135,57 @@
         <item name="android:colorAccent">#0288d1</item>
     </style>
 
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="EmptyStateTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:alpha">0.54</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="DrawerItemTextStyle">
+        <!-- parent="DrawerTextStyle" -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">32dp</item><!-- dimen/drawer_item_text_margin -->
+        <item name="android:layout_marginEnd">32dp</item><!-- dimen/drawer_item_text_margin -->
+    </style>
+
+    <style name="DrawerHeaderTextStyle">
+        <!-- parent="DrawerTextStyle" -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+
+        <item name="android:layout_gravity">center_vertical|start</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--
+    <style name="DrawerItemTextActiveStyle">
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    -->
+
+    <style name="DrawerItemTextInactiveStyle">
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>

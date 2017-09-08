@@ -50,6 +50,20 @@
         <h3>System accent</h3>
         Accent color for System/SystemUI
 
+        <h2><font color="?android:attr/colorAccent">Contacts</font></h2>
+
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
+            <li><b>7.* or before:</b> Use when running older Android versions</li>
+        </ul>
+
+        <h3>Splash screen</h3>
+        <ul>
+            <li><b>Default:</b> Use when the app doesn\'t show a splash screen (usually the case on Android 7.* and before)</li>
+            <li><b>Splash screen:</b> Use when the app shows a splash screen on start (usually the case on Android 8.0 and later)</li>
+        </ul>
+
         <h2><font color="?android:attr/colorAccent">Email (AOSP)</font></h2>
         <ul>
             <li><b>Default:</b> Readable on most devices.</li>

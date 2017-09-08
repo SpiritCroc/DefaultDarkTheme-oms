@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These don't exist on 7.* or before: -->
+    <!--
+    <style name="LaunchScreenTheme" parent="android:Theme.Material" />
+    <style name="PeopleThemeAppCompat" parent="android:Theme.Material" />
+    <style name="ContactsAlertDialogThemeThemeAppCompat" parent="android:Theme.Material.Dialog">
+        <item name="android:colorAccent">#0288d1</item>
+    </style>
+    -->
+
+</resources>

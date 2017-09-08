@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color of the drawer status bar bg -->
+    <color name="contacts_accent_color">#ff212121</color>
+
+</resources>
