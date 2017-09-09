@@ -16,4 +16,12 @@
         <item name="android:colorAccent">?android:attr/colorSecondary</item>
         -->
     </style>
+
+    <!-- Default systemui_theme from oreo is fine. Nougat needs it, see type2 variants -->
+    <!--
+    <style name="systemui_theme" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="@*com.android.systemui:attr/lightIconTheme">@*com.android.systemui:style/DualToneLightTheme</item>
+        <item name="@*com.android.systemui:attr/darkIconTheme">@*com.android.systemui:style/DualToneDarkTheme</item>
+    </style>
+    -->
 </resources>

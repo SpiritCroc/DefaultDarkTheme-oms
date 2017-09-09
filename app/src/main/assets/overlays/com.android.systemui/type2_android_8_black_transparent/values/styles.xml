@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Default systemui_theme from oreo. Overlay needed for Nougat or before -->
     <style name="systemui_theme" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
         <item name="@*com.android.systemui:attr/lightIconTheme">@*com.android.systemui:style/DualToneLightTheme</item>
         <item name="@*com.android.systemui:attr/darkIconTheme">@*com.android.systemui:style/DualToneDarkTheme</item>
+        <item name="android:colorPrimary">#80000000</item>
+        <item name="android:colorPrimaryDark">#80000000</item>
     </style>
-
 </resources>

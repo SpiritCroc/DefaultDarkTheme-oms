@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="systemui_theme" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="@*com.android.systemui:attr/lightIconTheme">@*com.android.systemui:style/DualToneLightTheme</item>
+        <item name="@*com.android.systemui:attr/darkIconTheme">@*com.android.systemui:style/DualToneDarkTheme</item>
+        <item name="android:colorPrimary">#80303030</item>
+        <item name="android:colorPrimaryDark">#80303030</item>
+    </style>
+</resources>

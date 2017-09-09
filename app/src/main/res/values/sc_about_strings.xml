@@ -106,10 +106,11 @@
         <a name="variantsSystemUI" />
         <h2><font color="?android:attr/colorAccent">SystemUI</font></h2>
 
-        <h3>Android version</h3>
+        <h3>Android version and QS/volume style</h3>
         <ul>
-            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>android 7 or before:</b> Use when running older Android versions</li>
+            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later for default dark solid QS and volume</li>
+            <li><b>android 8&#8230;:</b> Use when running Android 8.0 (oreo) or later Android versions (select QS/volume style as you wish)</li>
+            <li><b>android 7 or before&#8230;:</b> Use when running older Android versions then 8.0 (select QS/volume style as you wish)</li>
         </ul>
 
         <h3>QS Tile title size</h3>
@@ -117,8 +118,6 @@
             <li><b>Default:</b> Keep stock title size</li>
             <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
         </ul>
-        <h3>QS/Volume style</h3>
-        Choose between a dark, darker, or black background for volume slider and quicksettings, either solid or semi-transparent.
 
         <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
         <h3>Style</h3>
