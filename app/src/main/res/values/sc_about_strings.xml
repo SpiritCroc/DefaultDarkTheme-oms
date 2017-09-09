@@ -85,8 +85,9 @@
         <h2><font color="?android:attr/colorAccent">Phone</font></h2>
         <h3>Android version</h3>
         <ul>
-            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
-            <li><b>6.* or before:</b> Use when running older Android versions</li>
+            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
+            <li><b>6.* or before:</b> Use when running older Android versions than 7.0</li>
+            <li><b>7.*:</b> Use when running Android 7.* (Nougat)</li>
         </ul>
         <h3>App version</h3>
         <ul>
@@ -108,7 +109,7 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>7.* or before or before:</b> Use when running older Android versions</li>
+            <li><b>7.* or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h3>QS Tile title size</h3>
