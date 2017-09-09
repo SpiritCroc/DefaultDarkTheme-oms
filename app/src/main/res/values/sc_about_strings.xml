@@ -40,8 +40,8 @@
         <h3>Overlay type</h3>
         <ul>
             <li><b>Default:</b> Use with Substratum-supported ROMs</li>
-            <li><b>legacy 5.*:</b> Use with Android 5.* (Lollipop)</li>
-            <li><b>legacy 6.0 or later:</b> Use when running Substratum in legacy mode (e.g. when using RRO) on Android 6.0 (marshmallow) or later</li>
+            <li><b>legacy android 5:</b> Use with Android 5.* (Lollipop)</li>
+            <li><b>legacy android 6 or later:</b> Use when running Substratum in legacy mode (e.g. when using RRO) on Android 6.0 (marshmallow) or later</li>
         </ul>
 
         <h3>Settings accent</h3>
@@ -55,7 +55,7 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>7.* or before:</b> Use when running older Android versions</li>
+            <li><b>android 7 or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h3>Splash screen</h3>
@@ -79,15 +79,15 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
-            <li><b>6.* or before:</b> Use when running older Android versions</li>
+            <li><b>android 6 or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h2><font color="?android:attr/colorAccent">Phone</font></h2>
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>6.* or before:</b> Use when running older Android versions than 7.0</li>
-            <li><b>7.*:</b> Use when running Android 7.* (Nougat)</li>
+            <li><b>android 6 or before:</b> Use when running older Android versions than 7.0</li>
+            <li><b>android 7:</b> Use when running Android 7.* (Nougat)</li>
         </ul>
         <h3>App version</h3>
         <ul>
@@ -99,8 +99,8 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
-            <li><b>5.*:</b> Use with older Android versions than 6.0</li>
-            <li><b>6.*:</b> Use when running Android 6.* (Marshmallow)</li>
+            <li><b>android 5:</b> Use with older Android versions than 6.0</li>
+            <li><b>android 6:</b> Use when running Android 6.* (Marshmallow)</li>
         </ul>
 
         <a name="variantsSystemUI" />
@@ -109,7 +109,7 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>7.* or before:</b> Use when running older Android versions</li>
+            <li><b>android 7 or before:</b> Use when running older Android versions</li>
         </ul>
 
         <h3>QS Tile title size</h3>
