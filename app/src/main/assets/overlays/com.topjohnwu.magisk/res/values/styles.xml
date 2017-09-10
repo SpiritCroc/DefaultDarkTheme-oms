@@ -1,25 +1,33 @@
 <resources>
 
+    <!--
     <style name="AppTheme.Dark" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.NoActionBar">
+    -->
         <!--
         <item name="@*com.topjohnwu.magisk:attr/colorPrimary">@color/dark_primary</item>
         <item name="@*com.topjohnwu.magisk:attr/colorPrimaryDark">@color/dark_primary_dark</item>
         -->
+    <!--
         <item name="@*com.topjohnwu.magisk:attr/colorAccent">@android:color/holo_blue_bright</item>
+    -->
         <!--
         <item name="@*com.topjohnwu.magisk:attr/colorAccentFallback">@android:color/holo_blue_bright</item>
         -->
+    <!--
         <item name="@*com.topjohnwu.magisk:attr/windowActionModeOverlay">true</item>
         <item name="@*com.topjohnwu.magisk:attr/android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="@*com.topjohnwu.magisk:attr/cardStyle">@*com.topjohnwu.magisk:style/CardViewStyle.Dark</item>
         <item name="@*com.topjohnwu.magisk:attr/windowActionBar">false</item>
         <item name="@*com.topjohnwu.magisk:attr/windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+    -->
         <!--
         <item name="android:textColorSecondary">@color/dark_secondary_text</item>
         -->
+    <!--
         <item name="@*com.topjohnwu.magisk:attr/colorControlHighlight">#b3ffffff</item>
     </style>
+    -->
 
     <style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:style/CardView">
         <item name="@*com.topjohnwu.magisk:attr/cardBackgroundColor">#ff424242</item>
