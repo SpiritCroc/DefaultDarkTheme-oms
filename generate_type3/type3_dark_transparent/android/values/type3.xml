@@ -49,4 +49,7 @@
     the NORMAL notification background to be dark and the text to be light, this boolean
     needs to be set to false, to prevent the doze notifications from being light -->
     <bool name="config_invert_colors_on_doze">false</bool>
+
+    <color name="notification_primary_text_color_light">#ffffffff</color>
+    <color name="notification_secondary_text_color_light">#b3ffffff</color>
 </resources>

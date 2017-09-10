@@ -9,6 +9,9 @@
     <!-- The color of the material notification background when dimmed -->
     <color name="notification_material_background_dimmed_color">#80000000</color>
 
+    <!-- The color of the material notification background when dark -->
+    <color name="notification_material_background_dark_color">#b3000000</color>
+
     <!-- The color of the material notification background when low priority -->
     <color name="notification_material_background_low_priority_color">#b3000000</color>
 
