@@ -2,14 +2,16 @@
 
 <resources>
 
-    <color name="accent_material_light">#ff009688</color>
-    <color name="accent_material_dark">#ff80cbc4</color>
+    <!-- Legacy accent: match settings -->
+    <color name="accent_material_light">@android:color/holo_blue_bright</color>
+    <color name="accent_material_dark">@android:color/holo_blue_bright</color>
 
-    <color name="accent_device_default_light">#ff009688</color>
-    <color name="accent_device_default_dark">#ff80cbc4</color>
+    <color name="accent_device_default_light">@android:color/holo_blue_bright</color>
+    <color name="accent_device_default_dark">@android:color/holo_blue_bright</color>
 
     <color name="accent_device_default_700">#ff00796b</color>
     <color name="accent_device_default_50">#ffe0f2f1</color>
+    <!-- Legacy accent end -->
 
     <color name="app_permission_icon_tint">#ffffffff</color>
 

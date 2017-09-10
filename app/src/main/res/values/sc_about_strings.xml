@@ -45,10 +45,11 @@
         </ul>
 
         <h3>Settings accent</h3>
-        Accent color for Settings
+        Accent color for Settings (default: teal)
 
         <h3>System accent</h3>
-        Accent color for System/SystemUI
+        <p>Accent color for System/SystemUI.</p>
+        <p>Default: match settings. Default variant needed on some legacy ROMs such as LineageOS on which opening the power menu leads to a device reboot otherwise. If you don\'t experience reboots when using a different variant than the default one here, it\'s recommended to select the other variant.</p>
 
         <h2><font color="?android:attr/colorAccent">Contacts</font></h2>
 
