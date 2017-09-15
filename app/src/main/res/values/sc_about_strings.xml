@@ -6,7 +6,7 @@
     <string name="unknown_version">Unknown</string>
     <string name="version_name_and_code">%1$s (%2$s)</string>
 
-    <integer name="about_version">4</integer>
+    <integer name="about_version">5</integer>
 
     <string name="about_html"><![CDATA[
         <style media=\"screen\" type=\"text/css\">
@@ -83,6 +83,13 @@
             <li><b>android 6 or before:</b> Use when running older Android versions</li>
         </ul>
 
+        <h2><font color="?android:attr/colorAccent">Launcher3 (AOSP 8.0+)</font></h2>
+        <h3>Style</h3>
+        <ul>
+            <li><b>Default (light):</b> Ensure readability</li>
+            <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
+        </ul>
+
         <h2><font color="?android:attr/colorAccent">Phone</font></h2>
         <h3>Android version</h3>
         <ul>
@@ -94,6 +101,13 @@
         <ul>
             <li><b>Default:</b> Select if you don&#39;t have speed dial settings (e.g. AOSP)</li>
             <li><b>speed dial:</b> Select if you have speed dial settings (e.g. LaOS-based)</li>
+        </ul>
+
+        <h2><font color="?android:attr/colorAccent">Pixel Launcher</font></h2>
+        <h3>Style</h3>
+        <ul>
+            <li><b>Default (light):</b> Ensure readability</li>
+            <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
         <h2><font color="?android:attr/colorAccent">Settings</font></h2>
@@ -120,7 +134,7 @@
             <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Trebuchet</font></h2>
+        <h2><font color="?android:attr/colorAccent">Trebuchet (LineageOS 15.0+)</font></h2>
         <h3>Style</h3>
         <ul>
             <li><b>Default (light):</b> Ensure readability</li>
