@@ -1,0 +1,11 @@
+<resources>
+    <style name="ChangelogTheme" parent="@*com.aicp.extras:style/Theme.AppCompat.NoActionBar">
+        <item name="@*com.aicp.extras:attr/colorAccent">@android:color/holo_blue_bright</item>
+        <item name="@*com.aicp.extras:attr/changelog_color_bg">@*android:color/background_material_dark</item>
+        <item name="@*com.aicp.extras:attr/changelog_color_header_back">#ff424242</item>
+        <item name="@*com.aicp.extras:attr/changelog_color_commit_message">?android:attr/textColorPrimary</item>
+        <item name="@*com.aicp.extras:attr/changelog_color_commit_bg">#212121</item>
+        <!-- Changelog image behind status bar -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
