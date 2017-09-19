@@ -63,14 +63,31 @@ public class AboutFragment extends Fragment {
         openSubstratumButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), SubstratumLauncher.class));
+                /*startActivity(new Intent(getActivity(), SubstratumLauncher.class));
                 PackageManager pm = getActivity().getPackageManager();
                 Intent i = pm.getLaunchIntentForPackage(Util.SUBSTRATUM_PACKAGE_NAME);
                 if (i == null) {
                     Log.e(TAG, "Could not get launch intent for substratum!");
                     return;
                 }
-                startActivity(i);
+                startActivity(i);*/
+
+                String theme_mode = null;
+                String actionIntent= "projekt.substratum.THEME";
+
+                Intent intentActivity = new Intent();
+                intentActivity = intentActivity.setClassName(Util.SUBSTRATUM_PACKAGE_NAME, "projekt.substratum.activities.launch.ThemeLaunchActivity");
+
+                intentActivity.putExtra("package_name", Util.THEME_PACKAGE_NAME);
+                intentActivity.setAction(actionIntent);
+                intentActivity.setPackage(Util.THEME_PACKAGE_NAME);
+                intentActivity.putExtra("calling_package_name", Util.THEME_PACKAGE_NAME);
+                intentActivity.putExtra("oms_check", false);
+                intentActivity.putExtra("theme_mode", theme_mode);
+                intentActivity.putExtra("notification", false);
+                intentActivity.putExtra("hash_passthrough", true);
+                intentActivity.putExtra("certified", false);
+                startActivity(intentActivity);
             }
         });
 
