@@ -7,6 +7,7 @@
     <string name="theme_wallpaper_source">https://raw.githubusercontent.com/SpiritCroc/DefaultDarkTheme-oms/master/wallpapers/index.txt</string>
     <bool name="theme_support_legacy">true</bool>
     <bool name="theme_support_samsung">false</bool>
+    <string name="theme_hero_override">light</string>
     <string-array name="theme_changelog">
     </string-array>
 </resources>
