@@ -148,4 +148,6 @@
     <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_dark</color>
     <color name="bluetooth_pairing_code_message">@*android:color/secondary_text_material_dark</color>
     <color name="bluetooth_phonebook_sharing_message_confirm_pin">@*android:color/secondary_text_material_dark</color>
+
+    <color name="wifi_details_icon_color">#b3ffffff</color>
 </resources>
