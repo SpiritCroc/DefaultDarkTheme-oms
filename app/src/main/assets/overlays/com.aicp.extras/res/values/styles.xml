@@ -1,4 +1,11 @@
 <resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+        <item name="@*com.aicp.extras:attr/color_settings_icon">?android:attr/colorControlNormal</item>
+        <item name="@*com.aicp.extras:attr/preferenceTheme">@*com.aicp.extras:style/AppPreferenceTheme</item>
+        <item name="@*com.aicp.extras:attr/switchBarTheme">@*com.aicp.extras:style/ThemeOverlay.SwitchBar.Settings</item>
+    </style>
+
     <style name="ChangelogTheme" parent="@*com.aicp.extras:style/Theme.AppCompat.NoActionBar">
         <item name="@*com.aicp.extras:attr/colorAccent">@android:color/holo_blue_bright</item>
         <item name="@*com.aicp.extras:attr/changelog_color_bg">@*android:color/background_material_dark</item>
@@ -7,5 +14,11 @@
         <item name="@*com.aicp.extras:attr/changelog_color_commit_bg">#212121</item>
         <!-- Changelog image behind status bar -->
         <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="@*com.aicp.extras:attr/switchBarMarginStart">@*com.aicp.extras:dimen/switchbar_margin_start</item>
+        <item name="@*com.aicp.extras:attr/switchBarMarginEnd">@*com.aicp.extras:dimen/switchbar_margin_end</item>
+        <item name="@*com.aicp.extras:attr/switchBarBackgroundColor">#ff424242</item>
     </style>
 </resources>
