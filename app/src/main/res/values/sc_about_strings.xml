@@ -6,12 +6,15 @@
     <string name="unknown_version">Unknown</string>
     <string name="version_name_and_code">%1$s (%2$s)</string>
 
-    <integer name="about_version">5</integer>
+    <integer name="about_version">6</integer>
 
     <string name="about_html"><![CDATA[
         <style media=\"screen\" type=\"text/css\">
             body {
                 color: ?android:attr/textColorPrimary ;
+            }
+            h2 {
+                color: ?android:attr/colorAccent ;
             }
             a:link {
                 color: ?android:attr/colorAccent ;
@@ -29,13 +32,18 @@
         <a name="variants" />
         <h1><b><u>Variants explained</u></b></h1>
 
-        <h2><font color="?android:attr/colorAccent">Base variant</font></h2>
+        <h2>Base variant</h2>
         <h3>Notifications</h3>
+        <p>
         Choose light notifications (default) to ensure readability for all applications (recommended especially when running Substratum in legacy mode).
         When using one of the dark/black solid/semi-transparent variants, issues might occur with apps that set their own notification colors.
+        </p>
+        <p>
+        Use legacy variants when using a ROM without full Substratum support (exposure commits), i.e. when using stock ROM!
+        </p>
 
         <a name="variantsAndroidSystem" />
-        <h2><font color="?android:attr/colorAccent">Android System</font></h2>
+        <h2>Android System</h2>
 
         <h3>Overlay type</h3>
         <ul>
@@ -49,9 +57,9 @@
 
         <h3>System accent</h3>
         <p>Accent color for System/SystemUI.</p>
-        <p>Default: match settings. Default variant needed on some legacy ROMs such as LineageOS on which opening the power menu leads to a device reboot otherwise. If you don\'t experience reboots when using a different variant than the default one here, it\'s recommended to select the other variant.</p>
+        <p>Default: match settings. Default variant needed on some legacy ROMs such as LineageOS on which opening the power menu leads to a device reboot otherwise. If you don&#39;t experience reboots when using a different variant than the default one here, it&#39;s recommended to select the other variant.</p>
 
-        <h2><font color="?android:attr/colorAccent">Contacts</font></h2>
+        <h2>Contacts</h2>
 
         <h3>Android version</h3>
         <ul>
@@ -61,11 +69,11 @@
 
         <h3>Splash screen</h3>
         <ul>
-            <li><b>Default:</b> Use when the app doesn\'t show a splash screen (usually the case on Android 7.* and before)</li>
+            <li><b>Default:</b> Use when the app doesn&#39;t show a splash screen (usually the case on Android 7.* and before)</li>
             <li><b>Splash screen:</b> Use when the app shows a splash screen on start (usually the case on Android 8.0 and later)</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Email (AOSP)</font></h2>
+        <h2>Email (AOSP)</h2>
         <ul>
             <li><b>Default:</b> Readable on most devices.</li>
             <li><b>theme ready:</b> Use this if you have theme-ready AOSP Email(*).</li>
@@ -76,21 +84,21 @@
             <li><b>AICP</b> 12.1 builds starting from 2017-05-29</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Files (DocumentsUI)</font></h2>
+        <h2>Files (DocumentsUI)</h2>
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
             <li><b>android 6 or before:</b> Use when running older Android versions</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Launcher3 (AOSP 8.0+)</font></h2>
+        <h2>Launcher3 (AOSP 8.0+)</h2>
         <h3>Style</h3>
         <ul>
             <li><b>Default (light):</b> Ensure readability</li>
             <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Phone</font></h2>
+        <h2>Phone</h2>
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
@@ -103,14 +111,14 @@
             <li><b>speed dial:</b> Select if you have speed dial settings (e.g. LaOS-based)</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Pixel Launcher</font></h2>
+        <h2>Pixel Launcher</h2>
         <h3>Style</h3>
         <ul>
             <li><b>Default (light):</b> Ensure readability</li>
             <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Settings</font></h2>
+        <h2>Settings</h2>
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
@@ -119,7 +127,7 @@
         </ul>
 
         <a name="variantsSystemUI" />
-        <h2><font color="?android:attr/colorAccent">SystemUI</font></h2>
+        <h2>SystemUI</h2>
 
         <h3>Android version and QS/volume style</h3>
         <ul>
@@ -134,14 +142,14 @@
             <li><b>Small:</b> Reduce quicksettings title size a little bit</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Trebuchet (LineageOS 15.0+)</font></h2>
+        <h2>Trebuchet (LineageOS 15.0+)</h2>
         <h3>Style</h3>
         <ul>
             <li><b>Default (light):</b> Ensure readability</li>
             <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
-        <h2><font color="?android:attr/colorAccent">Substratum</font></h2>
+        <h2>Substratum</h2>
         <h3>Style</h3>
         <ul>
             <li><b>Default:</b> Keep default accent colors</li>
@@ -157,7 +165,16 @@
 
         <a name="bugs" />
         <h1><b><u>Reporting bugs</u></b></h1>
-        <p><b><font color="?attr/colorWarning">Before reporting any bugs, make sure you are using the latest version of Substratum! Also try uninstalling and re-installing the theme, and rebooting your device, as this might resolve some issues. Additionally, make sure you are using the right <a href="#variants"><font color="?attr/colorWarning">variants</font></a>!</font></b></p>
+        <p>Before reporting any bugs, try following steps first:</p>
+        <ul>
+            <li>Try rebooting your device after applying the theme</li>
+            <li>Make sure you are using the right <a href="#variants">variants</a></li>
+            <li>Make sure you are using the latest version of Substratum</li>
+            <li>Try uninstalling and re-installing the theme</li>
+            <li>Try cleaning the cache of Substratum (or the theming app that you&#39;re using)</li>
+            <li>Try uninstalling and re-installing Substratum</li>
+            <li>Check whether the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues?q=is%3Aissue">issue already has been reported on the theme&#39;s github page</a> and maybe there is already a known fix for it</li>
+        </ul>
 
         <p>When reporting bugs, please provide the following information:
         <ul>
@@ -175,18 +192,13 @@
         </ul>
         </p>
 
+        <p>To report a bug, create an issue on the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues">github page</a> (or provide additional information to an existing one).</p>
+
         <p><b><font color="?attr/colorWarning">Be nice! You don&#39;t pay me anything, and I don&#39;t feel the need to fix everything you tell me to; especially if you&#39;re not being friendly! Also, don&#39;t expect any response if you haven&#39;t provided the above listed relevant information!</font></b></p>
 
-        <p>Keep in mind that if you\'re not using a Substratum supported ROM, my means of providing support and fixing bugs are rather limited.</p>
+        <p>Keep in mind that if you&#39;re not using a Substratum supported ROM, my means of providing support and fixing bugs are rather limited.</p>
 
-        <p>There are two ways to report bugs:
-        <ol type="a">
-            <li>Send me an <a href="mailto:spiritcroc@gmail.com><font color="?android:attr/textColorPrimary">email</font></a> (please put some text in the title so I know what the mail is about; I do more in my life than this theme)</li>
-            <li>Create an issue on the <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/issues"><font color="?android:attr/textColorPrimary">github page</font></a>, or update an existing one</li>
-        </ol>
-
-        <b><font color="?attr/colorWarning">Don&#39;t report bugs by writing it in a review on google play, it&#39;s unlikely that I will look into it this way! REVIEWS ARE NOT FOR BUG REPORTS!</font></b>
-        </p>
+        <p><b><font color="?attr/colorWarning">Don&#39;t report bugs by writing it in a review on google play, it&#39;s unlikely that I will look into it this way! REVIEWS ARE NOT FOR BUG REPORTS!</font></b></p>
 
 
         <a name="source" />
