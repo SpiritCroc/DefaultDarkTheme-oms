@@ -28,6 +28,7 @@
         <p><a href="#telegram">Telegram</a><p>
         <p><a href="#bugs">Reporting bugs</a><p>
         <p><a href="#source">Source</a><p>
+        <p><a href="#old">Previous releases</a><p>
 
         <a name="variants" />
         <h1><b><u>Variants explained</u></b></h1>
@@ -188,6 +189,11 @@
         <h1><b><u>Source code</u></b></h1>
 
         <p>This theme was made open source, so anybody has the possibility to improve it to their likings! Good contributions are welcome! Code can be found on <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms">github</a>.</p>
+
+        <a name="old" />
+        <h1><b><u>Previous releases</u></b></h1>
+
+        <p>If you experience some issues with the latest version that weren&#39;t present before, or you&#39;d like to try out previous releases of this theme for other reasons, you can get them <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms/releases">on the github releases page</a>.</p>
 
     ]]></string>
 
