@@ -14,7 +14,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 
-import substratum.theme.template.internal.SystemInformation;
+import substratum.theme.template.ThemeFunctions;
 
 public class AboutActivity extends Activity {
 
@@ -25,7 +25,7 @@ public class AboutActivity extends Activity {
         boolean forceAbout = getIntent().getBooleanExtra(Util.EXTRA_FORCE_ABOUT, false);
 
         Fragment fragment = forceAbout ? new ForcedAboutFragment()
-                : !Util.TEST_DEPP && SystemInformation.INSTANCE.getSelfVerifiedThemeEngines(this)
+                : !Util.TEST_DEPP && ThemeFunctions.INSTANCE.getSelfVerifiedThemeEngines(this)
                     ? new AboutFragment()
                     : new DeppFragment();
 
