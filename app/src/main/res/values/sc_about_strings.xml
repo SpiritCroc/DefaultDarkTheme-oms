@@ -48,8 +48,7 @@
         <h3>Overlay type</h3>
         <ul>
             <li><b>Default:</b> Use with Substratum-supported ROMs</li>
-            <li><b>legacy android 5:</b> Use with Android 5.* (Lollipop)</li>
-            <li><b>legacy android 6 or later:</b> Use when running Substratum in legacy mode (e.g. when using RRO) on Android 6.0 (marshmallow) or later</li>
+            <li><b>legacy:</b> Use when using a ROM without Substratum exposure commits</li>
         </ul>
 
         <h3>Settings accent</h3>
@@ -64,12 +63,12 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>android 7 or before:</b> Use when running older Android versions</li>
+            <li><b>android 7:</b> Use when running older Android versions</li>
         </ul>
 
         <h3>Splash screen</h3>
         <ul>
-            <li><b>Default:</b> Use when the app doesn&#39;t show a splash screen (usually the case on Android 7.* and before)</li>
+            <li><b>Default:</b> Use when the app doesn&#39;t show a splash screen (usually the case on Android 7.*)</li>
             <li><b>Splash screen:</b> Use when the app shows a splash screen on start (usually the case on Android 8.0 and later)</li>
         </ul>
 
@@ -84,13 +83,6 @@
             <li><b>AICP</b> 12.1 builds starting from 2017-05-29</li>
         </ul>
 
-        <h2>Files (DocumentsUI)</h2>
-        <h3>Android version</h3>
-        <ul>
-            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
-            <li><b>android 6 or before:</b> Use when running older Android versions</li>
-        </ul>
-
         <h2>Launcher3 (AOSP 8.0+)</h2>
         <h3>Style</h3>
         <ul>
@@ -102,7 +94,6 @@
         <h3>Android version</h3>
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
-            <li><b>android 6 or before:</b> Use when running older Android versions than 7.0</li>
             <li><b>android 7:</b> Use when running Android 7.* (Nougat)</li>
         </ul>
         <h3>App version</h3>
@@ -118,14 +109,6 @@
             <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
-        <h2>Settings</h2>
-        <h3>Android version</h3>
-        <ul>
-            <li><b>Default:</b> Use when running Android 7.0 (Nougat) or later</li>
-            <li><b>android 5:</b> Use with older Android versions than 6.0</li>
-            <li><b>android 6:</b> Use when running Android 6.* (Marshmallow)</li>
-        </ul>
-
         <a name="variantsSystemUI" />
         <h2>SystemUI</h2>
 
@@ -133,7 +116,7 @@
         <ul>
             <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later for default dark solid QS and volume</li>
             <li><b>android 8&#8230;:</b> Use when running Android 8.0 (oreo) or later Android versions (select QS/volume style as you wish)</li>
-            <li><b>android 7 or before&#8230;:</b> Use when running older Android versions then 8.0 (select QS/volume style as you wish)</li>
+            <li><b>android 7&#8230;:</b> Use when running Android 7.* (nougat (select QS/volume style as you wish)</li>
         </ul>
 
         <h3>QS Tile title size</h3>
