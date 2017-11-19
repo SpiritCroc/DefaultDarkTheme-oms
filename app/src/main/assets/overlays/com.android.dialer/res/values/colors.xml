@@ -8,6 +8,8 @@ packages/apps/InCallUI (moved: packages/apps/Dialer/InCallUI)
 <resources>
     <color name="dialer_theme_color">#0288d1</color>
     <color name="dialer_theme_color_dark">#0277bd</color>
+    <color name="dialer_primary_text_color">#ffffffff</color>
+    <color name="dialer_edit_text_hint_color">#80ffffff</color>
     <color name="dialtacts_theme_color">#ff4fc3f7</color><!-- theme note: accent color; used e.g. for icons to add contact/message/... when dialing -->
     <color name="actionbar_background_color">#0288d1</color>
     <color name="actionbar_background_color_dark">#ff000000</color>

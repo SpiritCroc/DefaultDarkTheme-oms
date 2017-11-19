@@ -79,4 +79,47 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+
+    <!-- packages/apps/Dialer/java/com/android/dialer/calldetails -->
+
+    <style name="PrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+        <!--
+        <item name="android:textSize">@dimen/call_details_primary_text_size</item>
+        -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SecondaryText">
+        <item name="android:textColor">#b3ffffff</item>
+        <!--
+        <item name="android:textSize">@dimen/call_details_secondary_text_size</item>
+        -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ECText">
+        <item name="android:textColor">#b3ffffff</item>
+        <!--
+        <item name="android:textSize">@dimen/call_details_ec_text_size</item>
+        -->
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">28dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">28dp</item>
+        <item name="android:paddingEnd">28dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#b3ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
 </resources>
