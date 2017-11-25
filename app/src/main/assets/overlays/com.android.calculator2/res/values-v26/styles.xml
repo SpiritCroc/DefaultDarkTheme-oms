@@ -18,7 +18,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="Theme" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">#0097A7</item>
+        <item name="android:colorPrimary">#00BDC4</item>
+        <item name="android:colorAccent">#0097A7</item>
         <item name="android:statusBarColor">#0097A7</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
     </style>
@@ -38,7 +39,6 @@
     -->
 
     <style name="DisplayTextStyle" parent="@android:style/Widget.Material.TextView">
-        <item name="android:background">@android:color/transparent</item>
         <item name="android:cursorVisible">false</item>
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:includeFontPadding">false</item>

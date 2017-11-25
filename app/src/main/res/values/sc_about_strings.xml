@@ -59,6 +59,14 @@
         <p>Accent color for System/SystemUI.</p>
         <p>Default: match settings. Default variant needed on some legacy ROMs such as LineageOS on which opening the power menu leads to a device reboot otherwise. If you don&#39;t experience reboots when using a different variant than the default one here, it&#39;s recommended to select the other variant.</p>
 
+        <h2>Calculator</h2>
+
+        <h3>Android version</h3>
+        <ul>
+            <li><b>Default:</b> Use when running Android 8.0 (Oreo) or later</li>
+            <li><b>android 7:</b> Use when running older Android versions</li>
+        </ul>
+
         <h2>Contacts</h2>
 
         <h3>Android version</h3>
