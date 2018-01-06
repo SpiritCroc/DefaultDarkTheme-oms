@@ -24,4 +24,11 @@
         <item name="@*com.android.systemui:attr/darkIconTheme">@*com.android.systemui:style/DualToneDarkTheme</item>
     </style>
     -->
+
+    <!-- o8.1 -->
+    <style name="qs_base" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="android:colorPrimary">#ff303030</item>
+        <item name="android:colorPrimaryDark">#ff303030</item>
+        <item name="android:colorBackgroundFloating">#ff303030</item>
+    </style>
 </resources>

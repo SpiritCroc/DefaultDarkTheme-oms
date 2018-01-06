@@ -6,4 +6,11 @@
         <item name="android:colorPrimary">#ff000000</item>
         <item name="android:colorPrimaryDark">#ff000000</item>
     </style>
+
+    <!-- o8.1 -->
+    <style name="qs_base" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorBackgroundFloating">#ff000000</item>
+    </style>
 </resources>
