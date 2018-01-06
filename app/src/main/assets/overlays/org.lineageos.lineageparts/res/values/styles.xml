@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <!--
+        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
+        <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
+        <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
+        -->
+        <item name="@*org.lineageos.lineageparts:attr/switchBarMarginStart">72dp</item>
+        <item name="@*org.lineageos.lineageparts:attr/switchBarMarginEnd">16dp</item>
+        <item name="@*org.lineageos.lineageparts:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorSecondary">#ff424242</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <!--
+        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
+        <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
+        <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
+        -->
+        <item name="@*org.lineageos.lineageparts:attr/switchBarMarginStart">72dp</item>
+        <item name="@*org.lineageos.lineageparts:attr/switchBarMarginEnd">16dp</item>
+        <item name="@*org.lineageos.lineageparts:attr/switchBarBackgroundColor">#ff424242</item>
+        <item name="android:colorSecondary">#ff424242</item>
+    </style>
+
+</resources>
