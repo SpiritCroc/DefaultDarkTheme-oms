@@ -5,6 +5,9 @@
         <item name="@*com.aicp.extras:attr/preferenceTheme">@*com.aicp.extras:style/AppPreferenceTheme</item>
         <item name="@*com.aicp.extras:attr/switchBarTheme">@*com.aicp.extras:style/ThemeOverlay.SwitchBar.Settings</item>
         <item name="@*com.aicp.extras:attr/thumb_default_value_color">#ffffff</item>
+        <!-- SeekBarPreference popup view -->
+        <item name="@*com.aicp.extras:attr/value_popup_view_bg">#e6424242</item>
+        <item name="@*com.aicp.extras:attr/value_popup_view_fg">#ffffffff</item>
     </style>
 
     <style name="ChangelogTheme" parent="@*com.aicp.extras:style/Theme.AppCompat.NoActionBar">
