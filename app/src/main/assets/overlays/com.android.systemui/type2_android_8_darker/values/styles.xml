@@ -8,9 +8,10 @@
     </style>
 
     <!-- o8.1 -->
-    <style name="qs_base" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+    <style name="qs_base" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">#ff212121</item>
         <item name="android:colorPrimaryDark">#ff212121</item>
         <item name="android:colorBackgroundFloating">#ff212121</item>
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
     </style>
 </resources>
