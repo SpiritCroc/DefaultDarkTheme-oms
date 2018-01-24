@@ -150,13 +150,6 @@
             <li><b>Dark:</b> Choose if darkness is more important to you than readability</li>
         </ul>
 
-        <h2>Substratum</h2>
-        <h3>Style</h3>
-        <ul>
-            <li><b>Default:</b> Keep default accent colors</li>
-            <li><b>match settings:</b> Use colors that integrate with system settings</li>
-        </ul>
-
 
         <a name="telegram" />
         <h1><b><u>Telegram</u></b></h1>

@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="navigationBarColor">@android:color/black</color>
 
+    <color name="colorPrimary">#ff212121</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorAccent">@android:color/holo_blue_bright</color>
+
+    <color name="colorRipple">#63ffffff</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="statusBarColor">#000000</color>
+
+    <color name="lunchbar_background">#ff424242</color>
+    <color name="lunchbar_text">@android:color/white</color>
+
+    <color name="bottombar_bar_background">#ff212121</color>
     <!--
     <color name="priorities_drag_handle">@color/main_screen_card_theme_title</color>
     <color name="priorities_switchbar">@color/colorPrimary</color>
+    -->
 
-    <color name="quick_apply_icon_tint">@color/main_screen_card_theme_title</color>
-    <color name="notification_dismiss_icon_tint">@color/main_screen_card_theme_title</color>
+    <color name="floatui_dialog_background">#ca000000</color>
+    <color name="floatui_dialog_header_background">#66777777</color>
+    <color name="floatui_dialog_title_color">@android:color/white</color>
+    <color name="floatui_dialog_row_color">@android:color/white</color>
+    <color name="floatui_dialog_checkmark_color">@android:color/white</color>
+    <color name="floatui_dialog_button_color">@android:color/white</color>
 
-    <color name="wallpaper_tab_text">@color/main_screen_card_theme_title</color>
-    <color name="wallpaper_card_text">@android:color/white</color>
-    <color name="wallpaper_card_text_shadow">@android:color/black</color>
+    <color name="bottom_sheet_dialog_background">#ff424242</color>
 
-    <color name="tab_defaults_icon_tint">@android:color/white</color>
+    <color name="error_icons">@android:color/white</color>
 
-    <color name="bootanimation_placeholder_tint">@android:color/white</color>
-    <color name="bootanimation_vm_text">@android:color/white</color>
-    <color name="bootanimation_checked">@color/colorAccent</color>
-    <color name="bootanimation_unchecked">#ff777777</color>
-    <color name="bootanimation_spinner_background">@color/theme_information_background</color>
-    <color name="bootanimation_window_background">@android:color/black</color>
+    <color name="theme_card_progress_background_dim">#99000000</color>
 
+    <!--
     <color name="easteregg_best_score">#fff6e803</color>
     <color name="easteregg_best_score_shadow">@android:color/black</color>
     <color name="easteregg_score">#ffaaaaaa</color>
@@ -58,7 +68,6 @@
     -->
 
     <color name="splashscreen_background">#ff000000</color>
-    <bool name="SplashscreenWindowLightStatusBar">false</bool>
     <!--
     <color name="dialog_icon_color">#ffffffff</color>
     <color name="dialog_text_color">#ffffffff</color>
@@ -68,9 +77,12 @@
     <color name="information_activity_dark_text_mode">@android:color/black</color>
     <color name="information_activity_light_icon_mode">@android:color/white</color>
     <color name="information_activity_light_text_mode">@android:color/white</color>
+    <color name="information_activity_background_shadow">#46000000</color>
 
     <color name="showcase_activity_text">@android:color/white</color>
     -->
+    <color name="showcase_card_text">@android:color/white</color>
+    <color name="showcase_card_installed_text">#d0ffffff</color>
 
     <color name="main_screen_card_background">#ff424242</color>
     <color name="main_screen_card_theme_title">#ffffffff</color>

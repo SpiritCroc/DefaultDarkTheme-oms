@@ -1,0 +1,4 @@
+<resources>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="navigation_bar_divider">#ff212121</color>
+</resources>

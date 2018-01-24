@@ -1,6 +1,32 @@
 <resources>
 
+    <style name="AppTheme" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+        <item name="*projekt.substratum:attr/colorPrimary">#ff212121</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#ff000000</item>
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:toolbarStyle">@*projekt.substratum:style/ToolbarTheme</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*projekt.substratum:attr/preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!--
+    <style name="AppTheme.AppBarOverlay" parent="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="AppTheme.DialogAlert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+    -->
+
+    <style name="AppTheme.Dialog" parent="@*projekt.substratum:style/Theme.AppCompat.Dialog" >
+        <item name="*projekt.substratum:attr/colorPrimary">#ff212121</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#ff000000</item>
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@*projekt.substratum:style/Theme.AppCompat">
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
 
     <style name="AppTheme.PopupOverlay" parent="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark" />
 
@@ -15,6 +41,18 @@
         <item name="android:windowActionBar">false</item>
         <item name="@*projekt.substratum:attr/windowActionBar">false</item>
         <item name="@*projekt.substratum:attr/windowNoTitle">true</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+    </style>
+
+    <style name="AppTheme.SpecialUI" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+        <!-- Copy of AppTheme -->
+        <item name="*projekt.substratum:attr/colorPrimary">#ff212121</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#ff000000</item>
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:toolbarStyle">@*projekt.substratum:style/ToolbarTheme</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*projekt.substratum:attr/preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
 
 </resources>

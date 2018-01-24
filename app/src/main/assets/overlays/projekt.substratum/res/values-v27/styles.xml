@@ -1,0 +1,70 @@
+<!--
+  ~ Copyright (c) 2016-2017 Projekt Substratum
+  ~ This file is part of Substratum.
+  ~
+  ~ Substratum is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Substratum is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Substratum.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+        <item name="*projekt.substratum:attr/colorPrimary">#ff212121</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#ff000000</item>
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:toolbarStyle">@*projekt.substratum:style/ToolbarTheme</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*projekt.substratum:attr/preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="AppTheme.SpecialUI" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <!-- Copy of AppTheme -->
+        <item name="*projekt.substratum:attr/colorPrimary">#ff212121</item>
+        <item name="*projekt.substratum:attr/colorPrimaryDark">#ff000000</item>
+        <item name="*projekt.substratum:attr/colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:toolbarStyle">@*projekt.substratum:style/ToolbarTheme</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*projekt.substratum:attr/preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <!--
+    <style name="AppTheme.InformationActivity" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.SpecialUI.InformationActivity" parent="AppTheme.SpecialUI">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashScreen.ActivityTheme" parent="Theme.AppCompat">
+        <item name="android:navigationBarColor">@color/splashscreen_background</item>
+        <item name="android:statusBarColor">@color/splashscreen_background</item>
+        <item name="android:windowLightStatusBar">@bool/SplashscreenWindowLightStatusBar</item>
+        <item name="android:windowLightNavigationBar">@bool/SplashscreenWindowLightNavigationBar
+        </item>
+    </style>
+    -->
+
+</resources>
