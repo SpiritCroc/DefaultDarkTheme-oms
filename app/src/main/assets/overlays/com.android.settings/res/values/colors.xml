@@ -114,12 +114,27 @@
     <!-- Condition card colors (airplane mode, dnd, ...) -->
     <color name="condition_card_background_color">#ff424242</color>
     <color name="condition_card_icon_color">@android:color/holo_blue_bright</color>
+    <color name="condition_card_header_icon_color">@android:color/holo_blue_bright</color>
     <color name="condition_card_title_text_color">#ffffffff</color>
     <color name="condition_card_expander_color">#ffffffff</color>
     <color name="condition_card_summary_text_color">#ffffffff</color>
     <color name="condition_card_divider_color">#ffffffff</color>
     <color name="condition_card_first_button_text_color">#ffffffff</color>
     <color name="condition_card_second_button_text_color">#ffffffff</color>
+    <color name="condition_card_count_text_color">@android:color/holo_blue_bright</color>
+
+    <!-- Suggestion card -->
+    <color name="suggestion_card_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="suggestion_card_icon_tint_color">@android:color/holo_blue_bright</color>
+    <color name="suggestion_card_title_text_color">@*android:color/primary_text_material_dark</color>
+    <color name="suggestion_card_summary_text_color">@*android:color/secondary_text_material_dark</color>
+    <color name="suggestion_card_collapsed_summary_text_color">@android:color/white</color>
+    <color name="suggestion_card_collapsed_title_text_color">@android:color/white</color>
+    <color name="suggestion_card_more_text_color">@android:color/white</color>
+
+    <!-- Suggestion and Condition card header -->
+    <color name="suggestion_condition_card_header_title_text_color">@android:color/holo_blue_bright</color>
+    <color name="suggestion_condition_card_header_summary_text_color">@android:color/holo_blue_bright</color>
 
     <color name="memory_normal">@android:color/holo_blue_bright</color>
 
@@ -154,4 +169,10 @@
     <color name="fallback_tintColor">#80ffffff</color>
     <color name="suggestion_condition_background">#ff212121</color>
     <color name="condition_card_background">@*android:color/background_material_dark</color>
+
+    <!-- MSIM Color picker dialog colors -->
+    <color name="sim_color_picker_edit_text_color">@android:color/white</color>
+    <color name="sim_color_picker_list_text_color">@android:color/white</color>
+    <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
+    <color name="sim_color_picker_number_text_color">@android:color/white</color>
 </resources>
