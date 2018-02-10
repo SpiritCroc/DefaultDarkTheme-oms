@@ -26,7 +26,7 @@
     <color name="notification_action_list">#ff303030</color>
     <color name="notification_action_list_dark">#ff303030</color>
 
-    <color name="notification_text_default_color">@*android:color/primary_text_material_dark</color>
+    <color name="notification_text_default_color">#ffffffff</color>
 
     <color name="sender_text_color">@android:color/white</color>
 
