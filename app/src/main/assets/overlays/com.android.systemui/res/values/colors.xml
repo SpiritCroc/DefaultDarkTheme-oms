@@ -21,4 +21,9 @@
     <color name="screen_pinning_background_color">#ff424242</color>
     <color name="screen_pinning_button_text">@android:color/white</color>
     <color name="screen_pinning_primary_text">@android:color/white</color>
+    <color name="screen_pinning_positive_text_color">@android:color/white</color>
+    <color name="screen_pinning_negative_text_color">@android:color/white</color>
+
+    <!-- QS edit page background color -->
+    <color name="qs_edit_item_decoration_bg">@*android:color/background_floating_material_dark</color>
 </resources>

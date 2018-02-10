@@ -30,4 +30,12 @@
     <color name="global_actions_item">#b3ffffff</color>
     <!-- AOSPA global action separator color: I've never actually seen this, but reverse the color either way -->
     <color name="global_actions_separator">#1affffff</color>
+
+    <color name="toast_bg_color">#E6424242</color>
+    <color name="toast_text_color">@*android:color/primary_text_default_material_dark</color>
+
+    <!-- Immersive cling -->
+    <color name="immersive_cling_bg_color">@*android:color/background_floating_material_dark</color>
+    <color name="immersive_cling_text_color">@android:color/white</color>
+    <color name="immersive_cling_button_text_color">@android:color/white</color>
 </resources>
