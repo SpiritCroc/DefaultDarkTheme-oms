@@ -20,7 +20,7 @@
 
     <!-- Default parent: Theme.DeviceDefault.Light.NoActionBar. Since this is dark,
     not everything is showing as expected. To ensure readability, really use a light theme here -->
-    <style name="BaseLauncherTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <style name="BaseLauncherTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowShowWallpaper">true</item>
