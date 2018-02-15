@@ -1,7 +1,8 @@
 #!/bin/bash
 
-OVERLAYS_PATH="app/src/main/assets/overlays"
-VARIANTS_PATH="generate_type3"
+base_path="$(dirname "$0")/.."
+OVERLAYS_PATH="$base_path/app/src/main/assets/overlays"
+VARIANTS_PATH="$base_path/generate_type3"
 DEFAULT_TYPE="res"
 
 $VARIANTS_PATH/clean.sh
