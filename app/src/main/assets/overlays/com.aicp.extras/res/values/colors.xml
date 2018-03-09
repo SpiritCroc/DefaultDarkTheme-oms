@@ -1,0 +1,3 @@
+<resources>
+    <color name="accent_dark">@android:color/holo_blue_bright</color>
+</resources>
