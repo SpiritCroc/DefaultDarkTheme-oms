@@ -24,6 +24,34 @@
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:colorEdgeEffect">#FF757575</item>
+        <item name="android:keyboardLayout">@*com.android.launcher3:layout/search_container_all_apps</item>
+    </style>
+
+    <style name="BaseLauncherThemeWithCustomAttrs" parent="@android:style/Theme.Material.NoActionBar">
+        <!-- from BaseLauncherTheme -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorEdgeEffect">#FF757575</item>
+        <item name="android:keyboardLayout">@*com.android.launcher3:layout/search_container_all_apps</item>
+
+        <!-- from BaseLauncherThemeWithCustomAttrs -->
+        <item name="@*com.android.launcher3:attr/isWorkspaceDarkText">false</item>
+        <item name="@*com.android.launcher3:attr/workspaceTextColor">@android:color/white</item>
+        <item name="@*com.android.launcher3:attr/workspaceShadowColor">#B0000000</item>
+        <item name="@*com.android.launcher3:attr/workspaceAmbientShadowColor">#33000000</item>
+        <item name="@*com.android.launcher3:attr/workspaceKeyShadowColor">#44000000</item>
+        <item name="@*com.android.launcher3:attr/workspaceStatusBarScrim">@*com.android.launcher3:drawable/workspace_bg</item>
+
+        <!-- from LauncherThemeDark -->
+        <item name="@*com.android.launcher3:attr/allAppsScrimColor">#7A212121</item>
+        <item name="@*com.android.launcher3:attr/allAppsNavBarScrimColor">#80000000</item>
+        <item name="@*com.android.launcher3:attr/popupColorPrimary">?android:attr/colorPrimary</item>
+        <item name="@*com.android.launcher3:attr/popupColorSecondary">#424242</item> <!-- Gray 800 -->
+        <item name="@*com.android.launcher3:attr/popupColorTertiary">#757575</item> <!-- Gray 600 -->
+        <item name="@*com.android.launcher3:attr/widgetsTheme">@*com.android.launcher3:style/WidgetContainerTheme.Dark</item>
+        <item name="@*com.android.launcher3:attr/isMainColorDark">true</item>
     </style>
 
     <style name="WidgetContainerTheme" parent="@android:style/Theme.Material">
