@@ -58,6 +58,8 @@
 
     <color name="item_drag_shadow_background">#ff424242</color>
 
+    <color name="dialog_title">@*android:color/primary_text_default_material_dark</color>
+
     <color name="scroll_thumb_pressed">#ff616161</color>
     <color name="scroll_thumb">#ff424242</color>
     <color name="scroll_track">#ff303030</color>
