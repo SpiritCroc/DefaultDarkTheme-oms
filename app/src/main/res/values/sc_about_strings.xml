@@ -24,11 +24,29 @@
             }
         </style>
 
-        <p><a href="#variants">Variants</a><p>
-        <p><a href="#telegram">Telegram</a><p>
-        <p><a href="#bugs">Reporting bugs</a><p>
-        <p><a href="#source">Source</a><p>
-        <p><a href="#old">Previous releases</a><p>
+        <p><a href="#supporting">Supported platforms</a></p>
+        <p><a href="#variants">Variants</a></p>
+        <p><a href="#telegram">Telegram</a></p>
+        <p><a href="#bugs">Reporting bugs</a></p>
+        <p><a href="#source">Source</a></p>
+        <p><a href="#old">Previous releases</a></p>
+
+        <a name="supporting" />
+        <h1><b><u>Supported platforms</u></b></h1>
+        <p>
+        This theme is mainly targeted at ROMs that are close to AOSP (pure Android), with the primary focus being on custom ROMs.<br/>
+
+        However, this theme might work as well on stock ROMs, as long as the vendor does not do too many modifications to the Android system and apps base
+        (keep also in mind that when using stock ROMs, as well as custom ROMs without Substratum exposures, you will need to use <a href="#variants">legacy variants</a> for a better experience).<br/>
+
+        If you experience issues while using a stock ROM other than when using a Google device
+        (those are quite close to AOSP, so issues that occur here are likely to be present on other ROMs as well) that don\'t apply to 3rd party apps,
+        I usually won\'t be able to provide support for it.
+
+        However, since the theme is open source, you are welcome to look into fixing the bug yourself and <a href="#source">creating a pull request</a> for including it into feature releases.<br/><br/>
+
+        Currently supported Android versions range from Android 7.0 (oldest Android version with Substratum support at the time of writing; in the past, Android versions since 5.0 <a href="#old">were supported</a>) to Android 8.1.
+        </p>
 
         <a name="variants" />
         <h1><b><u>Variants explained</u></b></h1>
@@ -191,7 +209,7 @@
         <a name="source" />
         <h1><b><u>Source code</u></b></h1>
 
-        <p>This theme was made open source, so anybody has the possibility to improve it to their likings! Good contributions are welcome! Code can be found on <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms">github</a>.</p>
+        <p>This theme was made open source, so anybody has the possibility to improve it! Code can be found on <a href="https://github.com/SpiritCroc/DefaultDarkTheme-oms">github</a>.</p>
 
         <a name="old" />
         <h1><b><u>Previous releases</u></b></h1>
