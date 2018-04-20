@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 SpiritCroc
+ * Copyright (C) 2017-2018 SpiritCroc
  * Email: spiritcroc@gmail.com
  *
  * This work is licensed under the Creative Commons
@@ -51,7 +51,8 @@ public class AboutFragment extends Fragment {
         View openSubstratumButton = v.findViewById(R.id.open_substratum_button);
 
         aboutWebView.setBackgroundColor(Color.TRANSPARENT);
-        aboutWebView.loadData(styleHtml(getActivity(), R.string.about_html), "text/html", "UTF-8");
+        aboutWebView.loadDataWithBaseURL("http://de.spiritcroc.defaultdarktheme-oms.phantomfile",
+                styleHtml(getActivity(), R.string.about_html), "text/html", "UTF-8", null);
 
         openSubstratumButton.setVisibility(
                 Util.isPackageInstalled(getActivity(), Util.SUBSTRATUM_PACKAGE_NAME)
