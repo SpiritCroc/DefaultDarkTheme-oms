@@ -26,4 +26,10 @@
 
     <!-- QS edit page background color -->
     <color name="qs_edit_item_decoration_bg">@*android:color/background_floating_material_dark</color>
+
+    <!-- DUI -->
+    <color name="smartbar_editor_popup_background">@*android:color/background_floating_material_dark</color>
+    <color name="smartbar_editor_popup_text">@android:color/white</color>
+    <color name="smartbar_editor_popup_icon_fill">@*android:color/accent_device_default_dark</color>
+    <color name="smartbar_editor_popup_horiz_separator">@*android:color/accent_device_default_dark</color>
 </resources>
