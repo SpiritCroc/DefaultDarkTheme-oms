@@ -218,6 +218,8 @@
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
 
+    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
