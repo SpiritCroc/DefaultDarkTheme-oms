@@ -264,4 +264,10 @@
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
     </style>
 
+
+    <!-- Notification guts are always dark -->
+    <style name="TextAppearance.Material.Notification.Info">
+        <item name="android:textColor">@*android:color/secondary_text_default_material_dark</item>
+        <item name="android:textSize">@*android:dimen/notification_subtext_size</item>
+    </style>
 </resources>
