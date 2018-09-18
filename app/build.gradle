@@ -203,6 +203,15 @@ gradle.buildFinished {
         }
         tempAssets.deleteDir()
     }
+    if (org.gradle.internal.os.OperatingSystem.current().isLinux()) {
+        println("Running type3 cleanup script on Linux")
+        def script = "generate_type3/clean.sh".execute()
+        script.in.eachLine { line -> println "type3-clean: " + line }
+        script.err.eachLine { line -> println "type3-clean: ERROR: " + line }
+        script.waitFor()
+    } else {
+        println("Skipping type3 cleanup: not using a supported operating system")
+    }
 }
 
 boolean shouldEncrypt() {
