@@ -55,4 +55,14 @@
         <item name="android:windowContentTransitions">true</item>
     </style>
 
+    <style name="PhotoCrop.ActivityTheme" parent="@*projekt.substratum:style/Theme.AppCompat">
+        <item name="*projekt.substratum:colorPrimary">@android:color/transparent</item>
+        <item name="*projekt.substratum:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@*projekt.substratum:color/cropper_bg_glass</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
 </resources>
