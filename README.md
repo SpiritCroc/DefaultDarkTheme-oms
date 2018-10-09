@@ -8,4 +8,4 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 
 The Substratum theme template code is licensed under the Apache License, Version 2.0.
 
-For Android version 9.0 or later, please checkout Default Dark's successor theme, [DarkCroc theme](https://github.com/SpiritCroc/DarkCroc-Android-theme).
+For Android version 9.0 or later, please check out Default Dark's successor theme, [DarkCroc theme](https://github.com/SpiritCroc/DarkCroc-Android-theme).
