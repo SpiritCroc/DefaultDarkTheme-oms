@@ -6,7 +6,7 @@
     <string name="unknown_version">Unknown</string>
     <string name="version_name_and_code">%1$s (%2$s)</string>
 
-    <integer name="about_version">6</integer>
+    <integer name="about_version">7</integer>
 
     <string name="about_html"><![CDATA[
         <style media=\"screen\" type=\"text/css\">
@@ -32,6 +32,12 @@
         <p><a href="#old">Previous releases</a></p>
 
         <a name="supporting" />
+        <!--p
+        <h1><b><u><font color="?attr/colorWarning">Successor theme available for Android 9.0+</font></u></b></h1>
+
+        For best experiences on newer Android versions, it is recommended to switch to Default Dark\'s successor theme, <a href="https://play.google.com/store/apps/details?id=de.spiritcroc.darkcroc.substratum">DarkCroc theme</a>.<br/><br/>
+        p-->
+
         <h1><b><u>Supported platforms</u></b></h1>
         <p>
         This theme is mainly targeted at ROMs that are close to AOSP (pure Android), with the primary focus being on custom ROMs.<br/>
@@ -45,7 +51,9 @@
 
         However, since the theme is open source, you are welcome to look into fixing the bug yourself and <a href="#source">creating a pull request</a> for including it into feature releases.<br/><br/>
 
-        Currently supported Android versions range from Android 7.0 (oldest Android version with Substratum support at the time of writing; in the past, Android versions since 5.0 <a href="#old">were supported</a>) to Android 8.1.
+        Currently supported Android versions range from Android 7.0 (oldest Android version with Substratum support at the time of writing; in the past, Android versions since 5.0 <a href="#old">were supported</a>) to Android 8.1.<br/><br/>
+
+        If you want to run this theme on Android 9.0 or later, it is recommended to use Default Dark\'s successor theme, <a href="https://play.google.com/store/apps/details?id=de.spiritcroc.darkcroc.substratum">DarkCroc theme</a>.
         </p>
 
         <a name="variants" />

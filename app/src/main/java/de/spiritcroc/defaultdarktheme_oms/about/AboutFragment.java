@@ -119,6 +119,10 @@ public class AboutFragment extends Fragment {
         html = html.replaceAll("\\?attr/substratumVersion", substratumVersion);
         html = html.replaceAll("\\?attr/themeVersion", themeVersion);
         html = html.replaceAll("\\?attr/androidVersion", androidVersion);
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O_MR1) {
+            html = html.replaceAll("<!--p", "");
+            html = html.replaceAll("p-->", "");
+        }
         return html;
     }
 
