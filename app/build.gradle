@@ -35,8 +35,8 @@ android {
         applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 24
         targetSdkVersion 27
-        versionCode 50
-        versionName "7.7"
+        versionCode 51
+        versionName "7.7.1"
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
