@@ -28,13 +28,13 @@ ext {
 }
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.1'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "de.spiritcroc.defaultdarktheme_oms"
         minSdkVersion 24
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 51
         versionName "7.7.1"
 
@@ -71,9 +71,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.github.javiersantos:PiracyChecker:1.1'
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.javiersantos:PiracyChecker:1.2.3'
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
         transitive = true
     }
 }
