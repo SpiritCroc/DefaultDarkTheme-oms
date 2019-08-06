@@ -242,7 +242,17 @@
 
         <h1><b><u><font color="?attr/colorWarning">Substratum not found!</font></u></b></h1>
 
-        <b>For this theme to work, you need <a href="https://play.google.com/store/apps/details?id=projekt.substratum">Substratum</a>. If you don&#39;t know what Substratum is, this theme is not an app for you! Giving it a bad review because you don&#39;t know how to use it is not fair! YOU WON&#39;T GET SUPPORT IF YOU ASK FOR IT IN A REVIEW!</b>
+        <p>
+            This theme was created for the <a href="https://play.google.com/store/apps/details?id=projekt.substratum">Substratum</a> theming solution.<br/>
+            This means that it will not provide any functionality on its own, but work in an add-on style with the above mentioned app, developed by a different team of developers.<br/>
+            It seems like you have not installed the Substratum app on your device.<br/>
+            If you still want to use this theme, please try to get the Substratum app to work on your device first.
+        </p><p>
+            Unfortunately, Substratum will not work on all devices. Usually it requires a rooted device or a custom ROM with inbuilt Substratum support.<br/>
+        </p><p>
+            Please also keep in mind that for an optimal experience, a custom ROM with the required Substratum support is recommended.<br/>
+            This theme *might* also work on stock ROMs if they are close enough to the original Android code and Substratum works on them, but this is not officially supported.
+        </p>
     ]]></string>
 
 
