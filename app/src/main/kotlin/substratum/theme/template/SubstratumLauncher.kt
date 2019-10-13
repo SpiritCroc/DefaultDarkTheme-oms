@@ -189,7 +189,7 @@ class SubstratumLauncher : Activity() {
             }
         } else {
             OTHER_THEME_SYSTEMS
-                    .filter { action.startsWith(prefix = it, ignoreCase = true) }
+                    .filter { action?.startsWith(prefix = it, ignoreCase = true) ?: false }
                     .forEach { verified = true }
         }
         if (!verified) {
